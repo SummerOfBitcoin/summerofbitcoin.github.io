@@ -5,7 +5,6 @@ description: "News, stories and resources on bitcoin and open-source."
 logo: 'assets/images/favicon.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
-url: "https://blog.summerofbitcoin.org"
 google_analytics: ''
 #disqus: 'demowebsite'
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
