@@ -203,6 +203,7 @@ section.recent-posts {
 }
 
 .post-top-meta .author-description {
+    display: block;
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 0.95rem;

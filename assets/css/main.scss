@@ -13,3 +13,21 @@
 	"syntax",
     "starsnonscss"
 ;
+
+// Custom styles for figcaption
+
+figure figcaption, // Targets figcaptions within figures
+figcaption {        // Targets all figcaptions (more general)
+  text-align: center;
+  font-weight: 300; // Common value for "light" or "thin"
+                     // You can also try 100, 200, or 'lighter'
+                     // This depends on the font family used and its available weights.
+  font-size: 0.9em; 
+  margin-top: 0.5em;
+  // Optional: If the font still looks too bold, you might need to specify a font family
+  // that you know has a very light weight.
+  // font-family: 'YourChosenLightFont', sans-serif;
+
+  // Optional: Add some top margin for better spacing if needed
+  // margin-top: 0.5em;
+}

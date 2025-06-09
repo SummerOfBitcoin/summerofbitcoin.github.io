@@ -1,35 +1,59 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+name: "Summer of Bitcoin Blog"
+title: "Summer of Bitcoin"
+description: "News, stories and resources on bitcoin and open-source."
+logo: 'assets/images/favicon.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ""
+url: "https://blog.summerofbitcoin.org"
+google_analytics: ''
+#disqus: 'demowebsite'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
+  Summer of Bitcoin:
+    name: Summer of Bitcoin
+    display_name: Summer of Bitcoin Team
+    avatar: "assets/images/favicon.png"
+    email: hello@summerofbitcoin.org
+    web: https://summerofbitcoin.org
+    twitter: https://x.com/summerofbitcoin
+    description: "Team behind Summer of Bitcoin, a global summer internship program for bitcoin open-source development and design."
+  Sivaram D:
+    name: Sivaram D
+    display_name: Sivaram Dhakshinamoorthy
     avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    twitter: https://x.com/siv2r
+    description: "Summer of Bitcoin Batch of 2021, worked on libsecp256k1."
+  Priyansh Rastogi:
+    name: Priyansh Rastogi
+    display_name: Priyansh Rastogi
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/priyansh_tweet
+    description: "Summer of Bitcoin Batch of 2021, worked on mempool.space"
+  Arnab Sen:
+    name: Arnab Sen
+    display_name: Arnab Sen
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/arnabsen1729
+    description: "Summer of Bitcoin Batch of 2021, worked on Bitcoin Core"
+  Sandipan Dey:
+    name: Sandipan Dey
+    display_name: Sandipan Dey         
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/sandipndev
+    description: "Summer of Bitcoin Batch of 2021, worked on BDK"
+  satoshi:
+    name: Satashi Nakamoto
+    display_name: Satoshi    
+    avatar: 'assets/images/avatar.png'
+    email: satoshin@gmx.com
+    web: https://bitcoin.org
+    twitter: https://twitter.com/satoshi
+    description: "Inventor of bitcoin."
 
 # Plugins
 plugins:
