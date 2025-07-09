@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Coin Selection for Dummies: Part 3 - Knapsack Solver"
-author: Summer of Bitcoin
+author: Anmol Sharma
 date: "2022-08-12 10:46:47 +0000"
 tags:
   - "Tutorials"
 ---
-
-********By Anmol Sharma********  
-********Summer of Bitcoin '22********
 
 This is the third part of the seven-part series of blogs on Coin Selection.
 
@@ -49,7 +46,7 @@ If the first pass didn’t produce any solution then, a second pass is performed
 
 This is a simple Python Implementation of the algorithm.
 
-```
+```python
 import random
 
 # maximum number of iterations
@@ -126,7 +123,6 @@ for t in targets:
         print(c.value, end=" ")
     print()
     print("change: " + str(input - t))
-
 ```
 
 ### **Advantages**

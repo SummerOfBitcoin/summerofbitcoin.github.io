@@ -1,22 +1,17 @@
 ---
 layout: post
 title: What is WebLN?
-author: Summer of Bitcoin
+author: Sanjay Singh Rajpoot
 date: "2022-07-22 10:44:05 +0000"
 tags:
   - "Tutorials"
 ---
-
-********By******** **Sanjay Singh Rajpoot**  
-********Summer of Bitcoin '22********
 
 WebLN is a library and set of specifications for lightning apps and client providers to facilitate communication between apps and users’ lightning nodes in a secure way. It provides a programmatic, permissioned interface for letting applications ask users to send payments, generates invoices to receive payments, and much more. This documentation covers both how to use WebLN in your Lightning-driven applications and how to implement a provider.
 
 Lightning Network is just another software layer, and we want to integrate it with the web, adding Lightning to web will go a long way in enabling bitcoin payments natively on the internet. This is precisely the idea behind [WebLN](https://webln.dev/?ref=blog.summerofbitcoin.org#/), which is a simple JavaScript tool to build Lightning-enabled browser extensions using makePayment and sendInvoice (again, the two core functions for any kind of money: sending and receiving).
 
 WebLN offers a few advantages. First, JavaScript is nearly universal and almost thirty years old. Second WebLN delivers a better interface for the users, starting with the fact that you don’t need to *use a second device*. It feels native, not like a workaround. You also have access to all browser events, so a key press, a mouse click, a [scroll position](https://webln.twentyuno.net/scroll?ref=blog.summerofbitcoin.org), etc. can all trigger a payment.
-
-![WebLN](https://blog.summerofbitcoin.org/content/images/2022/07/Untitled.png)
 
 # **Installation**
 
@@ -29,22 +24,20 @@ Install the `webln` library using your package manager of choice:
 
 And import it into your project wherever you need it:
 
-```
+```js
 import { requestProvider } from 'webln';
-
 ```
 
 ## **Second Way: Include Script (Alternative)**
 
 Alternatively, you can include a script on your page that will load the library. **Be sure to keep the integrity check to prevent malicious Javascript from loading.**
 
-```
+```js
 <script
   src="https://unpkg.com/webln@0.2.0/dist/webln.min.js"
   integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ"
   crossorigin="anonymous"
 ></script>
-
 ```
 
 Now the first that we need to do is to enable the WebLN provider in the web browser so that every component inside our website can use all the WebLN features. So in the next step, we will try to implement a WebLN provider with the help of which we will be able to use all the WebLN features.
@@ -55,20 +48,18 @@ Most of WebLN’s methods will prompt the user in some way, often times to make 
 
 To begin interacting with a user’s Lightning node, you’ll first need to request a `WebLNProvider` from them. `WebLNProvider` is a class that various clients implement and attach to your web session. Calling `requestProvider` will retrieve the provider for you, and prompt the client for permission to use it. Once you get the provider, you're free to call all of the other API methods.
 
-![WebLN Provider](https://blog.summerofbitcoin.org/content/images/2022/07/Untitled-1.png)
 
 # **WebLN getInfo function**
 
 Ask the user for some information about their node. The request may be rejected by the user depending on the provider implementation.
 
-```
+```js
 function getInfo(): Promise<GetInfoResponse>;
-
 ```
 
 Response
 
-```
+```js
 interface GetInfoResponse = {
   node: {
     alias: string;
@@ -76,7 +67,6 @@ interface GetInfoResponse = {
     color?: string;
   };
 }
-
 ```
 
 # **`webln.makeInvoice`**
@@ -91,7 +81,7 @@ Amounts are denominated in satoshis. For large amounts, it’s recommended you u
 
 ## **Parameters**
 
-```
+```js
 function makeInvoice(args: RequestInvoiceArgs): Promise<RequestInvoiceResponse>;
 
 interface RequestInvoiceArgs {
@@ -101,27 +91,22 @@ interface RequestInvoiceArgs {
   maximumAmount?: string | number;
   defaultMemo?: string;
 }
-
 ```
 
 ## **Response**
 
-```
+```js
 interface RequestInvoiceResponse {
   paymentRequest: string;
 }
-
 ```
 
 # **What if there is an error?**
 
 To handle this test case both apps and providers can make use of WebLN’s pre-defined errors. They can be found in `webln/lib/errors` and should be used when throwing and handling errors to best inform the user of what's going on:
 
-![WebLN Error](https://blog.summerofbitcoin.org/content/images/2022/07/Untitled-2.png)
-
 And the provider should throw the correct error when possible, just add this code to your project and if there is any error that will be displayed directly on your browser:
 
-![WebLN Error Provider](https://blog.summerofbitcoin.org/content/images/2022/07/Untitled-3.png)
 
 ## **Resources**
 

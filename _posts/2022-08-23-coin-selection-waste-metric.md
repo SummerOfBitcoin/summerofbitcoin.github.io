@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Coin Selection for Dummies: Part 5 - Waste Metric"
-author: Summer of Bitcoin
+author: Anmol Sharma
 date: "2022-08-23 01:54:11 +0000"
 tags:
   - "Tutorials"
 ---
-
-********By Anmol Sharma********  
-********Summer of Bitcoin '22********
 
 This is the fifth part of the seven-part series of blogs on Coin Selection.
 
@@ -66,7 +63,7 @@ Therefore the formula for waste comes out to be
 
 This is a simple Python Implementation of waste metric.
 
-```
+```python
 LONG_TERM_FEERATE = 5 # sats/vB
 
 def getWaste(coins, target, costOfChange, feeRate):

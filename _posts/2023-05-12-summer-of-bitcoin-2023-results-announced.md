@@ -53,7 +53,8 @@ For the students who could not make it, we would like to point you to our [stude
 
 <figure>
 <img src="../assets/images/blog_content/bia23.png"/>
-<figcaption>This year, we have partnered with Bitcoin Talent Co for the [Bitcoin Industry Apprenticeship (BIA) program](https://www.bitcointalent.co/bitcoin-industry-apprenticeship-program?ref=blog.summerofbitcoin.org) that aims to offer industry internships to university students at leading bitcoin companies in North America and Europe, with opportunities to convert to full-time job offers. If you haven't applied yet, what are you waiting for? [Apply now!](https://www.bitcointalent.co/bitcoin-student-intern-application-2023?ref=blog.summerofbitcoin.org) If you're a bitcoin company or organization interested in hiring interns this summer, [sign up](https://www.bitcointalent.co/bitcoin-industry-apprenticeship-program?ref=blog.summerofbitcoin.org) for BIA 2023 today!</figcaption>
 </figure>
+
+This year, we have partnered with Bitcoin Talent Co for the [Bitcoin Industry Apprenticeship (BIA) program](https://www.bitcointalent.co/bitcoin-industry-apprenticeship-program?ref=blog.summerofbitcoin.org) that aims to offer industry internships to university students at leading bitcoin companies in North America and Europe, with opportunities to convert to full-time job offers. If you haven't applied yet, what are you waiting for? [Apply now!](https://www.bitcointalent.co/bitcoin-student-intern-application-2023?ref=blog.summerofbitcoin.org) If you're a bitcoin company or organization interested in hiring interns this summer, [sign up](https://www.bitcointalent.co/bitcoin-industry-apprenticeship-program?ref=blog.summerofbitcoin.org) for BIA 2023 today!
 
 Here’s to the 3rd year of Summer of Bitcoin!

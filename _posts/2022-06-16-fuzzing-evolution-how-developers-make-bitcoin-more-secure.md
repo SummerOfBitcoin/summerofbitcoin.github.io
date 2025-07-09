@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Fuzzing Evolution: How developers make Bitcoin more secure"
-author: Summer of Bitcoin
+author: Jing Liu 
 date: "2022-06-16 08:16:43 +0000"
 tags:
   - "Bitcoin Core"
 ---
-
-**By [Jing Liu](https://twitter.com/6chinggg?ref=blog.summerofbitcoin.org)  
-Summer of Bitcoin '22**
 
 ## Abstract
 
@@ -82,7 +79,7 @@ Fuzz target `process_message` is introduced in [PR#17989](https://github.com/bit
 
 To achieve optimal results when using coverage-guided fuzzing, there are both one general fuzzing binary (`process_message`) which handles all messages types and specialized fuzzing binaries per message type (`process_message_addr`, `process_message_block`, `process_message_blocktxn` , etc.) The reason to have all message types in one fuzzers is to allow auto-detection bring auto-detection and thus fuzzing of newly introduced messages types without updating the fuzzer. The reason to have also have per-message-type fuzzers is largely for the same reason that we have one fuzzing binary per deserialization: to make it relatively easier for coverage guided fuzzers to reach deep.
 
-```
+```shell
 void fuzz_target(FuzzBufferType buffer, const std::string& LIMIT_TO_MESSAGE_TYPE)
 {
     FuzzedDataProvider fuzzed_data_provider(buffer.data(), buffer.size());
@@ -119,7 +116,6 @@ void fuzz_target(FuzzBufferType buffer, const std::string& LIMIT_TO_MESSAGE_TYPE
     SyncWithValidationInterfaceQueue();
     g_setup->m_node.connman->StopNodes();
 }
-
 ```
 
 The basic idea is simple:
@@ -150,9 +146,9 @@ Note that in one important sense Bitcoin Core is using ensemble fuzzing, in that
 
 Swarm testing is a method for improving test generation that relies on identifying *features* of tests, and disabling some of the features in each test. For instance, if features are API calls, and we are testing a stack with `push`, `pop`, `top`, and `clear` calls, a non-swarm random test of any significant length will contain multiple calls to all of the functions. In swarm testing, however, for each test some of the calls (with a certain probability for each call) will be disabled, but different calls will be disabled for each generated test. This produces less variance between calls *within* tests, but much more variance *between* tests. Practically, in the stack example, it will enable the size of the stack to grow much larger than it ever would have any chance of doing in non-swarm testing, due to some tests omitting `pop` and/or `clear` calls.
 
+The picture below shows the basic logic of [swarm testing](https://agroce.github.io/issta12.pdf?ref=blog.summerofbitcoin.org). There is a 1,000×1,000 array of pixels, where each 10×10 block represents a sequence of 100 function calls in an API sequence test. Each pixel is a call to a function, and the calls to five different functions are coded by color (black, white, red, green, and blue).
 <figure>
 <img src="https://howtotestit.files.wordpress.com/2021/07/swarm.png"/>
-<figcaption>The picture above shows the basic logic of [swarm testing](https://agroce.github.io/issta12.pdf?ref=blog.summerofbitcoin.org). There is a 1,000×1,000 array of pixels, where each 10×10 block represents a sequence of 100 function calls in an API sequence test. Each pixel is a call to a function, and the calls to five different functions are coded by color (black, white, red, green, and blue).</figcaption>
 </figure>
 
 The top half of the figure is what traditional sequence generation will tend to do in such a setting, assuming each call is given equal probability: every test will look like every other test. The details will vary, but at a certain level the arrangement will be very homogeneous; in fact, the eye can’t tell where one test ends and another begins! Let’s call this the kitchen-sink approach to testing: every test generated throws in everything it can, at least potentially.

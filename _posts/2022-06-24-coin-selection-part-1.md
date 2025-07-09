@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Coin Selection for Dummies: Part 1-Overview"
-author: Summer of Bitcoin
+author: Anmol Sharma
 date: "2022-06-24 00:02:31 +0000"
 tags:
   - "Bitcoin Core"
 ---
-
-**By Anmol Sharma  
-Summer of Bitcoin '22**
 
 This is the first part of the seven-part blog series titled *Coin Selection for Dummies.*
 
@@ -30,7 +27,6 @@ For example, imagine that you have a single coin (***UTXO***) of 50000 satoshis 
 
 ![img-1](../assets/images/blog_content/img-1.png)
 
-  
 
 💡 Note: The total value of UTXOs destroyed in a transaction must be greater than or equal to the total value of UTXOs created in a transaction.
   

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Digging into IsStandard in Bitcoin Core
-author: Summer of Bitcoin
+author: Arnab Sen
 date: "2022-04-12 12:19:00 +0000"
 tags:
   - "Tutorials"
 ---
-
-### By Arnab Sen (@ArnabSen1729) Summer of Bitcoin '21
 
 In this post, we will focus on the Bitcoin Core implementation of the different types of scripts / transactions methods. Here is the link to the repo:
 
@@ -32,10 +30,9 @@ Before diving into these, let's look at the function that determines if a Script
 
 This `isStandard` function is a boolean function that returns true if a locking script is standard or false. In the first two lines:
 
-```
+```shell
 std::vector<std::vector<unsigned char> > vSolutions;
 whichType = Solver(scriptPubKey, vSolutions);
-
 ```
 
 **vSolutions** is a vector that stores the important data of the script excluding the opcodes. We will see later on which data is pushed into this vector.
@@ -61,16 +58,14 @@ The vast majority of transactions processed on the bitcoin network spend outputs
 
 So let's say if Alice wants to send some coins to Bob, the output transaction will contain a locking script of the format:
 
-```
+```shell
 OP_DUP OP_HASH160 20 <Bob's Public Key Hash> OP_EQUALVERIFY OP_CHECKSIG
-
 ```
 
 Now, when Bob will have to spend the coins he received from Alice he should include an Unlocking script like this:
 
-```
+```shell
 <Bob's Signature> <Bob's Public Key>
-
 ```
 
 Here is how the `Solver` determines if a transaction is of P2PKH type:
@@ -85,9 +80,8 @@ It calls a helper function of `MatchPaytoPubkeyHash`.
 
 Let's look at the locking script once again:
 
-```
+```shell
 OP_DUP OP_HASH160 20 <Public Key Hash> OP_EQUALVERIFY OP_CHECKSIG
-
 ```
 
 Every Opcode occupies 1 byte. And the number 20 represents the size of the Hash. It also occupies 1 byte. The Hash itself occupies 20 bytes. So the total size is 4 byte (1 for each opcode) + 1 byte (for the size) + 20 byte hash = 25 bytes.
@@ -112,16 +106,15 @@ Pay-to-public-key is a simpler form of a bitcoin payment than pay-to-public-key-
 
 If Alice sends Bob some BTC then Locking Script will be:
 
-```
+```shell
 <Key Size> <Bob's Public Key> OP_CHECKSIG
 
 ```
 
 Corresponding Unlocking Script for Bob will be:
 
-```
+```shell
 <Bob's Signature>
-
 ```
 
 Here is the code snippet that does the check for `P2PK`:  
@@ -149,16 +142,14 @@ Multi-signature scripts set a condition where N public keys are recorded in the 
 
 A locking script setting an M-of-N multi-signature condition looks like this:
 
-```
+```shell
 M <Public Key 1> <Public Key 2> ... <Public Key N> N OP_CHECKMULTISIG
-
 ```
 
 Corresponding Unlocking Script for with M signatures will be:
 
-```
+```shell
 OP_0 <Signature B> <Signature C> ...
-
 ```
 
 > **P.S** The prefix `OP_0` is required because of a bug in the original implementation of `CHECKMULTISIG` where one item too many is popped off the stack. It is ignored by `CHECKMULTISIG` and is simply a placeholder.
@@ -178,9 +169,8 @@ Let's move on to our final script format and a very interesting addition to the 
 
 Was introduced to Bitcoin core in 2012 to resolve practical difficulties and to make the use of complex scripts as easy as a payment to a bitcoin address. Let's take the example of Alice and Bob. Let's assume Bob has a Multisig walltet (2-of-5) and Alice has to send some BTCs to Bob. Alice should include this in her output transaction.
 
-```
+```shell
 2 PubKey1 PubKey2 PubKey3 PubKey4 PubKey5 5 OP_CHECKMULTISIG
-
 ```
 
 But this is fairly complicated. But P2SH solves this issue.
@@ -195,23 +185,20 @@ With P2SH payments, the complex locking script is replaced with its digital fing
 
 Redeem Script that Bob will keep with himself
 
-```
+```shell
 2 PubKey1 PubKey2 PubKey3 PubKey4 PubKey5 5 OP_CHECKMULTISIG
-
 ```
 
 Locking Script that Alice has to provide, you can see this is very simple and very similar to P2PK
 
-```
+```shell
 OP_HASH160 20 <20-byte hash of redeem script> OP_EQUAL
-
 ```
 
 Unlocking Script that Bob will use to redeem those coins by Alice
 
-```
+```shell
 Sig1 Sig2 <redeem script>
-
 ```
 
 One more advantage of using P2SH is that now Alice has no idea that Bob is using a Multisig. Here is how in the Solver function P2SH scripts are checked.
@@ -222,9 +209,8 @@ It calls a method `IsPayToScriptHash`. Now before looking at the method directly
 
 The P2SH script looks like this:
 
-```
+```shell
 OP_HASH160 20 <20-byte hash> OP_EQUAL
-
 ```
 
 There are two opcodes so 2 bytes. 1 byte for the size i.e 20. And 20 bytes for the hash. In total it makes 23 bytes.  
@@ -254,6 +240,6 @@ If all these validations pass the `isStandard` function will return `true` and o
 
 ---
 
-I was a part of the [Summer of Bitcoin'21](https://summerofbitcoin.org/?ref=blog.summerofbitcoin.org) at the time of writing this blog. I am grateful to [Adi Shankara](https://twitter.com/adibitcoin?ref=blog.summerofbitcoin.org), [Caralie Chrisco](https://twitter.com/Caralie_C?ref=blog.summerofbitcoin.org), [Adam Jonas](https://twitter.com/adamcjonas?ref=blog.summerofbitcoin.org) for giving me this amazing opportunity and my mentor [0xb10c](https://twitter.com/0xB10C?ref=blog.summerofbitcoin.org) for his guidance and support.
+I was a part of the [Summer of Bitcoin'21](https://summerofbitcoin.org/?ref=blog.summerofbitcoin.org) at the time of writing this blog. I am grateful to [Adi Shankara](https://twitter.com/adi_shankara_?ref=blog.summerofbitcoin.org), [Caralie Chrisco](https://twitter.com/Caralie_C?ref=blog.summerofbitcoin.org), [Adam Jonas](https://twitter.com/adamcjonas?ref=blog.summerofbitcoin.org) for giving me this amazing opportunity and my mentor [0xb10c](https://twitter.com/0xB10C?ref=blog.summerofbitcoin.org) for his guidance and support.
 
 If you want to get started with Bitcoin development checkout [the Summer of Bitcoin Resources](https://summerofbitcoin.org/?ref=blog.summerofbitcoin.org#resources)

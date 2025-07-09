@@ -1,14 +1,11 @@
 ---
 layout: post
 title: My Summer of Bitcoin experience with BDK
-author: Summer of Bitcoin
+author: Pedro Felix
 date: "2022-08-25 11:06:05 +0000"
 tags:
   - "Stories"
 ---
-
-**By Pedro Felix  
-Summer of Bitcoin '22**
 
 ## What is Summer Of Bitcoin?
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Miniscript Policy & Descriptors - Hidden Powers of Bitcoin
-author: Summer of Bitcoin
+author: Sandipan Dey
 date: "2022-04-28 13:37:00 +0000"
 tags:
   - "Tutorials"
 ---
-
-### By Sandipan Dey (@sandipndev) Summer of Bitcoin '21
 
 To send people BTC - we simply scan a QR Code *(or paste an address)*, enter some amount and *whoosh* - sent!  
 Users might think, just like traditional currency, we can only exchange money using Bitcoin.  
@@ -30,10 +28,9 @@ Really, to spend the output of a particular coin implies finding an input *(sign
 
 For example, a basic legacy `Pay-to-PubKey-Hash` transaction would look like:
 
-```
+```shell
 scriptPubKey: OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 scriptSig: <sig> <pubKey>
-
 ```
 
 #### Examples of things achievable using Bitcoin Script:
@@ -87,37 +84,32 @@ The complete Miniscript Reference can be found [here](http://bitcoin.sipa.be/min
 Here are the Miniscript Policies for the examples we looked at earlier.  
 Note `A`, `B`, `C` are placeholders for keys *(or output descriptors)* involved in the tx.
 
-1. Pay A (pay-to-public-key)
+1) Pay A (pay-to-public-key)
 
-```
+```shell
 pk(A)
-
 ```
 
-2. Escrow Account between A, B and third-party C.
+2) Escrow Account between A, B and third-party C.
 
-```
+```shell
 thresh(2,pk(A),pk(B),pk(C))
-
 ```
 
-3. Vault for A time-locked for T blocks with B as the master key.
+3) Vault for A time-locked for T blocks with B as the master key.
 
-```
+```shell
 aor(and(pk(A),time(T)),pk(B))
-
 ```
 
-4. HTLC payment to B, which, if unspent for T blocks, returns to A.
+4) HTLC payment to B, which, if unspent for T blocks, returns to A.
 
-```
+```shell
 aor(and(pk(A),time(T)),and(pk(B),hash(H))))
-
 ```
 
 The Miniscript Policy Compiler is written in Rust and is present in [this repository](https://github.com/rust-bitcoin/rust-miniscript?ref=blog.summerofbitcoin.org).  
-In this blog, we will later use the same using [bitcoindevkit/bdk](https://github.com/bitcoindevkit/bdk?ref=blog.summerofbitcoin.org), a lightweight descriptor-based wallet library  
-with a [cli](https://github.com/bitcoindevkit/bdk-cli?ref=blog.summerofbitcoin.org).
+In this blog, we will later use the same using [bitcoindevkit/bdk](https://github.com/bitcoindevkit/bdk?ref=blog.summerofbitcoin.org), a lightweight descriptor-based wallet library with a [cli](https://github.com/bitcoindevkit/bdk-cli?ref=blog.summerofbitcoin.org).
 
 ## Descriptors
 
@@ -131,8 +123,7 @@ According to Bitcoin Core, Output Descriptors are "a simple language which can b
 They bring in themselves, derivation paths, master xpub/xprv fingerprints and paths to generate addresses from.  
 Let's understand this with an example of an Output Descriptor:
 
-```
-
+```shell
 Descriptor: pkh([d34db33f/44'/0'/0']xpub6ERaJH[...]LJRcEL/1/*)#ml40v0wf
             <1> <--------2---------><----------3---------><4> <---5--->
 
@@ -142,7 +133,6 @@ Sections:
 3 - xpub at m/44'/0'/0
 4 - path to deriving keys/addresses at
 5 - checksum for the descriptor
-
 ```
 
 This was an example of a simple descriptor using one function but they can also be used in conjugation with multiple functions like `combo`, `multi` etc.  
@@ -167,7 +157,7 @@ We require `bitcoind` to run in `regtest` mode.
 The hard work has been already done in the `bitcoindevkit/electrs` docker image.  
 The electrs functionality will also prove significant because `bdk` can use this local `electrs` box and send the transactions that we're gonna do for testing.
 
-```
+```shell
 alias elstart='docker run --detach --rm -p 127.0.0.1:18443-18444:18443-18444/tcp -p 127.0.0.1:60401:60401/tcp --name electrs bitcoindevkit/electrs:0.5.0'
 alias elstop='docker kill electrs'
 alias ellogs='docker container logs electrs'
@@ -178,7 +168,6 @@ elstart
 
 # Delete default wallet created by bitcoindevkit/electrs
 elcli unloadwallet "bdk-test"
-
 ```
 
 Please note that `elcli` is an alias for `bitcoin-cli`.
@@ -187,7 +176,7 @@ Please note that `elcli` is an alias for `bitcoin-cli`.
 
 Let us first generate an XPRV and create the wpkh wallet descriptor
 
-```
+```shell
 XPRV=$(bdk-cli key generate | jq -r '.xprv')
 EX_DESC="wpkh($XPRV/86'/1'/0'/0/*)"
 EX_DESC_CS=$(elcli getdescriptorinfo $EX_DESC | jq -r '.checksum')
@@ -198,20 +187,18 @@ elcli -named createwallet wallet_name="mywallet" descriptors=true
 elcli -rpcwallet="mywallet" importdescriptors "[{\"desc\":\"$EX_DESC\", \"timestamp\":\"now\", \"active\": true, \"range\": [0,100]}]"
 
 echo $EX_DESC
-
 ```
 
 It should look something like this:
 
-```
+```shell
 wpkh(tprv8ZgxMBicQKsPeuazF16EdPZw84eHj55AU8ZKgZgdhu3sXcHnFgjzskfDvZdTaAFHYNCbKqrurFo9onSaT7zGT1i3u3j7LKhVZF5sJA39WPN/86'/1'/0'/0/*)#40hv8z77
-
 ```
 
 Now, we will generate 10 addresses using `bitcoin-cli` and thereafter `bdk-cli` using this above descriptor.  
 Notice how both of them output the same set of addresses.
 
-```
+```shell
 # Generation via bdk-cli
 ❯ repeat 10 { bdk-cli -n regtest wallet --descriptor $EX_DESC -w mywallet get_new_address | jq -r ".address" }
 bcrt1qc9wzxf8pthyexl00m23ug92pqrthagnzzf33wp
@@ -237,7 +224,6 @@ bcrt1q4p4k63xglftez0h8yc7d4kmhsn5j5kecguu34j
 bcrt1q29z2uanskweur7qrzr43gyv3l028s0pnd9ptvp
 bcrt1qkzpeqz8sd73sucfythjxftez0e3ee30yhp9w67
 bcrt1qptwd6ggy8ttryck2f6yjf4la68apruc3fs7elz
-
 ```
 
 Notes:
@@ -258,7 +244,7 @@ In case of a mishap like a house burning on fire or permanent memory loss, they 
 
 Here's how a secure `2-of-3` descriptor generation would look like:
 
-```
+```shell
 # xprv generation
 K1_XPRV=$(bdk-cli key generate | jq -r ".xprv")
 K2_XPRV=$(bdk-cli key generate | jq -r ".xprv")
@@ -275,12 +261,11 @@ K3_XPUB=$(bdk-cli key derive --xprv $K3_XPRV --path "m/84'/1'/0'/0" | jq -r ".xp
 K1_DESC="wsh(multi(2,$K1_XPRV/84'/1'/0'/0/*,$K2_XPUB,$K3_XPUB))"
 K2_DESC="wsh(multi(2,$K1_XPUB,$K2_XPRV/84'/1'/0'/0/*,$K3_XPUB))"
 K3_DESC="wsh(multi(2,$K1_XPUB,$K2_XPUB,$K3_XPRV/84'/1'/0'/0/*))"
-
 ```
 
 Now, let us generate some funds to an address generated by `K1`.
 
-```
+```shell
 # Restart the docker container
 elstop && elstart
 
@@ -292,12 +277,11 @@ elcli generatetoaddress 1 $(bdk-cli -n regtest wallet --server tcp://127.0.0.1:6
 # because regtest doesn't allow spending until 100 confirmations
 elcli getnewaddress
 elcli generatetoaddress 100 <address-from-last-step>
-
 ```
 
 Let's check the balance of all `K1`, `K2` and `K3`.
 
-```
+```shell
 ❯ bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w K1 -d $K1_DESC sync
 {}
 ❯ bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w K1 -d $K1_DESC get_balance
@@ -318,7 +302,6 @@ Let's check the balance of all `K1`, `K2` and `K3`.
 {
   "satoshi": 2500000000
 }
-
 ```
 
 Everyone has the same amount of balance.  
@@ -332,7 +315,7 @@ Here's where we will require to use a [PSBT](https://github.com/bitcoin/bips/blo
 Bitcoin uses PSBTs as the standard protocol to create a transaction and add one or more signatures to it before broadcasting the same to  
 the network which finally can become a proper valid *transaction*.
 
-```
+```shell
 # address to send tx to from this multisig wallet
 elcli getnewaddress
 
@@ -377,7 +360,6 @@ bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w K3 -d $K3_DESC get_b
 {
   "satoshi": 2494444255
 }
-
 ```
 
 So this proves we can definitely do transactions with multisig wallets with complicated descriptors.  
@@ -396,9 +378,8 @@ The company would require confidence that the employee would not be able to with
 
 The Miniscript policy for this contract would be as follows:
 
-```
+```shell
 or(99@and(pk(E),older(8640)),pk(C))
-
 ```
 
 where `E` is the employee and `C` is the company.
@@ -409,25 +390,20 @@ It's not possible to block them after the lock time has passed, atleast not in a
 Surely, after two months, the funds can be unlocked by the employee but before that, the company can revoke the funds.  
 Let us compile this policy down to miniscript.
 
-```
+```shell
 # The Descriptor will be on the log, the E and C are placeholders
 ❯ miniscriptc "or(99@and(pk(E),older(8640)),pk(C))" sh-wsh
 [2021-08-05T12:25:40Z INFO  miniscriptc] Compiling policy: or(99@and(pk(E),older(8640)),pk(C))
 [2021-08-05T12:25:40Z INFO  miniscriptc] ... Descriptor: sh(wsh(andor(pk(E),older(8640),pk(C))))#55wzucxa
 Error: Descriptor(Miniscript(Unexpected("Key too short (<66 char), doesn't match any format")))
-
 ```
-
 So the compiled miniscript is
-
-```
+```shell
 sh(wsh(andor(pk(E),older(8640),pk(C))))
-
 ```
 
 Let's make the keys, generate addresses using the above descriptor and fund it.
-
-```
+```shell
 # xprvs
 E_XPRV=$(bdk-cli key generate | jq -r ".xprv")
 C_XPRV=$(bdk-cli key generate | jq -r ".xprv")
@@ -464,14 +440,13 @@ bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w E -d $E_DESC get_bal
 {
   "satoshi": 2500000000
 }
-
 ```
 
 From the transaction we have done, we have just been forwarded by 100 blocks.  
 According to the given logic, for `E` to try to transact his coins, he will have to wait for 8640 blocks.  
 But let's check to see what happens if `E` tries to transact before the designated 2 months.
 
-```
+```shell
 # address to send the transaction to
 elcli getnewaddress
 
@@ -495,7 +470,6 @@ SIGNED_PSBT=$(bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w E -d $
 # not let's try to broadcast - and see it failing
 ❯ bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w E -d $E_DESC broadcast --psbt $SIGNED_PSBT
 [2021-08-05T17:48:45Z ERROR bdk_cli] Electrum(Protocol(Object({"code": Number(2), "message": String("sendrawtransaction RPC error: {\"code\":-26,\"message\":\"non-BIP68-final\"}")})))
-
 ```
 
 We get an error saying the transaction we sent is **Not BIP68 Final**.  
@@ -504,7 +478,7 @@ So that's an expected error.
 
 Now let's simulate two months passing and retry.
 
-```
+```shell
 # generate address
 elcli getnewaddress
 
@@ -518,7 +492,6 @@ bdk-cli -n regtest wallet --server tcp://127.0.0.1:60401 -w E -d $E_DESC broadca
 {
   "txid": "2a0919bb3ce6e26018698ad1169965301a9ceab6d3da2a3dcb41343dc48e0dba"
 }
-
 ```
 
 So this time it worked, because we have simulated 2 months passing by generating 8640 blocks.  

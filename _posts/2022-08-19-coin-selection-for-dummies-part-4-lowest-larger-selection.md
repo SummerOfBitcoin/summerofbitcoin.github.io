@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Coin Selection for Dummies: Part 4 - Lowest Larger Selection"
-author: Summer of Bitcoin
+author: Anmol Sharma
 date: "2022-08-19 13:00:44 +0000"
 tags:
   - "Tutorials"
 ---
-
-********By Anmol Sharma********  
-********Summer of Bitcoin '22********
 
 This is the fourth part of the seven-part series of blogs on Coin Selection.
 
@@ -55,7 +52,7 @@ To use Lowest larger selection, we first sort UTXOs in decreasing order by value
 
 This is a simple Python Implementation of the algorithm.
 
-```
+```python
 def selectLowestLarger(coins, target):
     coins.sort(key=lambda x: x.value, reverse=True)
     ind = 0
@@ -125,7 +122,6 @@ for t in targets:
         print(c.value, end=" ")
     print()
     print("change: " + str(input - t))
-
 ```
 
 ### **Advantages**

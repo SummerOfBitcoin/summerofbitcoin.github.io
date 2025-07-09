@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Bitcoin, Lightning, and the Eye of Satoshi Watchtower: Revolutionizing Transactions and Security"
-author: Summer of Bitcoin
+author: Aniketh Paul
 date: "2023-06-28 15:09:47 +0000"
 tags:
   - "Tutorials"
 ---
-
-********By****** Aniketh Paul**  
-********Summer of Bitcoin '2****3****
 
 ## **Introduction**
 

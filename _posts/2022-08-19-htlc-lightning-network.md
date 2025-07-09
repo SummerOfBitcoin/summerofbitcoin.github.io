@@ -1,14 +1,11 @@
 ---
 layout: post
 title: HTLCs in Lightning Network
-author: Summer of Bitcoin
+author: Goutam Verma
 date: "2022-08-19 13:32:57 +0000"
 tags:
   - "Tutorials"
 ---
-
-**By Goutam Verma  
-Summer of Bitcoin '22**
 
 Before we dive into the HTLC lets get a brief introduction about Lightning Network
 

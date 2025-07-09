@@ -131,7 +131,7 @@ This summer was far from perfect. We made plenty of mistakes but we are still en
 
 ## A note of thanks
 
-We are incredibly thankful for the generous financial support of [Spiral](https://spiral.xyz/?ref=blog.summerofbitcoin.org) who sponsored the entirety of this summer’s program, including the student stipends and an annual grant for [Adi](https://twitter.com/adibitcoin?ref=blog.summerofbitcoin.org) to help grow it into a thriving global program. Spiral has pioneered a revolutionary model for supporting bitcoin open-source development and we’re excited by their ambition to make bitcoin the planet’s preferred currency.
+We are incredibly thankful for the generous financial support of [Spiral](https://spiral.xyz/?ref=blog.summerofbitcoin.org) who sponsored the entirety of this summer’s program, including the student stipends and an annual grant for [Adi](https://twitter.com/adi_shankara_?ref=blog.summerofbitcoin.org) to help grow it into a thriving global program. Spiral has pioneered a revolutionary model for supporting bitcoin open-source development and we’re excited by their ambition to make bitcoin the planet’s preferred currency.
 
 We are grateful to [Chaincode Labs](https://chaincode.com/?utm_campaign=Summer%20of%20Bitcoin&utm_medium=email&utm_source=Revue%20newsletter) for supporting us with their time, resources and invaluable experience in organizing a transformative learning program for bitcoin.
 

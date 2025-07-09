@@ -1,14 +1,11 @@
 ---
 layout: post
 title: Making Bitcoin Transactions Smart with Structured Metadata
-author: Summer of Bitcoin
+author: Pavan Joshi
 date: "2022-07-22 12:22:30 +0000"
 tags:
   - "Tutorials"
 ---
-
-**By Pavan Joshi   
-Summer of Bitcoin 2022**
 
 ## Abstract ⚡
 
@@ -48,36 +45,38 @@ WebLN ***SendPayment*** takes ***paymentRequest*** parameter holding Bolt11 invo
 
 ***Function Signature::***
 
-```
+```js
 sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentResponse>;
 
 ```
 
-**WebLN Provider attached by wallets currently**
 
 <figure>
 <img src="https://cdn-images-1.medium.com/max/2478/0*xH3Ip4lBH_1Xzj0S.png"/>
-<figcaption>**WebLN Provider attached by wallets after implementation of spec**</figcaption>
+<figcaption>WebLN Provider attached by wallets currently</figcaption>
 </figure>
 
 <figure>
 <img src="https://cdn-images-1.medium.com/max/2000/0*ck3K-T5O2haHBVqy.png"/>
-<figcaption>## Working/architecture of this spec ⚙️</figcaption>
+<figcaption>WebLN Provider attached by wallets after implementation of spec</figcaption>
 </figure>
 
 <figure>
 <img src="https://cdn-images-1.medium.com/max/3694/1*Lz4JHjDty-jrWAV9eqcDPA.png"/>
-<figcaption>1. **Make a Request to Wallet for WebLN Provider Via Triggering SendPayment()**</figcaption>
+<figcaption>Working/architecture of this spec ⚙️</figcaption>
 </figure>
 
-   `sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentResponse>;`
+1. **Make a Request to Wallet for WebLN Provider Via Triggering SendPayment()
+   ```js
+    sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentResponse>;
+    ```
 2. **Structure Metadata and pass it to the wallet in Callback**
 
    Use [**Schema.org**](http://schema.org/?ref=blog.summerofbitcoin.org) specifications to structure metadata in form of **JSON-LD.**
 
    eg.
 
-   ```
+   ```js
    var Metadata = {};
    Metadata = {
     "type": "AudioObject",
@@ -86,7 +85,6 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
     "image": "image" 
     }
     export var Metadata;
-
    ```
 
    Learn more about how to structure metadata for bitcoin transactions [here](https://github.com/getAlby/lightning-browser-extension/wiki/Structuring-Transaction-Metadata-Using-Schema.org-Specifications?ref=blog.summerofbitcoin.org).
@@ -109,8 +107,7 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
 
    * Schema Created using Zod plugin
 
-   ```
-
+   ```js
     import { z } from "zod";
 
     export const audioObjectSchema = z.object({
@@ -119,13 +116,11 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
       creator: z.string().optional(),
       image: z.string().optional(),
     });
-
    ```
 
    * Validator function to validate metadata
 
-   ```
-
+   ```js
     import { audioObjectSchema } from "./audioObjectSchema";
 
     export function isBase64(str: string) {
@@ -158,14 +153,12 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
 
     return hasValidType && hasValidImage;
     }
-
    ```
 
    * To validate metadata, just call the function by passing metadata.
 
-   ```
+   ```js
    const isMetadataValid = MetadataValidator(metadata);
-
    ```
 4. **Render Metadata in Confirmation Dialogue (if valid)** 🚦
 
@@ -184,7 +177,7 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
 
    Once the payment is successful , we can allow the user to access their purchased content such as allowing the user to download a song.
 
-   ```
+   ```js
     webln.sendPayment(Bolt 11 invoice, Metadata)
              .then(function(r) {
                if(r != undefined){  
@@ -201,7 +194,6 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
          console.log('err, provider', e);
        });
    }
-
    ```
 
 ### Usecases 🔥

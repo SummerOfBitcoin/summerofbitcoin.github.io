@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Introduction to Bitcoin Script
-author: Summer of Bitcoin
+author: Arnab Sen
 date: "2022-04-05 12:16:00 +0000"
 tags:
   - "Tutorials"
 ---
-
-### By Arnab Sen (@ArnabSen1729) Summer of Bitcoin '21
 
 We know the bitcoin ledger is nothing but a **Blockchain**. And a single entity of the blockchain is called **Block**. A block is a container data structure that aggregates transactions for inclusion in the public ledger, the blockchain.
 
@@ -39,7 +37,7 @@ There are some mysterious scripts mentioned in every transaction. I have highlig
 
 An actual transaction looks very different from a transaction provided by a typical block explorer. If we use the Bitcoin Core’s command-line interface (getrawtransaction and decoderawtransaction) to retrieve a "raw" transaction, decode it, and see what it contains. The result looks like this:
 
-```
+```shell
 {
   "version": 1,
   "locktime": 0,
@@ -62,7 +60,6 @@ An actual transaction looks very different from a transaction provided by a typi
     }
   ]
 }
-
 ```
 
 Every transaction has some **inputs** and then some **outputs**. These transaction outputs are the fundamental building blocks of a bitcoin. So for instance, if you make a new transaction the inputs will be nothing but point to the outputs of some previous transactions which is in the blockchain. And the new outputs will now become available and spendable. These transaction outputs are actually known as **UTXO (Unspent Transaction Output)**. And the collection of all the UTXO is called the **UTXO set**.
@@ -90,9 +87,8 @@ In Bitcoin, the verification is done by executing a script. The scripting langua
 
 Executing Script involves two stack operations `PUSH` and `POP`. Stack is a data structure that follows the *LIFO* order (Last In First Out). The way the Bitcoin engine executes the script is, it reads the script from left to right, if there is data or value we will push it into the stack, else if there is some operation we will perform that particular operation. Depending on the type of operation some items might be popped from the stack. Let's take a simple example of a script
 
-```
+```shell
 10 20 OP_ADD
-
 ```
 
 ![add-1.png](https://raw.githubusercontent.com/arnabsen1729/sob-blogs/master/introduction-to-bitcoin-script/img/add-1.webp)
@@ -146,4 +142,4 @@ A question might arise: how does this unlocking script actually unlock the locki
 
 ---
 
-I was a part of the [Summer of Bitcoin'21](https://summerofbitcoin.org/?ref=blog.summerofbitcoin.org) at the time of writing this blog. I am grateful to [Adi Shankara](https://twitter.com/adibitcoin?ref=blog.summerofbitcoin.org), [Caralie Chrisco](https://twitter.com/Caralie_C?ref=blog.summerofbitcoin.org), [Adam Jonas](https://twitter.com/adamcjonas?ref=blog.summerofbitcoin.org) for giving me this amazing opportunity and my mentor [0xb10c](https://twitter.com/0xB10C?ref=blog.summerofbitcoin.org) for his guidance and support.
+I was a part of the [Summer of Bitcoin'21](https://summerofbitcoin.org/?ref=blog.summerofbitcoin.org) at the time of writing this blog. I am grateful to [Adi Shankara](https://twitter.com/adi_shankara_?ref=blog.summerofbitcoin.org), [Caralie Chrisco](https://twitter.com/Caralie_C?ref=blog.summerofbitcoin.org), [Adam Jonas](https://twitter.com/adamcjonas?ref=blog.summerofbitcoin.org) for giving me this amazing opportunity and my mentor [0xb10c](https://twitter.com/0xB10C?ref=blog.summerofbitcoin.org) for his guidance and support.

@@ -33,18 +33,72 @@ authors:
     avatar: 'assets/images/avatar.png'
     twitter: https://x.com/priyansh_tweet
     description: "Summer of Bitcoin Batch of 2021, worked on mempool.space"
+  Pavan Joshi:
+    name: Pavan Joshi
+    display_name: Pavan Joshi
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/pavanj1620
+    description: "Summer of Bitcoin Batch of 2022, worked on Alby"
+  César Alvarez Vallero:
+    name: César Alvarez Vallero
+    display_name: César Alvarez Vallero
+    avatar: 'assets/images/avatar.png'
+    twitter: https://twitter.com/csralvall
+    description: "Summer of Bitcoin Batch of 2022, worked on BDK"
+  Goutam Verma:
+    name: Goutam Verma
+    display_name: Goutam Verma
+    avatar: 'assets/images/avatar.png'
+    twitter: https://twitter.com/Goutamv69080354
+    description: "Summer of Bitcoin Batch of 2022, worked on Eclair"
+  Jing Liu:
+    name: Jing Liu
+    display_name: Jing Liu
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/6chinggg
+    description: "Summer of Bitcoin Batch of 2022, worked on Bitcoin Core"
+  Pedro Felix:
+    name: Pedro Felix
+    display_name: Pedro Felix
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/logosstone
+    description: "Summer of Bitcoin Batch of 2022, worked on BDK"
   Arnab Sen:
     name: Arnab Sen
     display_name: Arnab Sen
     avatar: 'assets/images/avatar.png'
     twitter: https://x.com/arnabsen1729
     description: "Summer of Bitcoin Batch of 2021, worked on Bitcoin Core"
+  Omer Yacine:
+    name: Omer Yacine
+    display_name: Omer Yacine
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/summerofbitcoin
+    description: "Summer of Bitcoin Batch of 2022, worked on Eye of Satoshi"
+  Aniketh Paul:
+    name: Aniketh Paul
+    display_name: Aniketh Paul
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/Alphooor
+    description: "Summer of Bitcoin Batch of 2023, worked on Eye of Satoshi"
   Sandipan Dey:
     name: Sandipan Dey
     display_name: Sandipan Dey         
     avatar: 'assets/images/avatar.png'
     twitter: https://x.com/sandipndev
     description: "Summer of Bitcoin Batch of 2021, worked on BDK"
+  Anmol Sharma:
+    name: Anmol Sharma
+    display_name: Anmol Sharma
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/theanmolsharma_
+    description: "Summer of Bitcoin Batch of 2022, worked on bcoin"
+  Sanjay Singh Rajpoot:
+    name: Sanjay Singh Rajpoot
+    display_name: Sanjay Singh Rajpoot
+    avatar: 'assets/images/avatar.png'
+    twitter: https://x.com/summerofbitcoin
+    description: "Summer of Bitcoin Batch of 2022, worked on RTL"
   satoshi:
     name: Satashi Nakamoto
     display_name: Satoshi    
