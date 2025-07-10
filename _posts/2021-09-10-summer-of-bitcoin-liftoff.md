@@ -3,7 +3,7 @@ layout: post
 title: Summer of Bitcoin - Liftoff!
 author: Summer of Bitcoin
 date: "2021-09-10 09:35:00 +0000"
-tags:
+categories:
   - "News"
 description: "Introducing a global, online summer internship program focused on introducing university students to bitcoin open-source development and design."
 

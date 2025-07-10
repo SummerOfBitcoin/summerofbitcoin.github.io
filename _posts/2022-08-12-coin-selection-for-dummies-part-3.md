@@ -3,8 +3,9 @@ layout: post
 title: "Coin Selection for Dummies: Part 3 - Knapsack Solver"
 author: Anmol Sharma
 date: "2022-08-12 10:46:47 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Coin Selection"
 ---
 
 This is the third part of the seven-part series of blogs on Coin Selection.

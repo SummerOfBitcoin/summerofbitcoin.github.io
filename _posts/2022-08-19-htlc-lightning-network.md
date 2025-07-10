@@ -3,7 +3,8 @@ layout: post
 title: HTLCs in Lightning Network
 author: Goutam Verma
 date: "2022-08-19 13:32:57 +0000"
-tags:
+categories:
+  - "Lightning Network"
   - "Tutorials"
 ---
 

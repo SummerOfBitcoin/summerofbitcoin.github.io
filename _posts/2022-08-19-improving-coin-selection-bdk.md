@@ -3,8 +3,9 @@ layout: post
 title: Improving coin selection in BDK
 author: César Alvarez Vallero
 date: "2022-08-19 13:28:27 +0000"
-tags:
-  - "Stories"
+categories:
+  - "BDK"
+  - "Coin Selection"
 ---
 
 As a project designed to be used in wallet development, one of the main things that BDK provides is the coin selection module. The purpose of the module is to select the group of utxos to use as inputs for the transaction. When you coin select you must consider cost, size and traceability.

@@ -1,7 +1,7 @@
 # Site
 name: "Summer of Bitcoin Blog"
 title: "Summer of Bitcoin"
-description: "News, stories and resources on bitcoin and open-source."
+description: "Official blog of Summer of Bitcoin"
 logo: 'assets/images/favicon.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""

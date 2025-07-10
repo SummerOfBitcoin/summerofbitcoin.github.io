@@ -3,8 +3,9 @@ layout: post
 title: What is WebLN?
 author: Sanjay Singh Rajpoot
 date: "2022-07-22 10:44:05 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Lightning Network"
 ---
 
 WebLN is a library and set of specifications for lightning apps and client providers to facilitate communication between apps and users’ lightning nodes in a secure way. It provides a programmatic, permissioned interface for letting applications ask users to send payments, generates invoices to receive payments, and much more. This documentation covers both how to use WebLN in your Lightning-driven applications and how to implement a provider.

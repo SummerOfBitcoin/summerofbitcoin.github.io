@@ -3,7 +3,8 @@ layout: post
 title: Digging into IsStandard in Bitcoin Core
 author: Arnab Sen
 date: "2022-04-12 12:19:00 +0000"
-tags:
+categories:
+  - "Bitcoin Core"
   - "Tutorials"
 ---
 

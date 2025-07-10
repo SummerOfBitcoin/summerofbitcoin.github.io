@@ -3,7 +3,7 @@ layout: post
 title: "Breaking Bitcoin: Can we derive the private key?"
 author: Sivaram D
 date: "2021-10-01 08:32:00 +0000"
-tags:
+categories:
   - "Cryptography"
 description: "Let's try to derive the private key from a given public key!"
 ---

@@ -3,8 +3,9 @@ layout: post
 title: Lightning Watchtowers and how to set up your own using Eye of Satoshi
 author: Omer Yacine
 date: "2022-08-25 11:31:28 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Lightning Network"
 ---
 
 # Introduction

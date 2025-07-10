@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Bitcoin Script
 author: Arnab Sen
 date: "2022-04-05 12:16:00 +0000"
-tags:
+categories:
   - "Tutorials"
 ---
 

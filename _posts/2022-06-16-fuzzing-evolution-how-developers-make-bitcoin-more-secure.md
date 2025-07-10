@@ -3,7 +3,7 @@ layout: post
 title: "Fuzzing Evolution: How developers make Bitcoin more secure"
 author: Jing Liu 
 date: "2022-06-16 08:16:43 +0000"
-tags:
+categories:
   - "Bitcoin Core"
 ---
 

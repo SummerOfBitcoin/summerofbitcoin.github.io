@@ -3,7 +3,7 @@ layout: post
 title: mempool.space
 author: Priyansh Rastogi
 date: "2022-01-17 15:19:00 +0000"
-tags:
+categories:
   - "Tutorials"
 description: "Making smart decisions through mempool visualizer!"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: My experience of Summer Of Bitcoin '21
 author: Arnab Sen
 date: "2022-02-23 15:14:00 +0000"
-tags:
+categories:
   - "Stories"
 description: "In this post, I will cover the selection process, my experience at Summer of Bitcoin and share some tips for those who are interested in this program."
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Miniscript Policy & Descriptors - Hidden Powers of Bitcoin
 author: Sandipan Dey
 date: "2022-04-28 13:37:00 +0000"
-tags:
+categories:
   - "Tutorials"
 ---
 

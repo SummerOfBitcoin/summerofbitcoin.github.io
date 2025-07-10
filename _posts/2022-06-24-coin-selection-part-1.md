@@ -3,8 +3,9 @@ layout: post
 title: "Coin Selection for Dummies: Part 1-Overview"
 author: Anmol Sharma
 date: "2022-06-24 00:02:31 +0000"
-tags:
-  - "Bitcoin Core"
+categories:
+  - "Tutorials"
+  - "Coin Selection"
 ---
 
 This is the first part of the seven-part blog series titled *Coin Selection for Dummies.*

@@ -3,8 +3,9 @@ layout: post
 title: "Coin Selection for Dummies: Part 4 - Lowest Larger Selection"
 author: Anmol Sharma
 date: "2022-08-19 13:00:44 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Coin Selection"
 ---
 
 This is the fourth part of the seven-part series of blogs on Coin Selection.

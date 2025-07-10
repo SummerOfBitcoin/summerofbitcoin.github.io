@@ -3,7 +3,7 @@ layout: post
 title: Big Integer Arithmetic in C - Part 1
 author: Sivaram D
 date: "2022-03-16 08:37:00 +0000"
-tags:
+categories:
   - "Tutorials"
 description: "Let's learn how to add large numbers that cannot be stored in a standard integer type provided by the C language."
 ---

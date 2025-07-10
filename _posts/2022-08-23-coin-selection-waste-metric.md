@@ -3,8 +3,9 @@ layout: post
 title: "Coin Selection for Dummies: Part 5 - Waste Metric"
 author: Anmol Sharma
 date: "2022-08-23 01:54:11 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Coin Selection"
 ---
 
 This is the fifth part of the seven-part series of blogs on Coin Selection.

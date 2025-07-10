@@ -3,8 +3,9 @@ layout: post
 title: "Bitcoin, Lightning, and the Eye of Satoshi Watchtower: Revolutionizing Transactions and Security"
 author: Aniketh Paul
 date: "2023-06-28 15:09:47 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Lightning Network"
 ---
 
 ## **Introduction**

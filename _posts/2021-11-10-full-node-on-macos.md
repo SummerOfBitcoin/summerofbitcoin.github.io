@@ -3,7 +3,7 @@ layout: post
 title: Playing with Bitcoin CLI and Running a Full Node on MacOS
 author: Sandipan Dey
 date: "2021-11-10 13:27:00 +0000"
-tags:
+categories:
   - "Tutorials"
 description: "A beginner's guide."
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Summer of Bitcoin 2022 results announced!
 author: Summer of Bitcoin
 date: "2022-05-19 08:38:39 +0000"
-tags:
+categories:
   - "News"
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Setting up and interacting with Lightning Network Daemon (LND)⚡️- Part 2
 author: Priyansh Rastogi
 date: "2022-04-13 14:03:00 +0000"
-tags:
+categories:
   - "Tutorials"
 description: "Buying your first coffee on Lightning Network! ♨️"
 ---

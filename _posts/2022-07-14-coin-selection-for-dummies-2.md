@@ -3,8 +3,9 @@ layout: post
 title: "Coin Selection for Dummies: Part 2-Branch and Bound Coin Selection"
 author: Anmol Sharma
 date: "2022-07-14 08:42:17 +0000"
-tags:
+categories:
   - "Tutorials"
+  - "Coin Selection"
 ---
 
 This is the second part of the seven-part series of blogs on Coin Selection.
