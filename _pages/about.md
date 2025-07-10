@@ -2,7 +2,7 @@
 layout: page
 title: About Summer of Bitcoin
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-between">
@@ -41,8 +41,8 @@ comments: true
     <div class="col-md-6">
         <div class="card mb-3">
             <div class="card-body">
-                <h5 class="card-title">50+ Alumni placed</h5>
-                <p class="card-text">A full list is available at <a href="https://www.summerofbitcoin.org/alumni">Alumni</a> page.</p>
+                <h5 class="card-title">50+ Hired</h5>
+                <p class="card-text">In companies like Alby, Blockstream, Fedi, Galoy and more</p>
             </div>
         </div>
     </div>
