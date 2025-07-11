@@ -19,7 +19,7 @@ We are excited to announce that 29 open-source bitcoin projects, with 60 open-so
 <img src="../assets/images/blog_content/image-6.png"/>
 </figure>
 
-For the 2022 program, we’re thrilled to include a designer track for the first time for students interested in contributing to open-source bitcoin design and UX! Out of 83 students selected, 9 students will contribute to open-source bitcoin design and 74 students will contribute code. You can view each of their project proposals at [2022 Student Projects](https://www.summerofbitcoin.org/2022-project-ideas?ref=blog.summerofbitcoin.org).
+For the 2022 program, we’re thrilled to include a designer track for the first time for students interested in contributing to open-source bitcoin design and UX! Out of 83 students selected, 9 students will contribute to open-source bitcoin design and 74 students will contribute code. You can view each of their project proposals at [2022 Student Projects](https://www.summerofbitcoin.org/program-details/2022/r/recPLKAWw1UFZb7Sl).
 
 Selected students come from countries around the world including Argentina, Brazil, Canada, China, Egypt, Finland, Germany, Greece, India, Italy, Mexico, Nigeria, Poland, Singapore and the United States. The highest number of accepted students are from India. All students will receive a stipend of $3000 in BTC on successful completion of their projects.
 

@@ -150,4 +150,4 @@ But the last few weeks have proven that this can be done. Summer of Bitcoin is h
 If you are a university student curious about bitcoin, applications for Summer of Bitcoin 2022 open in January next year and we encourage you to apply. If you have questions or ideas for the program or just want to talk to us, send us an email at hello<at>summerofbitcoin.org.
 
 Adi  
-Lead, Summer of Bitcoin
+Founder, Summer of Bitcoin
