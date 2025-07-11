@@ -6,6 +6,7 @@ date: "2022-08-23 01:54:11 +0000"
 categories:
   - "Tutorials"
   - "Coin Selection"
+image: ../assets/images/blog_content/img-1.png
 ---
 
 This is the fifth part of the seven-part series of blogs on Coin Selection.

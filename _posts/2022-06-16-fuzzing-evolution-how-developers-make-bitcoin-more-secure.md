@@ -5,6 +5,7 @@ author: Jing Liu
 date: "2022-06-16 08:16:43 +0000"
 categories:
   - "Bitcoin Core"
+image: https://github.com/google/oss-fuzz/raw/master/docs/images/process.png
 ---
 
 ## Abstract

@@ -6,6 +6,7 @@ date: "2022-03-01 12:11:00 +0000"
 categories:
   - "Cryptography"
 description: "Merkle trees are named after Ralph Merkle, who proposed them in a 1987 paper titled 'A Digital Signature Based on a Conventional Encryption Function.'"
+image: https://raw.githubusercontent.com/arnabsen1729/sob-blogs/master/merkle-trees-and-its-role-in-the-decentralized-web/img/tree1.webp
 ---
 
 ## Centralised Web

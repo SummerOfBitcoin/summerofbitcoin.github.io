@@ -5,6 +5,7 @@ author: Summer of Bitcoin
 date: "2023-05-12 07:36:07 +0000"
 categories:
   - "News"
+image: https://lh5.googleusercontent.com/eZxcYYRw8HGVum_j-Az89wlXLK1EV0UVaepoq-iJURbgl2nO6JaBhE1w-ZA_Jq7WIQ-On5_J2Mfs1cw5hlXTWrPNfRBPHX3--LEgdM8HBMnIAohzGVnkoAjsUB8Q7LI7cTZ4dUsTieUq6lM=s2048
 ---
 
 We are excited to announce the results for Summer of Bitcoin 2023.

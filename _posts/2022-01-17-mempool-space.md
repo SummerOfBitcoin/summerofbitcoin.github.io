@@ -6,6 +6,7 @@ date: "2022-01-17 15:19:00 +0000"
 categories:
   - "Tutorials"
 description: "Making smart decisions through mempool visualizer!"
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1626617156416/TdAisKaaJ.png
 ---
 
 In the years 2015-2017, it was really very easy to get bitcoin payments done with minimum fees, since the market was not very competitive.

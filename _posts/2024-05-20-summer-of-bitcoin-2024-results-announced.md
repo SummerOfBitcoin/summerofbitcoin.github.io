@@ -5,6 +5,7 @@ author: Summer of Bitcoin
 date: "2024-05-20 09:00:00 +0000"
 categories:
   - "News"
+image: ../assets/images/blog_content/image-3.png
 ---
 
 We are thrilled to unveil the results for Summer of Bitcoin 2024!

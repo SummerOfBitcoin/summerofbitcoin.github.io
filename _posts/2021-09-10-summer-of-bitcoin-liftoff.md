@@ -6,12 +6,11 @@ date: "2021-09-10 09:35:00 +0000"
 categories:
   - "News"
 description: "Introducing a global, online summer internship program focused on introducing university students to bitcoin open-source development and design."
-
+featured: true
+image: ../assets/images/blog_content/chasm.png
 ---
 
-## Purpose
-
-Introduce university students to bitcoin open-source development and design.
+Our mission is to introduce university students to bitcoin open-source development and design.
 
 ## Why
 

@@ -5,6 +5,7 @@ author: Summer of Bitcoin
 date: "2022-05-19 08:38:39 +0000"
 categories:
   - "News"
+image: ../assets/images/blog_content/image-6.png
 ---
 
 Thank you to all the students who applied for Summer of Bitcoin 2022!

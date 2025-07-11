@@ -6,6 +6,7 @@ date: "2022-06-24 00:02:31 +0000"
 categories:
   - "Tutorials"
   - "Coin Selection"
+image: ../assets/images/blog_content/img-1.png
 ---
 
 This is the first part of the seven-part blog series titled *Coin Selection for Dummies.*

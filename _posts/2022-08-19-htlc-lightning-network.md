@@ -6,6 +6,7 @@ date: "2022-08-19 13:32:57 +0000"
 categories:
   - "Lightning Network"
   - "Tutorials"
+image: https://user-images.githubusercontent.com/66783850/180373306-79799a71-aa52-469b-a086-0b9d7f518b19.jpg
 ---
 
 Before we dive into the HTLC lets get a brief introduction about Lightning Network

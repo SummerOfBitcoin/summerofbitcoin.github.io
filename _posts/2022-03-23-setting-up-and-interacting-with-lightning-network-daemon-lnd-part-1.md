@@ -6,6 +6,7 @@ date: "2022-03-23 14:00:00 +0000"
 categories:
   - "Tutorials"
 description: "Lightning Network is a second layer solution that helps to scale bitcoin transactions and get them settled at a lightning speed."
+image: ttps://cdn.hashnode.com/res/hashnode/image/upload/v1627832562191/CYHODPq2_.png
 ---
 
 In this post, let's catch up with the recent advancements in **Bitcoin** and learn about the **Lightning Network**. 🌠

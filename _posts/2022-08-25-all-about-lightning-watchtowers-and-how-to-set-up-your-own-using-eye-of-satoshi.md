@@ -6,6 +6,7 @@ date: "2022-08-25 11:31:28 +0000"
 categories:
   - "Tutorials"
   - "Lightning Network"
+image: ../assets/images/blog_content/teosd-successful-run.png
 ---
 
 # Introduction

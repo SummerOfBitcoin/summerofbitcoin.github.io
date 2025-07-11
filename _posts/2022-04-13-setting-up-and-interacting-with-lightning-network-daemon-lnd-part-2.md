@@ -6,6 +6,7 @@ date: "2022-04-13 14:03:00 +0000"
 categories:
   - "Tutorials"
 description: "Buying your first coffee on Lightning Network! ♨️"
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1628424500988/0Y-1xpLYP.png
 ---
 
 I am sure your **coffee** **cravings** from [Part 1](https://blog.summerofbitcoin.org/setting-up-and-interacting-with-lightning-network-daemon-lnd-part-1/) got you here. 🤭
