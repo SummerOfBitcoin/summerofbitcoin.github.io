@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bitcoin, Lightning, and the Eye of Satoshi Watchtower: Revolutionizing Transactions and Security"
+title: "The Eye of Satoshi: Your Personal Bodyguard for Lightning Network Transactions"
 author: Aniketh Paul
 date: "2023-06-28 15:09:47 +0000"
 categories:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer of Bitcoin 2025 Results Announced!
+title: "Summer of Bitcoin 2025: Announcing the Next Generation of Bitcoin Developers"
 author: Summer of Bitcoin
 date: "2025-05-18 08:00:00 +0000"
 categories:
