@@ -25,103 +25,103 @@ authors:
   Sivaram D:
     name: Sivaram D
     display_name: Sivaram Dhakshinamoorthy
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/siv2r
     description: "Summer of Bitcoin Batch of 2021, worked on libsecp256k1."
   Priyansh Rastogi:
     name: Priyansh Rastogi
     display_name: Priyansh Rastogi
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/priyansh_tweet
     description: "Summer of Bitcoin Batch of 2021, worked on mempool.space"
   Pavan Joshi:
     name: Pavan Joshi
     display_name: Pavan Joshi
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/pavanj1620
     description: "Summer of Bitcoin Batch of 2022, worked on Alby"
   César Alvarez Vallero:
     name: César Alvarez Vallero
     display_name: César Alvarez Vallero
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/csralvall
     description: "Summer of Bitcoin Batch of 2022, worked on BDK"
   Goutam Verma:
     name: Goutam Verma
     display_name: Goutam Verma
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/Goutamv69080354
     description: "Summer of Bitcoin Batch of 2022, worked on Eclair"
   Jing Liu:
     name: Jing Liu
     display_name: Jing Liu
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/6chinggg
     description: "Summer of Bitcoin Batch of 2022, worked on Bitcoin Core"
   Pedro Felix:
     name: Pedro Felix
     display_name: Pedro Felix
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/logosstone
     description: "Summer of Bitcoin Batch of 2022, worked on BDK"
   Arnab Sen:
     name: Arnab Sen
     display_name: Arnab Sen
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/arnabsen1729
     description: "Summer of Bitcoin Batch of 2021, worked on Bitcoin Core"
   Omer Yacine:
     name: Omer Yacine
     display_name: Omer Yacine
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/summerofbitcoin
     description: "Summer of Bitcoin Batch of 2022, worked on Eye of Satoshi"
   Adidev Bhattacharya:
     name: Adidev Bhattacharya
     display_name: Adidev Bhattacharya
-    avatar: assets/images/avatar.png
+    avatar: assets/images/male.png
     twitter: https://twitter.com/ab_og_gm
     description: "Summer of Bitcoin Batch of 2023, worked on Rust miniscript"
   Adidev Bhattacharya:
     name: Adidev Bhattacharya
     display_name: Adidev Bhattacharya
-    avatar: assets/images/avatar.png
+    avatar: assets/images/male.png
     twitter: https://twitter.com/ab_og_gm
     description: "Summer of Bitcoin Batch of 2023, worked on Rust miniscript"
   Aditya Gupta:
     name: Aditya Gupta
     display_name: Aditya Gupta
-    avatar: assets/images/avatar.png
+    avatar: assets/images/male.png
     twitter: https://twitter.com/adityag73681230
     description: "Summer of Bitcoin Batch of 2023, worked on Eye of Satoshi"
   Aditya Gupta:
     name: Aditya Gupta
     display_name: Aditya Gupta
-    avatar: assets/images/avatar.png
+    avatar: assets/images/male.png
     twitter: https://twitter.com/adityag73681230
     description: "Summer of Bitcoin Batch of 2023, worked on Eye of Satoshi"
   Sandipan Dey:
     name: Sandipan Dey
     display_name: Sandipan Dey         
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/sandipndev
     description: "Summer of Bitcoin Batch of 2021, worked on BDK"
   Anmol Sharma:
     name: Anmol Sharma
     display_name: Anmol Sharma
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/theanmolsharma_
     description: "Summer of Bitcoin Batch of 2022, worked on bcoin"
   Sanjay Singh Rajpoot:
     name: Sanjay Singh Rajpoot
     display_name: Sanjay Singh Rajpoot
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/summerofbitcoin
     description: "Summer of Bitcoin Batch of 2022, worked on RTL"
   satoshi:
     name: Satashi Nakamoto
     display_name: Satoshi    
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     email: satoshin@gmx.com
     web: https://bitcoin.org
     twitter: https://twitter.com/satoshi
@@ -129,880 +129,880 @@ authors:
   Ajay Sehwal:
     name: Ajay Sehwal
     display_name: Ajay Sehwal
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/ajay_sehwal
     description: "Summer of Bitcoin Batch of 2025, worked on Zeus Wallet"
   Aarav Mehta:
     name: Aarav Mehta
     display_name: Aarav Mehta
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/aaravchessfan
     description: "Summer of Bitcoin Batch of 2024, worked on Robosats"
   Aashutosh Sapkota:
     name: Aashutosh Sapkota
     display_name: Aashutosh Sapkota
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Blockcore"
   Abhijay jain:
     name: Abhijay jain
     display_name: Abhijay jain
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/CodeInVeins
     description: "Summer of Bitcoin Batch of 2024, worked on Here Comes Bitcoin"
   Abhinav Agarwalla:
     name: Abhinav Agarwalla
     display_name: Abhinav Agarwalla
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/lla_dane
     description: "Summer of Bitcoin Batch of 2024, worked on Floresta"
   Abhishek Patidar:
     name: Abhishek Patidar
     display_name: Abhishek Patidar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/abhi_1e12
     description: "Summer of Bitcoin Batch of 极4, worked on Pyasic"
   Ajeet Tiwari:
     name: Ajeet Tiwari
     display_name: Ajeet Tiwari
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Zeus"
   Amit Panwar:
     name: Amit Panwar
     display_name: Amit Panwar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Robosats"
   Amit Kumar Prasad:
     name: Amit Kumar Prasad
     display_name: Amit Kumar Prasad
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/apX13_
     description: "Summer of Bitcoin Batch of 2024, worked on Jam"
   Arilewola Sodiq:
     name: Arilewola Sodiq
     display_name: Arilewola Sodiq
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/SalesInfinity1
     description: "Summer of Bitcoin Batch of 2024, worked on Caravan"
   Ayman Mohammed:
     name: Ayman Mohammed
     display_name: Ayman Mohammed
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on BitcoinJS"
   Bhavesh Gupta:
     name: Bhavesh Gupta
     display_name: Bhavesh Gupta
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/Bhaveshg_16
     description: "Summer of Bitcoin Batch of 2024, worked on Jam"
   Bhuvan Ade:
     name: Bhuvan Ade
     display_name: Bhuvan Ade
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/BhuvanAde
     description: "Summer of Bitcoin Batch of 2024, worked on Bitcoin-Design"
   Bryan Elee:
     name: Bryan Elee
     display_name: Bryan Elee
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Cypherock"
   Deeksha Satapathy:
     name: Deeksha Satapathy
     display_name: Deeksha Satapathy
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/female.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Bitcoin-Design"
   Dhruv Bhanushali:
     name: Dhruv Bhanushali
     display_name: Dhruv Bhanushali
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/drrrrrrrr186
     description: "Summer of Bitcoin Batch of 2024, worked on Blockcore"
   Divyansh Gupta:
     name: Divyansh Gupta
     display_name: Divyansh Gupta
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/DivyanshGu15258
     description: "Summer of Bitcoin Batch of 2024, worked on Coinswap"
   Felix Boeck:
     name: Felix Boeck
     display_name: Felix Boeck
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://njump.me/npub1z9n5ktfjrlpyywds9t7ljekr9cm9jjnzs27h702te5fy8p2c4dgs5zvycf
     description: "Summer of Bitcoin Batch of 2024, worked on Robosats"
   Harsh Pratap Singh:
     name: Harsh Pratap Singh
     display_name: Harsh Pratap Singh
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/harsh_ps2003
     description: "Summer of Bitcoin Batch of 2024, worked on Fedimint"
   Harshil Jani:
     name: Harshil Jani
     display_name: Harshil Jani
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/harshil_jani28
     description: "Summer of Bitcoin Batch of 2024, worked on Caravan"
   Harshit Verma:
     name: Harshit Verma
     display_name: Harshit Verma
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on lampo"
   Ian Slane:
     name: Ian Slane
     display_name: Ian Slane
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/ian_slane
     description: "Summer of Bitcoin Batch of 2024, worked on LDK"
   Jayendra Madaram:
     name: Jayendra Madaram
     display_name: Jayendra Madaram
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/jayendra__02
     description: "Summer of Bitcoin Batch of 2024, worked on braidpool"
   Joao Gabriel Leal de Andrade Barbosa:
     name: Joao Gabriel Leal de Andrade Barbosa
     display_name: Joao Gabriel Leal de Andrade Barbosa
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Floresta"
   Kartik Agarwala:
     name: Kartik Agarwala
     display_name: Kartik Agarwala
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Bitcoin-Fuzz"
   Luis Schwab:
     name: Luis Schwab
     display_name: Luis Schwab
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/luisschwab_
     description: "Summer of Bitcoin Batch of 2024, worked on BDK"
   Max Rantil:
     name: Max Rantil
     display_name: Max Rantil
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Core-Lightning"
   Mohamed Awnallah:
     name: Mohamed Awnallah
     display_name: Mohamed Awnallah
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/mohamedawnallah
     description: "Summer of Bitcoin Batch of 2024, worked on LND"
   Mohit kumar:
     name: Mohit kumar
     display_name: Mohit kumar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/claddy_k
     description: "Summer of Bitcoin Batch of 2024, worked on Coinswap"
   Mrigesh Thakur:
     name: Mrigesh Thakur
     display_name: Mrigesh Thakur
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Caravan"
   Mukund Gupta:
     name: Mukund Gupta
     display_name: Mukund Gupta
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on python-bitcoin-utils"
   Nithish Karthik Shanmugasundaram:
     name: Nithish Karthik Shanmugasundaram
     display_name: Nithish Karthik Shanmugasundaram
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on gocoin"
   Nchumoh Nshanui:
     name: Nchumoh Nshanui
     display_name: Nchumoh Nshanui
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/dyceman10
     description: "Summer of Bitcoin Batch of 2024, worked on Utreexo"
   Ogenna Daniel:
     name: Ogenna Daniel
     display_name: Ogenna Daniel
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: http://twitter.com/danielkx_
     description: "Summer of Bitcoin Batch of 2024, worked on Blockcore"
   Prabhat Verma:
     name: Prabhat Verma
     display_name: Prabhat Verma
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Bitcoin-Core"
   Prakhar Agarwal:
     name: Prakhar Agarwal
     display_name: Prakhar Agarwal
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/prakhar_a_1
     description: "Summer of Bitcoin Batch of 2024, worked on Galoy"
   Raehat Singh Nanda:
     name: Raehat Singh Nanda
     display_name: Raehat Singh Nanda
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/rsnandaflux
     description: "Summer of Bitcoin Batch of 2024, worked on Core-Lightning"
   Raj Gaurav Maurya:
     name: Raj Gaurav Maurya
     display_name: Raj Gaurav Maurya
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/RajGM_Hacks
     description: "Summer of Bitcoin Batch of 2024, worked on Galoy"
   Rajat Khanduri:
     name: Rajat Khanduri
     display_name: Rajat Khanduri
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/wtfrajat
     description: "Summer of Bitcoin Batch of 2024, worked on Coinswap"
   Rishi Kumar:
     name: Rishi Kumar
     display_name: Rishi Kumar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Galoy"
   Sahil Mandi:
     name: Sahil Mandi
     display_name: Sahil Mandi
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/SahilTGS
     description: "Summer of Bitcoin Batch of 2024, worked on Robosats"
   Saksham Gupta:
     name: Saksham Gupta
     display_name: Saksham Gupta
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/0xSaksham
     description: "Summer of Bitcoin Batch of 2024, worked on Jam"
   Sanya Malhotra:
     name: Sanya Malhotra
     display_name: Sanya Malhotra
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/female.png'
     twitter: https://x.com/sanya_malhotraa
     description: "Summer of Bitcoin Batch of 2024, worked on Bitcoin-Design"
   Shashank Trivedi:
     name: Shashank Trivedi
     display_name: Shashank Trivedi
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/0xlord_forever
     description: "Summer of Bitcoin Batch of 2024, worked on Floresta"
   Shashank Shekhar Singh:
     name: Shashank Shekhar Singh
     display_name: Shashank Shekhar Singh
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/Shashankss1205
     description: "Summer of Bitcoin Batch of 2024, worked on libbitcoin"
   Sushant Faujdar:
     name: Sushant Faujdar
     display_name: Sushant Faujdar
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/FaujdarSushant
     description: "Summer of Bitcoin Batch of 2024, worked on Here Comes Bitcoin"
   Tanay Raikhere:
     name: Tanay Raikhere
     display_name: Tanay Raikhere
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/TRaikhere
     description: "Summer of Bitcoin Batch of 2024, worked on libbitcoin"
   Tarek Elsayed:
     name: Tarek Elsayed
     display_name: Tarek Elsayed
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/Tareknaser360
     description: "Summer of Bitcoin Batch of 2024, worked on Core-Lightning"
   Temiloluwa Yusuf:
     name: Temiloluwa Yusuf
     display_name: Temiloluwa Yusuf
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/kietanxyz
     description: "Summer of Bitcoin Batch of 2024, worked on Pyasic"
   Tirth Bhayani:
     name: Tirth Bhayani
     display_name: Tirth Bhayani
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on Blockcore"
   Vanshul Bhatia:
     name: Vanshul Bhatia
     display_name: Vanshul Bhatia
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on lampo"
   Wellington Maina:
     name: Wellington Maina
     display_name: Wellington Maina
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://x.com/IamWelma
     description: "Summer of Bitcoin Batch of 2024, worked on Shopstr"
   Yuvraj Chhetri:
     name: Yuvraj Chhetri
     display_name: Yuvraj Chhetri
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/male.png'
     twitter: https://twitter.com/hey_yuvitwt
     description: "Summer of Bitcoin Batch of 2024, worked on Bitcoin-Core"
   Sarthak Arora:
     name: "Sarthak Arora"
     display_name: "Sarthak Arora"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "x.com/0xEgao"
     description: "Summer of Bitcoin Batch of 2025, worked on Coinswap"
   Nandini Arora:
     name: "Nandini Arora"
     display_name: "Nandini Arora"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://x.com/nandiniarora584?t=GY8KLVPINoWnbjnl89LK6A&s=09"
     description: "Summer of Bitcoin Batch of 2025, worked on Saving Satoshi"
   Pratush Shyam Gupt:
     name: "Pratush Shyam Gupt"
     display_name: "Pratush Shyam Gupt"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on BDK"
   Rakshita Murugan:
     name: "Rakshita Murugan"
     display_name: "Rakshita Murugan"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://x.com/0xshuul"
     description: "Summer of Bitcoin Batch of 2025, worked on Bitcoin-Keeper"
   Abhishek:
     name: "Abhishek"
     display_name: "Abhishek"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/not_me_abhishek"
     description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
   Keshav Arora:
     name: "Keshav Arora"
     display_name: "Keshav Arora"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on ChatBTC"
   Aashutosh Gandhi:
     name: "Aashutosh Gandhi"
     display_name: "Aashutosh Gandhi"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/AashutoshG013"
     description: "Summer of Bitcoin Batch of 2025, worked on Formstr"
   Raunak Kumar:
     name: "Raunak Kumar"
     display_name: "Raunak Kumar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on P2Pool"
   Temiloluwa Yusuf:
     name: "Temiloluwa Yusuf"
     display_name: "Temiloluwa Yusuf"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/kietanxyz"
     description: "Summer of Bitcoin Batch of 2025, worked on Cypherock"
   Chandra Pratap:
     name: "Chandra Pratap"
     display_name: "Chandra Pratap"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/chandrapratap37"
     description: "Summer of Bitcoin Batch of 2025, worked on Lightning-Network"
   Khushal A:
     name: "Khushal A"
     display_name: "Khushal A"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/khushal_twt"
     description: "Summer of Bitcoin Batch of 2025, worked on Zeus"
   Arunabha Dhal:
     name: "Arunabha Dhal"
     display_name: "Arunabha Dhal"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/arunabha0003"
     description: "Summer of Bitcoin Batch of 2025, worked on Galoy"
   Armaan Shukla:
     name: "Armaan Shukla"
     display_name: "Armaan Shukla"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/icee_009"
     description: "Summer of Bitcoin Batch of 2025, worked on Caravan"
   Nishant Bansal:
     name: "Nishant Bansal"
     display_name: "Nishant Bansal"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/Nishant282003"
     description: "Summer of Bitcoin Batch of 2025, worked on LND"
   Aryan Jain:
     name: "Aryan Jain"
     display_name: "Aryan Jain"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/aryanjain1506"
     description: "Summer of Bitcoin Batch of 2025, worked on lnprototest"
   Devi Charan Chitluri:
     name: "Devi Charan Chitluri"
     display_name: "Devi Charan Chitluri"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/DeviCharan1729"
     description: "Summer of Bitcoin Batch of 2025, worked on Zeus"
   Krrish Sehgal:
     name: "Krrish Sehgal"
     display_name: "Krrish Sehgal"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Caravan"
   Ayush Bansal:
     name: "Ayush Bansal"
     display_name: "Ayush Bansal"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/ayushbansal2407"
     description: "Summer of Bitcoin Batch of 2025, worked on Demand"
   yuvic ₿:
     name: "yuvic ₿"
     display_name: "yuvic ₿"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Bitcoin-Fuzz"
   Advait Gaur:
     name: "Advait Gaur"
     display_name: "Advait Gaur"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/advaitgaur004"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
   Nitish Itankar:
     name: "Nitish Itankar"
     display_name: "Nitish Itankar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
   Gautam Manchandani:
     name: "Gautam Manchandani"
     display_name: "Gautam Manchandani"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/GautamM96"
     description: "Summer of Bitcoin Batch of 2025, worked on Shopstr"
   Fazle Rabbi Ferdaus:
     name: "Fazle Rabbi Ferdaus"
     display_name: "Fazle Rabbi Ferdaus"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
   Aru Sharma:
     name: "Aru Sharma"
     display_name: "Aru Sharma"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on ChatBTC"
   Naitik Agrawal:
     name: "Naitik Agrawal"
     display_name: "Naitik Agrawal"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on ChatBTC"
   Vanshul Bhatia:
     name: "Vanshul Bhatia"
     display_name: "Vanshul Bhatia"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Demand"
   Yash Gussian:
     name: "Yash Gussian"
     display_name: "Yash Gussian"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/YASH25764536"
     description: "Summer of Bitcoin Batch of 2025, worked on Angor"
   Rohan Chandra Sen:
     name: "Rohan Chandra Sen"
     display_name: "Rohan Chandra Sen"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/rohansen856"
     description: "Summer of Bitcoin Batch of 2025, worked on ChatBTC"
   Parth Shah:
     name: "Parth Shah"
     display_name: "Parth Shah"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/parth401101"
     description: "Summer of Bitcoin Batch of 2025, worked on P2Pool"
   Dikshant:
     name: "Dikshant"
     display_name: "Dikshant"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/_dk013"
     description: "Summer of Bitcoin Batch of 2025, worked on Ark"
   Ansh Sharma:
     name: "Ansh Sharma"
     display_name: "Ansh Sharma"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
   Harsh Dev Pathak:
     name: "Harsh Dev Pathak"
     display_name: "Harsh Dev Pathak"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/Harsh_dev098"
     description: "Summer of Bitcoin Batch of 2025, worked on Fedimint"
   Priya Rani:
     name: "Priya Rani"
     display_name: "Priya Rani"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://x.com/priyaashu640132"
     description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
   Ayush Saksena:
     name: "Ayush Saksena"
     display_name: "Ayush Saksena"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/ayushsaksena"
     description: "Summer of Bitcoin Batch of 2025, worked on Breez"
   Suraj Naidu:
     name: "Suraj Naidu"
     display_name: "Suraj Naidu"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/0xBriGhTEyEs"
     description: "Summer of Bitcoin Batch of 2025, worked on P2Pool"
   Kshitij Dhamanikar:
     name: "Kshitij Dhamanikar"
     display_name: "Kshitij Dhamanikar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/0xKshitij1525"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
   Nischal Shetty:
     name: "Nischal Shetty"
     display_name: "Nischal Shetty"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/NischalShetty02"
     description: "Summer of Bitcoin Batch of 2025, worked on Jam"
   Shubham Kumar:
     name: "Shubham Kumar"
     display_name: "Shubham Kumar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/shubhams_twt"
     description: "Summer of Bitcoin Batch of 2025, worked on Alby"
   Lakshya Singh:
     name: "Lakshya Singh"
     display_name: "Lakshya Singh"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/lakshh113"
     description: "Summer of Bitcoin Batch of 2025, worked on Galoy"
   Om Swami:
     name: "Om Swami"
     display_name: "Om Swami"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/OmSwami2004"
     description: "Summer of Bitcoin Batch of 2025, worked on Fedimint"
   Utkarsh Maurya:
     name: "Utkarsh Maurya"
     display_name: "Utkarsh Maurya"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/gilfoyle_v2"
     description: "Summer of Bitcoin Batch of 2025, worked on Cypherock"
   Abhijit Saha:
     name: "Abhijit Saha"
     display_name: "Abhijit Saha"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/waluigimg"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
   Abhishek Raj:
     name: "Abhishek Raj"
     display_name: "Abhishek Raj"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/imexyyyyy"
     description: "Summer of Bitcoin Batch of 2025, worked on Caravan"
   Rishiraj Shrivastava:
     name: "Rishiraj Shrivastava"
     display_name: "Rishiraj Shrivastava"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/RishiX_001?t=-fbBFzI8M470TTbXRZM7MA&s=09"
     description: "Summer of Bitcoin Batch of 2025, worked on Cypherock"
   Shashank Shekhar Singh:
     name: "Shashank Shekhar Singh"
     display_name: "Shashank Shekhar Singh"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/Shashankss1205"
     description: "Summer of Bitcoin Batch of 2025, worked on ChatBTC"
   Arpan Jain:
     name: "Arpan Jain"
     display_name: "Arpan Jain"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Nostr Components"
   Siva Sathyaseelan D N:
     name: "Siva Sathyaseelan D N"
     display_name: "Siva Sathyaseelan D N"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/__sivaaa10"
     description: "Summer of Bitcoin Batch of 2025, worked on VLS"
   Sanyam Shivhare:
     name: "Sanyam Shivhare"
     display_name: "Sanyam Shivhare"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Bitcoin-Tribe"
 
   Riya Kumari:
     name: "Riya Kumari"
     display_name: "Riya Kumari"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Caravan"
 
   Jagadish Sunil Pednekar:
     name: "Jagadish Sunil Pednekar"
     display_name: "Jagadish Sunil Pednekar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/Jsphere16"
     description: "Summer of Bitcoin Batch of 2025, worked on python-bitcoin-utils"
 
   Aritra Majumder:
     name: "Aritra Majumder"
     display_name: "Aritra Majumder"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
 
   Oluwadunsin Abisuwa:
     name: "Oluwadunsin Abisuwa"
     display_name: "Oluwadunsin Abisuwa"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/Abisuwa_Dunsin"
     description: "Summer of Bitcoin Batch of 2025, worked on Alby"
 
   Nitish Jha:
     name: "Nitish Jha"
     display_name: "Nitish Jha"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Shopstr"
 
   Samar Singh Randhawa:
     name: "Samar Singh Randhawa"
     display_name: "Samar Singh Randhawa"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
 
   Divyansh Seth:
     name: "Divyansh Seth"
     display_name: "Divyansh Seth"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Demand"
 
   Mohd Zaid:
     name: "Mohd Zaid"
     display_name: "Mohd Zaid"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/zaidmstrr"
     description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
 
   Abdullah Azeem:
     name: "Abdullah Azeem"
     display_name: "Abdullah Azeem"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/0xabdaze"
     description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
 
   Fabian Kraus:
     name: "Fabian Kraus"
     display_name: "Fabian Kraus"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on LN History"
 
   Garima Chauhan:
     name: "Garima Chauhan"
     display_name: "Garima Chauhan"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://x.com/codingp110"
     description: "Summer of Bitcoin Batch of 2025, worked on BDK"
 
   Mohamed Emad:
     name: "Mohamed Emad"
     display_name: "Mohamed Emad"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Coinswap"
 
   Riccardo Bertelli:
     name: "Riccardo Bertelli"
     display_name: "Riccardo Bertelli"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://x.com/summerofbitcoin"
     description: "Summer of Bitcoin Batch of 2025, worked on Coinswap"
 
   Alec Chen:
     name: "Alec Chen"
     display_name: "Alec Chen"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/alecchendev"
     description: "Summer of Bitcoin Batch of 2023, worked on LDK"
 
   Aniket Shaha:
     name: "Aniket Shaha"
     display_name: "Aniket Shaha"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/flimsyauburn"
     description: "Summer of Bitcoin Batch of 2023, worked on Utreexo"
 
   Aniketh Paul:
     name: "Aniketh Paul"
     display_name: "Aniketh Paul"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/aniketh_88"
     description: "Summer of Bitcoin Batch of 2023, worked on Eye of Satoshi"
 
   Ayush Singh:
     name: "Ayush Singh"
     display_name: "Ayush Singh"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/Ayush_cg"
     description: "Summer of Bitcoin Batch of 2023, worked on Bitcoin Core"
 
   Ayush Varshney:
     name: "Ayush Varshney"
     display_name: "Ayush Varshney"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/AyushVa30941285"
     description: "Summer of Bitcoin Batch of 2023, worked on Alby"
 
   Ayush Saxena:
     name: "Ayush Saxena"
     display_name: "Ayush Saxena"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/AyushSa70335354"
     description: "Summer of Bitcoin Batch of 2023, worked on Eye of Satoshi"
 
   Eshan Vaid:
     name: "Eshan Vaid"
     display_name: "Eshan Vaid"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/VaidEshan"
     description: "Summer of Bitcoin Batch of 2023, worked on Galoy"
 
   Harsh Mahajan:
     name: "Harsh Mahajan"
     display_name: "Harsh Mahajan"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/007harshmahajan"
     description: "Summer of Bitcoin Batch of 2023, worked on LDK"
 
   Harshit Harshit:
     name: "Harshit Harshit"
     display_name: "Harshit Harshit"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/harshiittxd"
     description: "Summer of Bitcoin Batch of 2023, worked on Core Lightning Toolkit"
 
   Joscha Osthoff:
     name: "Joscha Osthoff"
     display_name: "Joscha Osthoff"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/joschaosthoff"
     description: "Summer of Bitcoin Batch of 2023, worked on Fedimint"
 
   Lorenzo Bottelli:
     name: "Lorenzo Bottelli"
     display_name: "Lorenzo Bottelli"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/lorebottelli"
     description: "Summer of Bitcoin Batch of 2023, worked on StratumV2"
 
   Manav Desai:
     name: "Manav Desai"
     display_name: "Manav Desai"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/themanavdesai"
     description: "Summer of Bitcoin Batch of 2023, worked on bcoin"
 
   Maureen Ononiwu:
     name: "Maureen Ononiwu"
     display_name: "Maureen Ononiwu"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://twitter.com/Idonothave"
     description: "Summer of Bitcoin Batch of 2023, worked on LND"
 
   Mohit Kumar:
     name: "Mohit Kumar"
     display_name: "Mohit Kumar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/claddy_k"
     description: "Summer of Bitcoin Batch of 2023, worked on Eclair"
 
   Piyush Kumar:
     name: "Piyush Kumar"
     display_name: "Piyush Kumar"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/Wszdexdrf"
     description: "Summer of Bitcoin Batch of 2023, worked on Trezor"
 
   Prakhar Saxena:
     name: "Prakhar Saxena"
     display_name: "Prakhar Saxena"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/_Psycho_Pirate_"
     description: "Summer of Bitcoin Batch of 2023, worked on LDK"
 
   Prisca Maduka:
     name: "Prisca Maduka"
     display_name: "Prisca Maduka"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://twitter.com/priscachidimma3"
     description: "Summer of Bitcoin Batch of 2023, worked on StratumV2"
 
   Rahul Roy:
     name: "Rahul Roy"
     display_name: "Rahul Roy"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/Roy0Anonymous"
     description: "Summer of Bitcoin Batch of 2023, worked on LDK"
 
   Raihan Khan:
     name: "Raihan Khan"
     display_name: "Raihan Khan"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/raihankhan_rk"
     description: "Summer of Bitcoin Batch of 2023, worked on Bitcoin Tribe"
 
   Satyam Shukla:
     name: "Satyam Shukla"
     display_name: "Satyam Shukla"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/0xsatyam"
     description: "Summer of Bitcoin Batch of 2023, worked on Bitcoin Design"
 
   Shantanu Gaikwad:
     name: "Shantanu Gaikwad"
     display_name: "Shantanu Gaikwad"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/Shantanu_rg13"
     description: "Summer of Bitcoin Batch of 2023, worked on LDK"
 
   Siddharth Tiwari:
     name: "Siddharth Tiwari"
     display_name: "Siddharth Tiwari"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/siddharth1o1"
     description: "Summer of Bitcoin Batch of 2023, worked on Galoy"
 
   Subhradeep Chakraborty:
     name: "Subhradeep Chakraborty"
     display_name: "Subhradeep Chakraborty"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/Subhra264"
     description: "Summer of Bitcoin Batch of 2023, worked on Rust miniscript"
 
   tanishka Sharma:
     name: "tanishka Sharma"
     display_name: "tanishka Sharma"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/female.png"
     twitter: "https://twitter.com/sh27895"
     description: "Summer of Bitcoin Batch of 2023, worked on Bitcoin Design"
 
   Vasu Maheshwari:
     name: "Vasu Maheshwari"
     display_name: "Vasu Maheshwari"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://github.com/Vasu-08"
     description: "Summer of Bitcoin Batch of 2023, worked on bcoin"
 
   Will Owens:
     name: "Will Owens"
     display_name: "Will Owens"
-    avatar: "assets/images/avatar.png"
+    avatar: "assets/images/male.png"
     twitter: "https://twitter.com/owenswill14"
     description: "Summer of Bitcoin Batch of 2023, worked on BDK"
 
