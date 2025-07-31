@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Building a Super Private P2P On-Chain Pipeline for RoboSats with Taproot"
+title: Building a Super Private P2P On-Chain Pipeline for RoboSats with Taproot
 date: 2024-07-18
-author: "Aarav Mehta"
+author: Aarav Mehta
 categories: [Stories]
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1721230211498/dfe93ace-5cf5-4572-b591-95f283e13b42.png
 ---
 
 ## Abstract
@@ -34,7 +35,6 @@ Here is the link: https://github.com/RoboSats/taptrade-core
 
 **FINAL ARCHITECTURE**
 
-![Taptrade pipeline](https://aaravmehta.hashnode.dev/halfway-through-summer-of-bitcoin-2024#)
 
 **Making a HTTP Rest APIs Request, and achieving real time communication**
 

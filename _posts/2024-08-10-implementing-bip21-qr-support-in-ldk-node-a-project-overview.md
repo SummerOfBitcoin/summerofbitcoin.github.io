@@ -3,7 +3,7 @@ layout: post
 title: "Implementing BIP21 QR Support in LDK Node: A Project Overview"
 date: 2024-08-10
 author: "Ian Slane"
-categories: [Stories, LDK]
+categories: [Tutorials, LDK]
 ---
 
 This article discusses the implementation of BIP21 QR code support for LDK Node.

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Getting into Summer of Bitcoin 2025"
+title: Getting into Summer of Bitcoin 2025
 date: 2025-07-10
 author: Rohan Chandra Sen
 categories: [ChatBTC, Stories]
+image: ../assets/images/blog_content/2025-07-10-getting-into-summer-of-bitcoin-2025_117c03ae.png
 ---
 
 

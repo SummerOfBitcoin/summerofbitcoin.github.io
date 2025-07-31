@@ -2,8 +2,9 @@
 layout: post
 title: "Break, Build, Repeat: Designing a Lightning Wallet That Actually Makes Sense"
 date: 2023-06-01
-author: tanishka Sharma
-categories: ['Stories', 'Design']
+author: Tanishka Sharma
+categories: ['Stories', 'Design', 'Lightning Network']
+image: ../assets/images/blog_content/2023-06-01-break-build-repeat-my-journey-designing-a-bitcoin-lightning-wallet_aaf0ea1e.jpg
 ---
 
 ## A bit about my journey

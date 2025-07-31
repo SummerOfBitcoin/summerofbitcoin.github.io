@@ -7,9 +7,7 @@ categories: [Caravan, Stories]
 image: "assets/images/avatar.png"
 ---
 
-Welcome back, Bitcoin enthusiasts and curious minds! In our last post, we
-explored the concept of multisig wallets and the importance of user-friendly
-interfaces. Today, we’ll be delving deeper into the Caravan project, the
+Today, we’ll be delving deeper into the Caravan project, the
 foundation of my summer adventure!
 
 **Caravan: Your Trusted Guide in the Multisig Maze**

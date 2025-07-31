@@ -2,7 +2,7 @@
 layout: post
 title: "A Beginner's Guide to Setting Up an Eclair Lightning Node"
 date: 2024-07-25
-author: "Mohit kumar"
+author: "Mohit Kumar"
 categories: [Tutorials, Lightning Network]
 ---
 

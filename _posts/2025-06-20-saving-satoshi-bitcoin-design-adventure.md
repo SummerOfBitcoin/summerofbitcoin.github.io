@@ -4,10 +4,9 @@ title: "From ‘Oops, Wrong Link!’ to Saving Satoshi: My Bitcoin Design Summer
 date: 2025-06-20
 author: Nandini Arora
 categories: [Design, Stories]
+image: ../assets/images/blog_content/2025-06-20-saving-satoshi-bitcoin-design-adventure_ade956e4.png
 ---
 
-
-Share
 
 Hey everyone! It’s Nandini, product designer (still in college, by the way!)
 here, and wow, what a ride it’s been this summer. I’m buzzing with excitement

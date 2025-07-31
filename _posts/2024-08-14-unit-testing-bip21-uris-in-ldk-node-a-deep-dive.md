@@ -3,10 +3,10 @@ layout: post
 title: "Unit Testing BIP21 URIs in LDK-Node: A Deep Dive"
 date: 2024-08-14
 author: "Ian Slane"
-categories: [Stories, LDK]
+categories: [Tutorials, LDK]
 ---
 
-In my previous post, we talked about the details of implementing the send functionality for BIP21 URIs in LDK Node, exploring the various payment methods including BOLT11 invoices, BOLT12 offers, and on-chain transactions. If you missed it, check it out here! Now, this week, we’ll turn our focus to an equally crucial aspect of the development process: unit testing. Effective unit tests are essential for ensuring the reliability and robustness of our implementation. In this post, I’ll guide you through the unit tests I’ve written to validate the functionality of our BIP21 Unified QR code handler. We’ll cover test cases for each payment type, highlight some of the challenges faced during testing, and examine how these tests help ensure that our payment processing logic functions as expected under various scenarios. Whether you’re working on similar projects or just curious about testing strategies, I hope you’ll find these insights valuable. Let’s dive into the details of how we tested our code and the lessons learned along the way.
+In this article, we’ll turn our focus to an equally crucial aspect of the development process: unit testing. Effective unit tests are essential for ensuring the reliability and robustness of our implementation. In this post, I’ll guide you through the unit tests I’ve written to validate the functionality of our BIP21 Unified QR code handler. We’ll cover test cases for each payment type, highlight some of the challenges faced during testing, and examine how these tests help ensure that our payment processing logic functions as expected under various scenarios. Whether you’re working on similar projects or just curious about testing strategies, I hope you’ll find these insights valuable. Let’s dive into the details of how we tested our code and the lessons learned along the way.
 
 ## IMPLEMENTING THE UNIT TESTS
 

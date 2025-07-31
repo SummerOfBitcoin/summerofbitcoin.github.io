@@ -4,6 +4,7 @@ title: "Making Bitcoin Wallets Work for Everyone: My UX Research Adventure in Ac
 date: 2023-05-20
 author: Satyam Shukla
 categories: ['Stories', 'Design']
+image: ../assets/images/blog_content/2023-05-20-making-bitcoin-wallets-work-for-everyone-my-ux-research-adventure-in-accessibility_f87c71dc.png
 ---
 
 In this article, I am going to walk through my journey as a UX Researcher at

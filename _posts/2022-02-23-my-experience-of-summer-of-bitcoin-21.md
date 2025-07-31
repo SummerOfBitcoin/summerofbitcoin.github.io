@@ -2,11 +2,10 @@
 layout: post
 title: My experience of Summer Of Bitcoin '21
 author: Arnab Sen
-date: "2022-02-23 15:14:00 +0000"
-categories:
-  - "Stories"
-description: "In this post, I will cover the selection process, my experience at Summer of Bitcoin and share some tips for those who are interested in this program."
-image: https://github.com/arnabsen1729/sob-blogs/raw/master/my-experience-of-summer-of-bitcoin21/img/testimonial.webp
+date: 2022-02-23 15:14:00 +0000
+categories: 
+description: In this post, I will cover the selection process, my experience at Summer of Bitcoin and share some tips for those who are interested in this program.
+image: ../assets/images/blog_content/2022-02-23-my-experience-of-summer-of-bitcoin-21_1305b1a2.webp
 ---
 
 On June 26, I received an email saying that I was one of the 50 students selected for the **Summer of Bitcoin 2021** program. I was really happy and felt proud of myself because to be very honest I didn't have high hopes at that point. In this blog, I will cover the selection process, my experience at Summer of Bitcoin and share some tips for those who are interested in this program.

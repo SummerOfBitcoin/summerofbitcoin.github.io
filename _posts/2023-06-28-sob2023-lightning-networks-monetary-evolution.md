@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "SOB'2023: Lightning Network's Monetary Evolution"
+title: "Lightning Network's Monetary Evolution"
 date: 2023-06-28
 author: Pavan Joshi
-categories: ['Stories', 'Lightning']
+categories: ['Stories', 'Lightning Network']
 ---
 
 🎉 Hooray! I am absolutely thrilled to share that I have once again been
 accepted into the prestigious Summer of Bitcoin program! 🌟 This marks my
-second time participating in this incredible opportunity to contribute to the
-world's most prominent monetary system.
+second time participating in this incredible opportunity to contribute to the world's most prominent monetary system.
 
 As I reflect on my journey so far, I am filled with excitement as I kickstart
 my latest project titled "_**Revolutionizing Lightning Payments: Developing

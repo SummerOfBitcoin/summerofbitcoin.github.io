@@ -2,9 +2,9 @@
 layout: post
 title: "Building a Super Private P2P On-Chain Pipeline for RoboSats with Taproot: A Final Evaluation"
 date: 2024-07-22
-author: "Aarav Mehta"
-categories: [Robosats, Stories]
-image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1724934512043/fcf0c2fb-b60a-4f31-ae13-359e04f59124.png"
+author: Aarav Mehta
+categories: [Robosats, Tutorials]
+image: ../assets/images/blog_content/2024-07-22-building-a-super-private-p2p-on-chain-pipeline-for-robosats-with-taproot-a-final-evaluation_ba791759.png
 ---
 ## **Abstract**
 

@@ -4,6 +4,7 @@ title: "How I YOLO’d My Way into Summer of Bitcoin: Chaotic but Glorious Journ
 date: 2025-06-10
 author: Aryan Jain
 categories: [lnprototest, Stories]
+image: ../assets/images/blog_content/2025-06-10-how-i-yolod-my-way-into-summer-of-bitcoin-chaotic-but-glorious-journey_3e9ba426.png
 ---
 
 Share

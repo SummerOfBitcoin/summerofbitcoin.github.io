@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Modernizing a 2013 Bitcoin Solution with 2024 Web Technologies"
+title: Modernizing a 2013 Bitcoin Solution with 2024 Web Technologies
 date: 2025-05-21 00:00:00
-author: "Mohd Zaid"
-categories: ['Stories', 'Braidpool']
+author: Mohd Zaid
+categories: ['Braidpool']
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1721300147538/1d4eb1a2-5b3c-46e3-98d2-0f895b10f5dd.png
 ---
 
 Hello readers, recently I secured a summer internship called "Summer of Bitcoin," which is another great story I will talk about in another blog. Continuing, after I wrote a proposal for a project named "Create new Web User Interface for Gocoin client," I have to convert this project's interface using new technologies like React and similar libraries. Now let's understand what the project is, how it's functioning, what is the purpose of this project? why we need to modernize it? With all these questions let's get started.

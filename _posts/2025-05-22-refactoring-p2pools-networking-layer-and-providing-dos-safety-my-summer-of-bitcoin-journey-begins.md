@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Refactoring P2Pool’s Networking Layer and providing DoS safety— My Summer of Bitcoin Journey Begins"
+title: "Refactoring P2Pool’s Networking Layer and providing DoS safety"
 date: 2025-05-22
 author: Raunak Kumar
-categories: [P2Pool, Stories]
+categories: [P2Pool]
 ---
 
 Hi there! I’m Raunak a first year cs undergrad and a contributor in **Summer

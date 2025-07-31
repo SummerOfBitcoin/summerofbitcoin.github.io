@@ -3,7 +3,8 @@ layout: post
 title: "From Curiosity to Contribution: A Summer of Bitcoin Experience with Galoy CLI"
 date: 2023-07-08
 author: Eshan Vaid
-categories: ['Stories', 'Wallets']
+categories: ['Stories', 'Galoy']
+image: ../assets/images/blog_content/2023-07-08-from-curiosity-to-contribution-a-summer-of-bitcoin-experience-with-galoy-cli_d56b29e1.png
 ---
 
 ## From Application to Revelation

@@ -2,10 +2,9 @@
 layout: post
 title: Introduction to Bitcoin Script
 author: Arnab Sen
-date: "2022-04-05 12:16:00 +0000"
-categories:
-  - "Tutorials"
-image: https://raw.githubusercontent.com/arnabsen1729/sob-blogs/master/introduction-to-bitcoin-script/img/single-txn.webp
+date: 2022-04-05 12:16:00 +0000
+categories: 
+image: ../assets/images/blog_content/2022-04-05-bitcoin-script-arnab-sen_12ea53b7.webp
 ---
 
 We know the bitcoin ledger is nothing but a **Blockchain**. And a single entity of the blockchain is called **Block**. A block is a container data structure that aggregates transactions for inclusion in the public ledger, the blockchain.

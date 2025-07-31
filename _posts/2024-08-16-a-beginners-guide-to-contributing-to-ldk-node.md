@@ -3,7 +3,7 @@ layout: post
 title: "A Beginner's Guide to Contributing to LDK Node"
 date: 2024-08-16
 author: "Ian Slane"
-categories: [Stories, LDK]
+categories: [Tutorials, LDK]
 ---
 
 This article provides a guide for new contributors interested in contributing to the Lightning Dev Kit (LDK) and LDK Node.

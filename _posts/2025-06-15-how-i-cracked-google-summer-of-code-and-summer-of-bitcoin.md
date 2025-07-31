@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "How I Cracked Google Summer of Code and Summer of Bitcoin"
+title: How I Cracked Google Summer of Code and Summer of Bitcoin
 date: 2025-06-15
 author: Krrish Sehgal
 categories: [Caravan, Stories]
+image: ../assets/images/blog_content/2025-06-15-how-i-cracked-google-summer-of-code-and-summer-of-bitcoin_a13d6769.jpg
 ---
 
 ## The GSoC Discovery

@@ -2,11 +2,10 @@
 layout: post
 title: Setting up and interacting with Lightning Network Daemon (LND)⚡️- Part 1
 author: Priyansh Rastogi
-date: "2022-03-23 14:00:00 +0000"
-categories:
-  - "Tutorials"
-description: "Lightning Network is a second layer solution that helps to scale bitcoin transactions and get them settled at a lightning speed."
-image: ttps://cdn.hashnode.com/res/hashnode/image/upload/v1627832562191/CYHODPq2_.png
+date: 2022-03-23 14:00:00 +0000
+categories: 
+description: Lightning Network is a second layer solution that helps to scale bitcoin transactions and get them settled at a lightning speed.
+image: ../assets/images/blog_content/2022-03-23-setting-up-and-interacting-with-lightning-network-daemon-lnd-part-1_1551eb86.png
 ---
 
 In this post, let's catch up with the recent advancements in **Bitcoin** and learn about the **Lightning Network**. 🌠

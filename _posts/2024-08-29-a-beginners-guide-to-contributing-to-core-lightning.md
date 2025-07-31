@@ -3,7 +3,7 @@ layout: post
 title: "A Beginner's Guide to Contributing to Core Lightning"
 date: 2024-08-29
 author: "Max Rantil"
-categories: [Stories, Core-Lightning]
+categories: [Tutorials, Core Lightning]
 ---
 
 ## INTRODUCTION

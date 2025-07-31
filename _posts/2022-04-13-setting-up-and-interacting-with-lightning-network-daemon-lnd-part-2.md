@@ -2,11 +2,10 @@
 layout: post
 title: Setting up and interacting with Lightning Network Daemon (LND)⚡️- Part 2
 author: Priyansh Rastogi
-date: "2022-04-13 14:03:00 +0000"
-categories:
-  - "Tutorials"
-description: "Buying your first coffee on Lightning Network! ♨️"
-image: https://cdn.hashnode.com/res/hashnode/image/upload/v1628424500988/0Y-1xpLYP.png
+date: 2022-04-13 14:03:00 +0000
+categories: 
+description: Buying your first coffee on Lightning Network! ♨️
+image: ../assets/images/blog_content/2022-04-13-setting-up-and-interacting-with-lightning-network-daemon-lnd-part-2_c4035308.png
 ---
 
 I am sure your **coffee** **cravings** from [Part 1](https://blog.summerofbitcoin.org/setting-up-and-interacting-with-lightning-network-daemon-lnd-part-1/) got you here. 🤭

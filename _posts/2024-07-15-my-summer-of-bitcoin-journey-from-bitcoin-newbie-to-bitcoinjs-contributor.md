@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "My Summer of Bitcoin Journey: From Bitcoin Newbie to BitcoinJS Contributor"
+title: "From Bitcoin Newbie to BitcoinJS Contributor"
 date: 2024-07-15
 author: Ayman Mohammed
 categories: [BitcoinJS, Stories]
-image: ""
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1724825570742/2790eb1a-8f7b-4c15-bc4f-3896c91f9935.png
 ---
 
 ## Introduction

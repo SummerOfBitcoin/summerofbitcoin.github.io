@@ -3,7 +3,7 @@ layout: post
 title: "The Fuzz Developer Dilemma — Writing Efficient Fuzz Targets"
 date: 2023-07-12
 author: Ayush Singh
-categories: ['Stories', 'Bitcoin Core']
+categories: ['Tutorials', 'Bitcoin Core']
 ---
 
 For the past 2.5 months, I’ve been working as a Summer Intern at Summer of
@@ -118,9 +118,3 @@ Last but not least, I just wanted to note that many developers don’t make
 their Fuzz Target efficient and simply rely on the fuzzing software to do the
 job, but in my opinion that is not the way to do it. Writing the best possible
 target should always be the goal!
-
-Thanks!
-
-# Author
-
-Ayush Singh (_Twitter_)

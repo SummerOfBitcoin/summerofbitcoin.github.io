@@ -2,9 +2,9 @@
 layout: post
 title: Running Bitcoin Core, Signet and playing with test bitcoins using Bitcoin-CLI 🌠
 author: Priyansh Rastogi
-date: "2022-03-29 15:17:00 +0000"
-categories:
-  - "Tutorials"
+date: 2022-03-29 15:17:00 +0000
+categories: 
+image: ../assets/images/blog_content/2022-03-29-running-bitcoin-core-signet-and-playing-with-test-bitcoins-using-bitcoin-cli_8f9cbc4b.png
 ---
 
 # Installation ⬇️

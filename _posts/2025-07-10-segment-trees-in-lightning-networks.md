@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Segment Trees in Lightning networks!"
+title: Segment Trees in Lightning networks!
 date: 2025-07-10
 author: Abhijit Saha
-categories: [SeedSigner, Stories]
+categories: [Lightning Network]
+image: ../assets/images/blog_content/2025-07-10-segment-trees-in-lightning-networks_bc715931.png
 ---
 
 I have always been fascinated by segment trees. But as someone who craves to

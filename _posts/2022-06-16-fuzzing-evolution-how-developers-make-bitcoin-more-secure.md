@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Fuzzing Evolution: How developers make Bitcoin more secure"
-author: Jing Liu 
-date: "2022-06-16 08:16:43 +0000"
-categories:
-  - "Bitcoin Core"
-image: https://github.com/google/oss-fuzz/raw/master/docs/images/process.png
+author: Jing Liu
+date: 2022-06-16 08:16:43 +0000
+categories: 
+image: ../assets/images/blog_content/2022-06-16-fuzzing-evolution-how-developers-make-bitcoin-more-secure_d1ca3172.png
 ---
 
 ## Abstract

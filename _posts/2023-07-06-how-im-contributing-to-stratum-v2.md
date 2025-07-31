@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "How I'm contributing to Stratum V2"
+title: How I'm contributing to Stratum V2
 date: 2023-07-06
 author: Lorenzo Bottelli
-categories: ['Stories', 'Mining']
+categories: ['Stratum', 'Mining']
+image: ../assets/images/blog_content/2023-07-06-how-im-contributing-to-stratum-v2_8e4518d1.png
 ---
-
-Share
 
 > **Introduction**
 

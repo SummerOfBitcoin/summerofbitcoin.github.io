@@ -3,7 +3,7 @@ layout: post
 title: "A Technical Deep Dive into RBF Implementation for Caravan"
 date: 2024-07-27
 author: "Mrigesh Thakur"
-categories: [Stories, Caravan]
+categories: [Tutorials, Caravan]
 ---
 
 ## Introduction

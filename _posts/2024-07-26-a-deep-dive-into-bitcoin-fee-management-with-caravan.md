@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "A Deep Dive into Bitcoin Fee Management with Caravan"
+title: A Deep Dive into Bitcoin Fee Management with Caravan
 date: 2024-07-26
-author: "Mrigesh Thakur"
-categories: [Stories, Caravan]
+author: Mrigesh Thakur
+categories: [Tutorials, Caravan]
+image: ../assets/images/blog_content/2024-07-26-a-deep-dive-into-bitcoin-fee-management-with-caravan_be48aeee.png
 ---
 
 **Can you imagine it's been 15 years since the inception of Bitcoin ?**

@@ -3,13 +3,11 @@ layout: post
 title: "LNURL: A Protocol for Easy Communication between Lightning Wallets and Services"
 date: 2023-09-04
 author: Siddharth Tiwari
-categories: ['Stories', 'Wallets']
+categories: ['Tutorials', 'Lightning Network']
+image: ../assets/images/blog_content/2023-09-04-demystifying-lnurl-a-lightning-network-protocol-for-seamless-bitcoin-transactions_4f24e44f.png
 ---
 
-Share
-
-Have you ever heard of LNURL and wondered what it’s all about? Well, I’m here
-to tell you that you’re in luck! In this blog post, I’ll dive into the
+Have you ever heard of LNURL and wondered what it’s all about? Well, I’m here to tell you that you’re in luck! In this blog post, I’ll dive into the
 fascinating world of LNURL and explore how it revolutionizes the way we use
 Bitcoin on the Lightning Network. Don’t worry if you’re new to this concept;
 I’ll explain everything in simple terms!

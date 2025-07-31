@@ -2,10 +2,10 @@
 layout: post
 title: "Breaking Bitcoin: Can we derive the private key?"
 author: Sivaram D
-date: "2021-10-01 08:32:00 +0000"
-categories:
-  - "Cryptography"
-description: "Let's try to derive the private key from a given public key!"
+date: 2021-10-01 08:32:00 +0000
+categories: 
+description: Let's try to derive the private key from a given public key!
+image: ../assets/images/blog_content/2021-10-01-discrete-log-problem-can-we-derive-the-private-key_e8d4d369.jpg
 ---
 
 Many technologies like Tor, Bitcoin, and Email use *Asymmetric Cryptography* (also known as *Public Key Cryptography*) for secure data exchanges. If you are reading this blog, your browser has established a secure connection to the blog's server using this cryptography. The fundamental step for such secure connections is the generation of a private and public key pair.

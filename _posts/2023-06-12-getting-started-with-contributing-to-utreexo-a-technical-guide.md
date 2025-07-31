@@ -3,7 +3,7 @@ layout: post
 title: "Getting Started with Contributing to Utreexo: A Technical Guide"
 date: 2023-06-12
 author: Aniket Shaha
-categories: ['Stories', 'Bitcoin Core']
+categories: ['Stories', 'Utreexo']
 ---
 
 I had the amazing opportunity to contribute to the Utreexo project throughout

@@ -3,7 +3,7 @@ layout: post
 title: "Reflecting on My Journey at Summer of Bitcoin"
 date: 2023-06-03
 author: Tarek Elsayed
-categories: ['Stories', 'Lightning']
+categories: ['Stories', 'Core Lightning']
 ---
 
 # Introduction

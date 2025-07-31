@@ -3,7 +3,7 @@ layout: post
 title: "What is PyASIC?"
 date: 2024-07-22
 author: "Abhishek Patidar"
-categories: [PyASIC]
+categories: [PyASIC, Tutorials]
 ---
 
 Hey everyone, welcome back! This is a continuation of my first blog where I shared my initial experience with the Summer of Bitcoin. As I mentioned earlier, I had the privilege of being selected to contribute to the PyASIC organization.

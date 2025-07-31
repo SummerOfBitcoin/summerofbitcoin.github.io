@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Beginner's Guide to Testing Bitcoin Core"
+title: Beginner's Guide to Testing Bitcoin Core
 date: 2024-08-21
-author: "Prabhat Verma"
+author: Prabhat Verma
 categories: [Tutorials, Bitcoin Core]
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1717965437620/fc5ff0ed-da88-4b29-8945-41b1856a0bda.png
 ---
 
-With this article , I will be sharing how you can start testing in Bitcoin Core , specifically Unit testing and Functional testing .
+With this article , I will be sharing how you can start testing in Bitcoin Core, specifically Unit testing and Functional testing.
 
 ### Setup
 

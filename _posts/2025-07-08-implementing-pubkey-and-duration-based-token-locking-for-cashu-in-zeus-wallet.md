@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Implementing Pubkey and Duration-Based Token Locking for Cashu in Zeus Wallet"
+title: Implementing Pubkey and Duration-Based Token Locking for Cashu in Zeus Wallet
 date: 2025-07-08
 author: Ajay Sehwal
-categories: [Zeus, Stories]
+categories: [Zeus, Cashu]
+image: ../assets/images/blog_content/2025-07-08-implementing-pubkey-and-duration-based-token-locking-for-cashu-in-zeus-wallet_f98de17e.png
 ---
 
 ## Step 1: You Send Bitcoin to the Mint

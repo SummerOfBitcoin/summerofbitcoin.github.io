@@ -3,11 +3,9 @@ layout: post
 title: "Rust-Miniscript's Planning Module: Efficient Bitcoin Transactions"
 date: 2023-08-01
 author: Harshil Jani
-categories: ['Stories', 'Rust']
+categories: ['Tutorials', 'Rust Miniscript']
+image: ../assets/images/blog_content/2023-08-01-rust-miniscripts-planning-module-efficient-bitcoin-transactions_4b6e5a01.png
 ---
-
-
-Share
 
 I have worked on the **Rust-Miniscript** project during my **Summer of Bitcoin
 2023 Internship**. This blog post is about what actually is the Planning

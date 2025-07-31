@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "My Summer of Bitcoin 2024 Journey: A Guide to Getting In"
+title: "A Guide to Getting In Summer of Bitcoin"
 date: 2024-07-19
 author: Bhavesh Gupta
 categories: [Jam, Stories]
-image: ""
 ---
 
 Hey Everyone! Writing this blog as I reach halfway through my Summer of

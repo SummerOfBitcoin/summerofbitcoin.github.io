@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Bringing Browser Compatibility and ESM Support to BitcoinJS"
+title: Bringing Browser Compatibility and ESM Support to BitcoinJS
 date: 2024-08-12
 author: Ayman Mohammed
 categories: [BitcoinJS, Tutorials]
-image: ""
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1724835566295/73d6c90e-4c9b-441c-9220-39731b8c6a7a.png
 ---
 
 Let's say you decide to make a Bitcoin app. You setup a vite project (or even a remix one), you install `bitcoinjs-lib`. You write a few lines of code using bitcoinjs-lib and you start up your local dev server and you're hit with this:

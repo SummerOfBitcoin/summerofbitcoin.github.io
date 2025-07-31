@@ -3,7 +3,8 @@ layout: post
 title: "Speaking Bitcoin's Language: How I Localized a Wallet for French Speakers Worldwide"
 date: 2023-05-31
 author: Temiloluwa Yusuf
-categories: ['Stories', 'Wallets']
+categories: ['Stories', 'BDK']
+image: ../assets/images/blog_content/2023-05-31-speaking-bitcoins-language-how-i-localized-a-wallet-for-french-speakers-worldwide_daa1817d.jpg
 ---
 
 In this article I will share how I created an iOS Demo wallet with Swift,

@@ -3,7 +3,8 @@ layout: post
 title: "Bitcoin Light Clients Explained: A Beginner's Guide to Neutrino"
 date: 2023-07-23
 author: Maureen Ononiwu
-categories: ['Stories', 'Lightning']
+categories: ['Tutorials']
+image: https://www.tutorialspoint.com/blockchain/images/chaining_blocks.jpg
 ---
 
 ## Summary of What to Expect From This Article

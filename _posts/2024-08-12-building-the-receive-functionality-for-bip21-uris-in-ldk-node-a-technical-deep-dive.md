@@ -3,10 +3,10 @@ layout: post
 title: "Building the Receive Functionality for BIP21 URIs in LDK-Node: A Technical Deep Dive"
 date: 2024-08-12
 author: "Ian Slane"
-categories: [Stories, LDK]
+categories: [Tutorials, LDK]
 ---
 
-In the previous post, we went into the integration of the bip21 crate in LDK Node, which enables the creation and parsing of BIP21 URIs. You can check it out here for better context. This week, we move forward to one of the main aspects of the project: implementing the receive functionality. This involves generating URIs that can handle multiple payment scenarios, including BOLT11 invoices and BOLT12 offers. In this post, I’ll take you through the initial rough draft, a step-by-step guide on the implementation, and code snippets with explanations. I’ll also show the updates to the serialize and deserialize logic from the last post.
+In this article, we discuss one of the main aspects of my Summer of Bitcoin project: implementing the receive functionality. This involves generating URIs that can handle multiple payment scenarios, including BOLT11 invoices and BOLT12 offers. In this post, I’ll take you through the initial rough draft, a step-by-step guide on the implementation, and code snippets with explanations. I’ll also show the updates to the serialize and deserialize logic from the last post.
 
 ### IMPLEMENTING THE RECEIVE FUNCTIONALITY
 

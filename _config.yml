@@ -294,9 +294,9 @@ authors:
     avatar: 'assets/images/male.png'
     twitter: https://twitter.com/mohamedawnallah
     description: "Summer of Bitcoin Batch of 2024, worked on LND"
-  Mohit kumar:
-    name: Mohit kumar
-    display_name: Mohit kumar
+  Mohit Kumar:
+    name: Mohit Kumar
+    display_name: Mohit Kumar
     avatar: 'assets/images/male.png'
     twitter: https://twitter.com/claddy_k
     description: "Summer of Bitcoin Batch of 2024, worked on Coinswap"
@@ -312,18 +312,18 @@ authors:
     avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on python-bitcoin-utils"
+  Njokom Nshanui:
+    name: Njokom Nshanui
+    display_name: Njokom Nshanui
+    avatar: 'assets/images/male.png'  
+    twitter: 
+    description: "Summer of Bitcoin Batch of 2024, worked on Utreexo"
   Nithish Karthik Shanmugasundaram:
     name: Nithish Karthik Shanmugasundaram
     display_name: Nithish Karthik Shanmugasundaram
     avatar: 'assets/images/male.png'
     twitter: 
     description: "Summer of Bitcoin Batch of 2024, worked on gocoin"
-  Nchumoh Nshanui:
-    name: Nchumoh Nshanui
-    display_name: Nchumoh Nshanui
-    avatar: 'assets/images/male.png'
-    twitter: https://twitter.com/dyceman10
-    description: "Summer of Bitcoin Batch of 2024, worked on Utreexo"
   Ogenna Daniel:
     name: Ogenna Daniel
     display_name: Ogenna Daniel
@@ -985,9 +985,9 @@ authors:
     twitter: "https://twitter.com/Subhra264"
     description: "Summer of Bitcoin Batch of 2023, worked on Rust miniscript"
 
-  tanishka Sharma:
-    name: "tanishka Sharma"
-    display_name: "tanishka Sharma"
+  Tanishka Sharma:
+    name: "Tanishka Sharma"
+    display_name: "Tanishka Sharma"
     avatar: "assets/images/female.png"
     twitter: "https://twitter.com/sh27895"
     description: "Summer of Bitcoin Batch of 2023, worked on Bitcoin Design"
@@ -1023,7 +1023,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 12
 paginate_path: /page:num/
     
 # Other

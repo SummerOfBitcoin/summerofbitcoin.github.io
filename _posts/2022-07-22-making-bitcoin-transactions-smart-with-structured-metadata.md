@@ -2,10 +2,9 @@
 layout: post
 title: Making Bitcoin Transactions Smart with Structured Metadata
 author: Pavan Joshi
-date: "2022-07-22 12:22:30 +0000"
-categories:
-  - "Tutorials"
-  - "Bitcoin Core"
+date: 2022-07-22 12:22:30 +0000
+categories: 
+image: ../assets/images/blog_content/2022-07-22-making-bitcoin-transactions-smart-with-structured-metadata_13853659.jpg
 ---
 
 ## Abstract ⚡

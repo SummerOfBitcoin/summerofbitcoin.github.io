@@ -3,7 +3,7 @@ layout: post
 title: "Comparing Stratum V1 and Stratum V2 for Mining (through benchmarks)"
 date: 2023-08-14
 author: Prisca Maduka
-categories: ['Stories', 'Mining']
+categories: ['Stratum', 'Mining']
 ---
 
 **Introduction:**

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Cracking Summer of Bitcoin 2025"
+title: Cracking Summer of Bitcoin 2025
 date: 2025-06-03
 author: Arunabha Dhal
 categories: [Galoy, Stories]
+image: ../assets/images/blog_content/2025-06-03-cracking-summer-of-bitcoin-2025_98fb90d9.png
 ---
 
 ## Week 1: Interacting with a Bitcoin Node

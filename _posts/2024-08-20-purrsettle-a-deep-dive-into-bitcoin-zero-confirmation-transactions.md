@@ -4,7 +4,6 @@ title: "PurrSettle: A Deep Dive into Bitcoin Zero-Confirmation Transactions"
 date: 2024-08-20
 author: Ayman Mohammed
 categories: [BitcoinJS, Tutorials]
-image: ""
 ---
 
 PurrSettle is a settlement mechanism for Bitcoin zero confirmation transactions. It is a derivative concept of this [paper](https://eprint.iacr.org/2017/394.pdf) which makes use of `OP_AND` which is currently disabled. This mechanism makes use of the `OP_CAT` opcode which is also disabled but allows for a more cost-effective version to ensure a penalty mechanism is in place when a malicious actor tries to double spend their coins. At the heart of this mechanism, is the commitment of a nonce within the script that will be used to create signatures. If a malicious actor tries to double spend their coins, they risk revealing their private key making it easy for onlookers aware of the protocol to sweep all their coins. An example implementation can be found [here](https://github.com/crema-labs/PurrSettle) (Crema labs is the organization where me and my friends build proof of concepts!).

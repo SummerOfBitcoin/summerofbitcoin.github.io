@@ -3,7 +3,7 @@ layout: post
 title: "The Engineering Marvel of Bitcoin: Partially Signed Transactions"
 date: 2023-08-12
 author: Subhradeep Chakraborty
-categories: ['Stories', 'Rust']
+categories: ['Tutorials', 'PSBT']
 ---
 
 Bitcoin, one of the greatest inventions of this century, has been widely
@@ -84,6 +84,4 @@ initializing the PSBT.
   * **Finalizer** : This step is similar to that of PSBTV0.
   * **Extractor** : Since PSBTV2 does not store unsigned transactions internally, the Extractor first needs to build the transaction using various fields of the PSBTV2. If all inputs are complete, the Extractor produces fully validated, network-serialized transactions that can be transmitted through the Bitcoin network.
 
-Here in the article, I have shared a brief introduction to PSBTs and how they
-are used in collaborative transactions. In the upcoming articles, I will go
-deeper into it and give more insightful details regarding its implementation.
+Here in the article, I have shared a brief introduction to PSBTs and how they are used in collaborative transactions.

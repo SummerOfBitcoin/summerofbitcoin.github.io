@@ -3,7 +3,7 @@ layout: post
 title: "Utreexo: Writing tests for Partial Pollards"
 date: 2023-08-25
 author: Aniket Shaha
-categories: ['Stories', 'Bitcoin Core']
+categories: ['Tutorials', 'Utreexo']
 ---
 
 

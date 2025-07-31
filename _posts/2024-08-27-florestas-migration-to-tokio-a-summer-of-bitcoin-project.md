@@ -2,8 +2,9 @@
 layout: post
 title: "Floresta's Migration to Tokio: A Summer of Bitcoin Project"
 date: 2024-08-27
-author: "Shashank Trivedi"
-categories: [Stories, Floresta]
+author: Shashank Trivedi
+categories: [Floresta]
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1724754147441/fb2b1cfb-86f6-47e6-a51a-ef4db12d5b0a.jpeg
 ---
 
 ## **Introduction**

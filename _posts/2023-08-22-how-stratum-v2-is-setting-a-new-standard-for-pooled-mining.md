@@ -3,7 +3,7 @@ layout: post
 title: "How Stratum V2 is setting a new standard for pooled mining"
 date: 2023-08-22
 author: Lorenzo Bottelli
-categories: ['Stories', 'Mining']
+categories: ['Stratum', 'Mining']
 ---
 
 > **Introduction**

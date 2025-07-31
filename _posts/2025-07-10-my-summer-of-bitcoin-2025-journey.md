@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "My Summer of Bitcoin 2025 Journey"
+title: My Summer of Bitcoin 2025 Journey
 date: 2025-07-10
 author: Nischal Shetty
 categories: [Jam, Stories]
+image: ../assets/images/blog_content/2025-07-10-my-summer-of-bitcoin-2025-journey_31955f89.jpg
 ---
 
 On a random Thursday evening I got a notification from

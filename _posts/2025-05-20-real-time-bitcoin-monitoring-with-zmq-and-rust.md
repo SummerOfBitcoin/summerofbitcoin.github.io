@@ -3,7 +3,7 @@ layout: post
 title: "Real-Time Bitcoin Monitoring with ZMQ and Rust"
 date: 2025-05-20 00:00:00
 author: "Divyansh Seth"
-categories: ['Stories', 'Demand']
+categories: ['ZMQ']
 ---
 
 ## Introduction

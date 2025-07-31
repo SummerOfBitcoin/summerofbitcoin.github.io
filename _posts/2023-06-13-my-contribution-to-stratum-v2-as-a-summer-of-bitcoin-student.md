@@ -3,7 +3,7 @@ layout: post
 title: "My contribution to Stratum V2 as a Summer of Bitcoin student"
 date: 2023-06-13
 author: Lorenzo Bottelli
-categories: ['Stories', 'Mining']
+categories: ['Stratum', 'Mining', 'Stories']
 ---
 
 > **Introduction**

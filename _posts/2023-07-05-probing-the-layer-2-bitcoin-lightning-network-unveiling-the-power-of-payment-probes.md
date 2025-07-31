@@ -3,7 +3,7 @@ layout: post
 title: "Probing the Layer 2 Bitcoin Lightning Network: Unveiling the Power of Payment Probes"
 date: 2023-07-05
 author: Harsh Mahajan
-categories: ['Stories', 'Lightning']
+categories: ['Lightning Network']
 ---
 
 # **Introduction**

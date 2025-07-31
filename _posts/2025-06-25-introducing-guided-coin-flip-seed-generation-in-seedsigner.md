@@ -3,10 +3,9 @@ layout: post
 title: "Introducing Guided Coin-Flip Seed Generation in SeedSigner"
 date: 2025-06-25
 author: Nitish Itankar
-categories: [SeedSigner, Stories]
+categories: [SeedSigner]
+image: https://miro.medium.com/v2/resize:fit:1400/format:webp/0*bpqZ8Ui-rVYNu1fS.png
 ---
-
-Photo from https://seedsigner.com/
 
 At the heart of the Bitcoin ethos lies a powerful, almost sacred, principle:
 **“Don’t trust, verify.”** This philosophy drives the entire system, from the

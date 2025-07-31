@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "What It Really Takes to Get Into Summer of Bitcoin (My SOB 2025 Journey)"
+title: What It Really Takes to Get Into Summer of Bitcoin
 date: 2025-06-12
 author: Devi Charan Chitluri
 categories: [Zeus, Stories]
+image: ../assets/images/blog_content/2025-06-12-what-it-really-takes-to-get-into-summer-of-bitcoin-my-sob-2025-journey_b84ed158.png
 ---
 
 

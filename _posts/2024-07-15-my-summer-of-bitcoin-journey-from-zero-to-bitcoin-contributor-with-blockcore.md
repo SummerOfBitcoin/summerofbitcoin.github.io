@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Summer of Bitcoin Journey: From Zero to Bitcoin Contributor with Blockcore"
+title: "From Zero to Bitcoin Contributor with Blockcore"
 date: 2024-07-15
 author: "Dhruv Bhanushali"
 categories: [Stories, Blockcore]

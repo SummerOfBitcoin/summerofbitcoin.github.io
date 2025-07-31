@@ -2,10 +2,9 @@
 layout: post
 title: Digging into IsStandard in Bitcoin Core
 author: Arnab Sen
-date: "2022-04-12 12:19:00 +0000"
-categories:
-  - "Bitcoin Core"
-  - "Tutorials"
+date: 2022-04-12 12:19:00 +0000
+categories: 
+image: ../assets/images/blog_content/2022-04-12-isstandard-bitcoin-core_bc44f224.jpg
 ---
 
 In this post, we will focus on the Bitcoin Core implementation of the different types of scripts / transactions methods. Here is the link to the repo:

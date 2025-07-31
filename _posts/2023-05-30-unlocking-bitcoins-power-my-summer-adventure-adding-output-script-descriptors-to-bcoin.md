@@ -3,7 +3,8 @@ layout: post
 title: "Unlocking Bitcoin's Power: My Summer Adventure Adding Output Script Descriptors to Bcoin"
 date: 2023-05-30
 author: Vasu Maheshwari
-categories: ['Stories', 'Bitcoin Core']
+categories: ['Stories', 'bcoin']
+image: ../assets/images/blog_content/2023-05-30-unlocking-bitcoins-power-my-summer-adventure-adding-output-script-descriptors-to-bcoin_1e88369a.png
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Utreexo: A Deep Dive into Improving Bitcoin's Scalability"
 date: 2024-08-17
 author: "Njokom Nshanui"
-categories: [Stories, Utreexo]
+categories: [Tutorials, Utreexo]
 ---
 
 The world is growing ever digital by the day and more and more aspects of our lives have become more and more intangible. Currency hasn't been left out, from physical cash, to cashless systems and now cryptocurrencies. Since the inception of the first block of Bitcoin in 2009 it's adoption has grown ever so rapidly and with more adoption comes more stability and trust in the network which will only increase it's adoption.

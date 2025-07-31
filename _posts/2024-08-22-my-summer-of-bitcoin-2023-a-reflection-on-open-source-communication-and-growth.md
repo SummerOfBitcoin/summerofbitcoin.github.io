@@ -2,8 +2,9 @@
 layout: post
 title: "My Summer of Bitcoin 2024: A Reflection on Open Source, Communication, and Growth"
 date: 2024-08-22
-author: "Mohit kumar"
+author: Mohit Kumar
 categories: [Stories, Eclair]
+image: ../assets/images/blog_content/2024-08-22-my-summer-of-bitcoin-2023-a-reflection-on-open-source-communication-and-growth_20ee8fe8.png
 ---
 
 Hello everyone! As we approach the end of this series, I reflect on my enriching experiences throughout the Summer of Bitcoin.

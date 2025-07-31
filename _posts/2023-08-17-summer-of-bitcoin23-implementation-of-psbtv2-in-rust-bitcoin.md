@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Summer Of Bitcoin'23: Implementation of PsbtV2 in rust-bitcoin"
+title: "Implementation of PSBTv2 in Rust-Bitcoin"
 date: 2023-08-17
 author: Subhradeep Chakraborty
-categories: ['Stories', 'Rust']
+categories: ['PSBT', 'Rust Bitcoin']
 ---
 
-Summer Of Bitcoin is a yearly summer internship program aimed for university
+Summer of Bitcoin is a yearly summer internship program aimed for university
 students to help them get into the bitcoin world as developers or designers.
 This year, I got the opportunity to work as a SoB intern under the guidance of
 Sanket Kanjalkar, a Cryptographic Engineer at Blockstream Research.

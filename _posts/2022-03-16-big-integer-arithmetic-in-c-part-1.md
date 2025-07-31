@@ -52,7 +52,7 @@ Breaking this into 4 x 64-bit limbs will look like:
 * Limb 2: `029BFCDB 2DCE28D9`
 * Limb 3: `55A06295 CE870B07`
 * Limb 4: `79BE667E F9DCBBAC` *(most significant)*
-
+{% raw %}
 ```c
 // C struct for storing 256-bit unsigned integer
 typedef struct {
@@ -60,13 +60,14 @@ typedef struct {
 } big_int256;
 
 // macro to create a big_int256
-#define GET_BIG_INT256(d7, d6, d5, d4, d3, d2, d1, d0) {{ \
-    (d0) | (((uint64_t)(d1)) << 32), \
-    (d2) | (((uint64_t)(d3)) << 32), \
-    (d4) | (((uint64_t)(d5)) << 32), \
-    (d6) | (((uint64_t)(d7)) << 32) \
+#define GET_BIG_INT256(d7, d6, d5, d4, d3, d2, d1, d0) {{
+    (d0) | (((uint64_t)(d1)) << 32),
+    (d2) | (((uint64_t)(d3)) << 32),
+    (d4) | (((uint64_t)(d5)) << 32),
+    (d6) | (((uint64_t)(d7)) << 32)
 }}
 ```
+{% endraw %}
 
 This form of a 256-bit integer is called a **\( 2^{64} \) radix** representation (due to 64-bit limbs), and this is not the only way to represent a 256-bit integer.
 

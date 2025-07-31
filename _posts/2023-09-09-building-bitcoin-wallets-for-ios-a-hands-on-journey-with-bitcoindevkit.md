@@ -3,7 +3,8 @@ layout: post
 title: "Let's break new ground: Create an iOS Demo wallet with BDK"
 date: 2023-09-09
 author: Temiloluwa Yusuf
-categories: ['Stories', 'Wallets']
+categories: ['Tutorials', 'Wallets']
+image: ../assets/images/blog_content/2023-09-09-building-bitcoin-wallets-for-ios-a-hands-on-journey-with-bitcoindevkit_daa1817d.jpg
 ---
 
 In this article I will share how I created an iOS Demo wallet with Swift,

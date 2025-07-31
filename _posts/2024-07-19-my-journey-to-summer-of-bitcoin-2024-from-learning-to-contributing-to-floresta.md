@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Journey to Summer of Bitcoin 2024: From Learning to Contributing to Floresta"
+title: "From Learning to Contributing to Floresta"
 date: 2024-07-19
 author: "Abhinav Agarwalla"
 categories: [Stories]

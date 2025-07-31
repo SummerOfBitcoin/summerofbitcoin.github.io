@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "How to contribute in the design track of summer of bitcoin"
+title: How to Contribute In The Design Track of Summer of Bitcoin
 date: 2023-08-24
-author: tanishka Sharma
-categories: ['Stories', 'Design']
+author: Tanishka Sharma
+categories: ['Tutorials', 'Design']
+image: ../assets/images/blog_content/2023-08-24-how-to-contribute-in-the-design-track-of-summer-of-bitcoin_aaf0ea1e.jpg
 ---
 
 ## A bit about my journey

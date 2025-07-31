@@ -2,11 +2,9 @@
 layout: post
 title: "The Eye of Satoshi: Your Personal Bodyguard for Lightning Network Transactions"
 author: Aniketh Paul
-date: "2023-06-28 15:09:47 +0000"
-categories:
-  - "Tutorials"
-  - "Lightning Network"
-image: https://cdn.hashnode.com/res/hashnode/image/upload/v1685559673144/749f3c9b-ef51-410b-8f21-ef12059b6914.png?auto=compress,format&format=webp
+date: 2023-06-28 15:09:47 +0000
+categories: [Lightning Network]
+image: ../assets/images/blog_content/2023-06-28-the-eye-of-satoshi-your-personal-bodyguard-for-lightning-network-transactions_afebc9f4.png
 ---
 
 ## **Introduction**

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "My Summer of Bitcoin 2025 Experience with Breez"
+title: My Summer of Bitcoin 2025 Experience with Breez
 date: 2025-07-10
 author: Ayush Saksena
 categories: [Breez, Stories]
+image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*TtizUlLkanFpDbJcH-LoSw.jpeg
 ---
 
 

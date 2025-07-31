@@ -3,7 +3,8 @@ layout: post
 title: "Building AI-Powered Bitcoin Development Tools: My Mid-Term Journey in Summer of Bitcoin 2025"
 date: 2025-07-10
 author: Shashank Shekhar Singh
-categories: [ChatBTC, Stories]
+categories: [AI, ChatBTC, Stories]
+image: ../assets/images/blog_content/2025-07-10-building-ai-powered-bitcoin-development-tools-my-mid-term-journey-in-summer-of-bitcoin-2025_116fa7a6.png
 ---
 
 
@@ -15,14 +16,6 @@ artificial intelligence and Bitcoin development. Having contributed to the
 Bitcoin ecosystem in Summer of Bitcoin 2024 with libbitcoin, I returned this
 year with an even more ambitious vision: building AI-powered tools that could
 revolutionize how developers interact with Bitcoin codebases and knowledge.
-
-Summer of Bitcoin
-
-<figure>
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dmbNkD5D-u45r44go_cf0g.png"/>
-</figure>
-
-L: Braidpool and R: Python-Bitcoin-Utils
 
 As I reach the halfway point of my Summer of Bitcoin 2025 journey, I’m excited
 to share the progress on my project: developing a comprehensive AI-powered
