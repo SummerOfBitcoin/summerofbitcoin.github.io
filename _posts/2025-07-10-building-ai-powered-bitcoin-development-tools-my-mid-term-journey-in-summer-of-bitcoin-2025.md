@@ -3,7 +3,7 @@ layout: post
 title: "Building AI-Powered Bitcoin Development Tools: My Mid-Term Journey in Summer of Bitcoin 2025"
 date: 2025-07-10
 author: Shashank Shekhar Singh
-categories: [AI, ChatBTC, Stories]
+categories: [AI, Stories]
 image: ../assets/images/blog_content/2025-07-10-building-ai-powered-bitcoin-development-tools-my-mid-term-journey-in-summer-of-bitcoin-2025_116fa7a6.png
 ---
 

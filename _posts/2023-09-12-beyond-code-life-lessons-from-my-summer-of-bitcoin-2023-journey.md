@@ -3,7 +3,7 @@ layout: post
 title: "Beyond Code: Life Lessons from My Summer of Bitcoin 2023 Journey"
 date: 2023-09-12
 author: Mohit Kumar
-categories: ['Stories', 'Lightning']
+categories: ['Stories', 'Lightning Network']
 image: ../assets/images/blog_content/2023-09-12-beyond-code-life-lessons-from-my-summer-of-bitcoin-2023-journey_20ee8fe8.png
 ---
 

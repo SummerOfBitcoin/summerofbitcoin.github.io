@@ -3,7 +3,7 @@ layout: post
 title: A Deep Dive into P2PKH Transactions
 date: 2024-08-04
 author: Vanshul Bhatia
-categories: [Tutorials, Bitcoin]
+categories: [Tutorials]
 image: https://miro.medium.com/v2/resize:fit:1400/1*45weRC1vzYsEvG1Y3w1qrA.png
 ---
 

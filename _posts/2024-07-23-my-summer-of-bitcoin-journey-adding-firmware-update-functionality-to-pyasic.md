@@ -3,7 +3,7 @@ layout: post
 title: "My Summer of Bitcoin Journey: Adding Firmware Update Functionality to PyASIC"
 date: 2024-07-23
 author: "Abhishek Patidar"
-categories: [Summer of Bitcoin, Pyasic]
+categories: [Pyasic]
 ---
 
 Hey everyone, welcome back! In this blog, we'll cover the progress I've made on the project. If you haven't read my first blog, I recommend checking it out [here](https://abhishekpatidar.hashnode.dev/summer-of-bitcoin-2024-my-experience) an introduction to the project. For more details about my organization and the project background, be sure to read my second blog [here](https://abhishekpatidar.hashnode.dev/summer-of-bitcoin-2024-my-experience-1).
