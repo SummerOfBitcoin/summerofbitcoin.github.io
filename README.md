@@ -47,7 +47,7 @@ Edit `_config.yml` and add your information to the `authors` section:
 Your Name:
   name: "Your Full Name"
   display_name: "Your Display Name"
-  avatar: "assets/images/male.png"  # or "assets/images/female.png"
+  avatar: "assets/images/male.png"  # OR "assets/images/female.png" OR your own picture
   twitter: "https://x.com/your_handle"  # optional
   description: "Summer of Bitcoin Batch of YYYY, worked on [Project Name]"
 ```
