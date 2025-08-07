@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "From Missteps to Mastery: Building Hashrate Distribution Logic in DMND"
-date: 2025-06-18
+date: 2025-07-01
 author: Ayush Bansal
 categories: [Demand, Stories]
 ---
+
+![DMND Hashrate Distribution](https://miro.medium.com/v2/resize:fit:640/format:webp/0*rIOfI5zag_gQA1XJ.jpg)
 
 > “The best way to learn how to build the right thing… is by building the
 > wrong thing first.”
