@@ -1005,6 +1005,12 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://twitter.com/owenswill14"
     description: "Summer of Bitcoin Batch of 2023, worked on BDK"
+  
+  Arpan Jain:
+  name: "Arpan Jain"
+  display_name: "Arpan arpan2048 Jain"
+  avatar : "assets/images/male.png"
+  description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
 
 # Plugins
 plugins:
