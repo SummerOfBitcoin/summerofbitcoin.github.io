@@ -999,6 +999,12 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://twitter.com/owenswill14"
     description: "Summer of Bitcoin Batch of 2023, worked on BDK"
+
+  Fabian Kraus:
+    name: "Fabian Kraus"
+    display_name: "Fabian Kraus"
+    avatar: "https://ln-history.info/favicon_300x300.png"
+    description: "Summer of Bitcoin Batch of 2025, worked on ln-history.info"
   
   Arpan Jain:
   name: "Arpan Jain"
