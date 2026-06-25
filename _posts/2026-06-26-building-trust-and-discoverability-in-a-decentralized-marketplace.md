@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building Trust and Discoverability in a Decentralized Marketplace"
+title: "Search and Reporting for the Decentralized Bitcoin Marketplace"
 date: 2026-06-26
 author: Ayush Srivastava
 categories: [Shopstr, Nostr, Stories]
