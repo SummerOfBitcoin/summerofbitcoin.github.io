@@ -1012,6 +1012,13 @@ authors:
   avatar : "assets/images/male.png"
   description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
 
+  Chandra Pratap:
+    name: "Chandra Pratap"
+    display_name: "Chandra Pratap (Chand)"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/chandrapratap37"
+    description: "Summer of Bitcoin Batch of 2026, worked on Smite"
+
 # Plugins
 plugins:
   - jekyll-paginate
