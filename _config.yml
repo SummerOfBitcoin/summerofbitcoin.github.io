@@ -1012,6 +1012,12 @@ authors:
   avatar : "assets/images/male.png"
   description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
 
+  Alok Dangre:
+    name: "Alok Dangre"
+    display_name: "Alok Dangre"
+    avatar: "assets/images/male.png"
+    description: "Summer of Bitcoin Batch of 2026, working on Like & Zap Buttons on X.com and YouTube at Nostr Components"
+
 # Plugins
 plugins:
   - jekyll-paginate
