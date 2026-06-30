@@ -1012,6 +1012,13 @@ authors:
   avatar : "assets/images/male.png"
   description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
 
+  Suryansh Singh:
+    name: "Suryansh Singh"
+    display_name: "Suryansh Singh"
+    avatar: "assets/images/devSuryansh.png"
+    twitter: "https://x.com/0xSuryanshHere"
+    description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
+
 # Plugins
 plugins:
   - jekyll-paginate
