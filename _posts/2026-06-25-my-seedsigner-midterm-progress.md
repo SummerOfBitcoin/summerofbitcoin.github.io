@@ -4,16 +4,16 @@ title: "Alternative SeedSigner UIs Across Display Constraints and Accessibility 
 date: 2026-06-25
 author: Akhil Dhyani
 categories: [Development, Open-Source, Design]
-image: assets/images/blog_content/seedsigner-constrained-ui-midterm.png
+image: ../assets/images/blog_content/seedsigner-constrained-ui-midterm.png
 ---
 
 ## Who I am and what project I am working on
-I am Akhil Dhyani, a third year CSE undergraduate from IIT Jodhpur, and for my Summer of Bitcoin 2026 project, I am working with **SeedSigner**. SeedSigner is an open-source, air-gapped Bitcoin signing device that typically runs on a Raspberry Pi Zero with a 240x240 pixel LCD screen and a camera.
+I am Akhil Dhyani, a third-year CSE undergraduate from IIT Jodhpur, and for my Summer of Bitcoin 2026 project, I am working with **SeedSigner**. SeedSigner is an open-source, air-gapped Bitcoin signing device that typically runs on a Raspberry Pi Zero with a 240x240 pixel LCD screen and a camera.
 
-My project, **Alternative SeedSigner UIs Across Display Constraints and Accessibility Modes**, focuses on building an alternative UI runner that allows the entire SeedSigner software stack to run on vastly smaller, cheaper hardware displays (like 16x2 character LCDs and 128x32 OLEDs), along with an audio based UX for visually impaired users.
+My project, **Alternative SeedSigner UIs Across Display Constraints and Accessibility Modes**, focuses on building an alternative UI runner that allows the entire SeedSigner software stack to run on vastly smaller, cheaper hardware displays (like 16x2 character LCDs and 128x32 OLEDs), along with an audio-based UX for visually impaired users.
 
 ## What problem my project is solving
-I'm working to make Bitcoin hardware wallets radically cheaper! My project involves building a custom text-rendering engine that allows the SeedSigner software to run perfectly on ultra-cheap, $2 character displays. This lowers the hardware barrier to entry, helping anyone build a fully functional, air-gapped Bitcoin wallet. It also removes the supply chain bottlenecks by providing a hardware agnostic text rendering approach.
+I'm working to make Bitcoin hardware wallets radically cheaper! My project involves building a custom text-rendering engine that allows the SeedSigner software to run perfectly on ultra-cheap, $2 character displays. This lowers the hardware barrier to entry, helping anyone build a fully functional, air-gapped Bitcoin wallet. It also removes supply-chain bottlenecks by providing a hardware-agnostic text rendering approach.
 
 ### Hardware Comparison
 
@@ -40,7 +40,7 @@ I'm working to make Bitcoin hardware wallets radically cheaper! My project invol
 **The Problem:** 
 Translating the SeedSigner's highly detailed graphical menus into pure text was incredibly challenging. The original app was built for a 240x240 pixel screen, meaning it could dynamically resize fonts or scroll pixel-by-pixel to fit long text. 
 
-We had to make this work on a 16x2 text display (which only has exactly 32 character blocks) without cutting off important warnings or breaking the user's understanding of where they were in the menu. 
+We had to make this work on a 16x2 text display (which only fits 32 characters) without cutting off important warnings or breaking the user's understanding of where they were in the menu. 
 
 Furthermore, extracting decoupled asynchronous UI threads, like Toast overlays, proved difficult, as our extraction hooks would often fire before the background threads finished rendering their notifications.
 
@@ -77,6 +77,12 @@ In the remaining weeks leading up to the final evaluation, I will execute the ha
 *   **Design Standards & Stretch Goals:** Following the core hardware integration, I will publish canonical Text UI and Audio UX design guides. I will then explore experimental hardware stretch goals, specifically writing new renderers for E-Paper (1.54" 200x200 partial refresh) and Nokia 5110 (PCD8544) displays, along with an advanced pre-recorded audio soundboard system for enhanced accessibility.
 
 *   **Validation & Polish:** Finally, the project will conclude with intensive cross-target validation testing, running the entire SeedSigner flow interactively across every supported hardware display simultaneously. I will conduct memory profiling on the Raspberry Pi Zero to optimize I2C rendering performance before finalizing the automated test suite and recording the ultimate multi-display demonstration video for the August submission.
+
+## Conclusion
+
+Working on the Constrained UI Runner has been an incredible journey so far. I've learned that true open-source Bitcoin development is about ensuring that critical tools for financial self-sovereignty are accessible and affordable for everyone. I'm excited to dive into the hardware integration phase and finalize the rendering logic for even more displays.
+
+**Want to help make Bitcoin hardware wallets more accessible?** Check out my project repository below to review the code, open an issue with your ideas, or test the simulator yourself. I'd love to hear your feedback!
 
 ## Links to my work
 - [SeedSigner Constrained UI Runner Repository](https://github.com/aphrodoe/seedsigner-constrained-ui-runner)
