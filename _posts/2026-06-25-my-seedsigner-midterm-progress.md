@@ -66,7 +66,7 @@ Coming into the project, I assumed I would simply rewrite parts of the core Seed
 
 Furthermore, I discovered that true success in this ecosystem is actually stripping away dependencies until the software can run securely on the absolute cheapest, most primitive hardware imaginable. 
 
-Engineering a complex Bitcoin signing flow to work flawlessly on a two-dollar, 16x2 text LCD taught me that Bitcoin development isn't about building shiny apps, it’s about guaranteeing that self-sovereignty is affordable and accessible to literally anyone in the world, regardless of their access to modern technology.
+Engineering a complex Bitcoin signing flow to work flawlessly on a two-dollar, 16x2 text LCD taught me that Bitcoin development isn't about building shiny apps; it’s about guaranteeing that self-sovereignty is affordable and accessible to literally anyone in the world, regardless of their access to modern technology.
 
 ## What I plan to finish before the final evaluation
 
