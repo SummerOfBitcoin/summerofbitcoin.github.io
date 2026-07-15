@@ -4,12 +4,14 @@ title: "Shrinking SDKs and Shipping Bundles: My First 6 Weeks at ContextVM"
 date: 2026-06-25
 author: Abhay Gupta
 categories: [Development, Open-Source, Stories]
-image: ../assets/images/blog_content/progress.png
+image: ../assets/images/blog_content/2025-08-12-progress.png
 ---
 
 Hello world! I am Abhay Gupta, and for the last six weeks, I have been hacking away as a Summer of Bitcoin contributor (Batch of 2026). My summer is entirely dedicated to the core infrastructure of ContextVM, a fascinating ecosystem built around decentralized application deployment and the Model Context Protocol (MCP).
 
 My biggest takeaway so far is that building a protocol is only half the battle. The real magic is building the tools and developer experience that make people want to use it!
+
+As the featured image perfectly captures, I initially thought building this infrastructure would be a straightforward path. The reality? It was a lot more chaotic, but incredibly rewarding.
 
 Here is a deep dive into what I have been building, breaking, and learning over the first half of my summer.
 
