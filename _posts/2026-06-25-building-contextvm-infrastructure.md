@@ -4,12 +4,12 @@ title: "Shrinking SDKs and Shipping Bundles: My First 6 Weeks at ContextVM"
 date: 2026-06-25
 author: Abhay Gupta
 categories: [Development, Open-Source, Stories]
-image: assets/images/blog_content/development.png
+image: ../assets/images/blog_content/progress.png
 ---
 
 Hello world! I am Abhay Gupta, and for the last six weeks, I have been hacking away as a Summer of Bitcoin contributor (Batch of 2026). My summer is entirely dedicated to the core infrastructure of ContextVM, a fascinating ecosystem built around decentralized application deployment and the Model Context Protocol (MCP).
 
-If there is one massive takeaway I have had so far, it is that building a protocol is only half the battle. The real magic happens when you build the seamless tooling and developer experience that actually makes people want to use it!
+My biggest takeaway so far is that building a protocol is only half the battle. The real magic is building the tools and developer experience that make people want to use it!
 
 Here is a deep dive into what I have been building, breaking, and learning over the first half of my summer.
 
@@ -17,7 +17,7 @@ Here is a deep dive into what I have been building, breaking, and learning over 
 
 ### The Mission: Making MCP Click
 
-While the Model Context Protocol does a phenomenal job acting as a bridge between AI models and isolated data sources, taking those servers and deploying them seamlessly into a decentralized, permissionless ecosystem requires some serious heavy lifting. 
+The Model Context Protocol (MCP) is great at connecting AI models to data sources. But deploying those servers seamlessly into a decentralized ecosystem requires a lot of heavy lifting. 
 
 My project revolves around solving three tricky challenges:
 
@@ -35,7 +35,7 @@ The first half of this summer has been an absolute sprint across multiple reposi
 To make MCP servers easily distributable, I built out the `cvmi pack` subcommand for our CLI. This command takes a project directory and packages it into a tightly compressed `.mcpb` zip archive. I also upgraded the `cvmi serve` command so it can securely extract these bundles into a temporary directory, parse custom configuration metadata, and execute the server natively over the Nostr network. 
 
 **Putting the SDK on a Diet**  
-I conducted a major dependency audit of the official TypeScript SDK. By safely abstracting heavy validation libraries like Zod and Ajv out of standard dependencies and shifting them into optional peer dependencies, I successfully reduced the default installation footprint by roughly 3.5MB without breaking existing implementations.
+I conducted a major dependency audit of the official TypeScript SDK. By safely abstracting heavy validation libraries like Zod and Ajv out of standard dependencies and shifting them into optional peer dependencies, I successfully reduced the default installation footprint by roughly 3.5 MB without breaking existing implementations.
 
 **Overhauling the Frontend Experience**  
 A strong protocol needs a strong landing page. I completely redesigned the site’s primary header for a cleaner user experience and implemented dynamic SEO and Open Graph upgrades. I also paid down a mountain of technical debt by taking a monolithic 800-line Svelte landing page and componentizing it into maintainable, bite-sized sections.
@@ -51,11 +51,11 @@ Without a doubt, the most technically demanding challenge was engineering the `.
 
 The problem was safely extending Anthropic's official MCP specifications. We needed a way to embed ContextVM-specific configuration like encryption preferences into the manifest file without breaking standard MCP compatibility. I had to build rigorous Zod validation schemas for a newly introduced custom namespace, handle the intricacies of cross-platform zip compression in Node.js, and wire up an extraction sequence that meticulously wiped secure temporary directories when the server shut down.
 
-Along the way, my deepest realization has been understanding the staggering importance of backward compatibility and dependency footprints. 
+Along the way, I learned how important backward compatibility and dependency sizes really are. 
 
-My mentor helped me realize the stark difference between frontend bundle sizes and backend disk bloat. While a frontend bundler like Vite will happily tree-shake unused code out of a library, a backend developer running `npm install` is still forced to download the entire multi-megabyte package. Moving heavy libraries to peer dependencies taught me that in infrastructure projects, every kilobyte transferred is a conscious design decision.
+My mentor helped me understand the difference between frontend bundle sizes and backend disk bloat. A frontend tool like Vite can easily remove unused code, but a backend developer running `npm install` still has to download the entire package. Moving heavy libraries to peer dependencies taught me that every kilobyte matters in infrastructure projects.
 
-I also learned the hard way that Git staging is completely unforgiving! Early on, an overzealous `git add .` command accidentally committed a batch of auto-generated build files. Learning to strictly audit my staging areas and write atomic, clean pull requests has fundamentally leveled up my engineering habits.
+I also learned that Git staging can be unforgiving! Early on, I accidentally committed auto-generated build files by using `git add .`. Learning to carefully review my staging area and write clean, focused pull requests has really improved my engineering habits.
 
 ---
 
