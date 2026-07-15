@@ -4,7 +4,14 @@ title: "Building Like and Zap Buttons for X.com and YouTube with Nostr"
 date: 2026-06-28
 author: Alok Dangre
 categories: [Development, Open-Source, Lightning-Network]
+image: ../assets/images/blog_content/2026-06-28-nostr-like-zap-buttons-mid-evaluation.png
 ---
+
+![Purple Nostr symbol and orange Summer of Bitcoin symbol separated on a white background](../assets/images/blog_content/2026-06-28-nostr-like-zap-buttons-mid-evaluation.png)
+
+*Featured image: [Nostr](https://github.com/nostr-protocol/nostr) and
+[Summer of Bitcoin](https://summerofbitcoin.org/) project symbols, composed for
+this post.*
 
 ## The idea, and the part that's actually hard
 
@@ -92,10 +99,11 @@ problem is **identity quality**, not UI.
 A few things in particular:
 
 **I had the wrong event shape.** I'd been treating identity proofs as living in
-`kind:30382`. They don't. Real NIP-39-style identity data for this project lives
-in `i` tags attached to `kind:10011`, and historically `kind:0`. That single
-correction rewrote the crawler design — instead of chasing the wrong events, the
-backend now pulls proof candidates from the sources where they actually live.
+`kind:30382`. They don't. The current NIP-39 format stores identity claims in
+`i` tags on `kind:10011` events. The backend also reads legacy `kind:0` profile
+data for compatibility. That correction rewrote the crawler design — instead of
+chasing the wrong events, the backend now pulls proof candidates from the
+sources where they actually live.
 
 **"Millions of mappings" isn't an honest starting point.** When I tested against
 live data, verified X-to-Nostr mappings turned out to be much sparser than a
@@ -141,10 +149,10 @@ evaluation, the write-up should say so rather than overselling it.
 ## Thanks
 
 Mid evaluation pushed me from "feature idea" to a system design that's actually
-grounded in how the protocols behave. I have a working X.com PoC, three open PRs
-covering the relay-directory backend (backfill, live monitoring, projection, plus
-X bio discovery), and a much clearer understanding of Nostr identity proofs,
-trust boundaries, and zap mechanics.
+grounded in how the protocols behave. I have a working X.com PoC and three
+submitted relay-directory PRs: the backfill PR has merged, while the live
+monitoring and projection PRs remain open. I also have a much clearer
+understanding of Nostr identity proofs, trust boundaries, and zap mechanics.
 
 More than anything I have a better idea of what to optimize for: not convenience,
 but correctness.
@@ -152,3 +160,16 @@ but correctness.
 Thanks to **Nostr Components** and to **Sai** for letting me work on something
 that sits right where frontend UX, protocol design, and Bitcoin-native payments
 meet. On to the final evaluation.
+
+## Follow the project
+
+If you want to follow the work or contribute, visit the
+[Nostr Components repository](https://github.com/saiy2k/nostr-components) and
+share feedback on the identity-verification and zap flows. For more protocol
+background, see [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md),
+[NIP-07](https://github.com/nostr-protocol/nips/blob/master/07.md),
+[NIP-39](https://github.com/nostr-protocol/nips/blob/master/39.md), and
+[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md).
+
+*Disclosure: This post was prepared from my project notes with assistance from
+OpenAI Codex and checked against the linked project work.*
