@@ -11,27 +11,29 @@ I'm Ayush Srivastava, a Computer Science student at the University of Colorado B
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/ayushshrivastv/) and [GitHub](https://github.com/ayushshrivastv).
 
-This summer has not just been about writing code. It has been about learning what it really means to build in the open, where every change is reviewed, questioned, tested, and shaped by people who care deeply about the systems they are maintaining. My work has been with Shopstr, a decentralized Bitcoin marketplace built on Nostr, where I have been focused on making the marketplace easier to discover and safer to use through NIP 50 search and NIP 56 reporting.
+This summer has not just been about writing code. It has been about learning what it really means to build in the open, where every change is reviewed, questioned, tested, and shaped by people who care deeply about the systems they are maintaining. My work has been with [Shopstr](https://shopstr.store/), a decentralized Bitcoin marketplace built on Nostr, where I have been focused on making the marketplace easier to discover and safer to use through NIP 50 search and NIP 56 reporting.
 
 When I first looked at the project, it seemed simple on the surface. Add search. Add reporting. Connect the flows. Get the pull requests merged. But the deeper I went, the more I understood that a decentralized marketplace is not held together by one server or one database. It is held together by relays, events, cache, wallets, signatures, user trust, and the small engineering decisions that decide whether the product actually works when the network is messy.
 
 That is what made this summer meaningful for me. I was not just adding features to Shopstr. I was learning how trust is built in a system that does not have a center.
 
-The project I worked on is called Search and Reporting for the Decentralized Bitcoin Marketplace. The goal was to improve two important parts of Shopstr. First, marketplace discovery, so users can find listings more reliably. Second, reporting, so users can report objectionable listings or seller profiles through a proper protocol based flow.
+The project I worked on is called Search and Reporting for the Decentralized Bitcoin Marketplace. The goal was to improve two important parts of Shopstr. First, marketplace discovery, so users can find listings more reliably. Second, reporting, so users can report objectionable listings or seller profiles through a proper protocol-based flow.
+
+Shopstr is a Bitcoin marketplace built around a simple idea: people should be able to buy and sell without needing a traditional platform account, a KYC flow, or a marketplace taking a required fee. Under the hood, it uses Nostr for identity, listings, and relay-based data, while payments can happen through Bitcoin tools like Lightning and Cashu. That also means features like search and reporting have to work in a different kind of environment. Users own their keys, relays can behave differently, and payments are self-custodial. So for this project, search and reporting were not just nice extras. They were part of making Shopstr's decentralized model feel usable, trustworthy, and real.
 
 The first major part of my work was NIP 50 marketplace search.
 
 [Search PR](https://github.com/shopstr-eng/shopstr/pull/502)
 
-Before this work, Shopstr's marketplace search was mainly based on client side filtering. That meant the app could only filter through listing data it already had locally. It worked, but it limited discovery. A marketplace needs search to feel alive. If users cannot find what they are looking for, the marketplace becomes smaller than it really is.
+Before this work, Shopstr's marketplace search was mainly based on client-side filtering. That meant the app could only filter through listing data it already had locally. It worked, but it limited discovery. A marketplace needs search to feel alive. If users cannot find what they are looking for, the marketplace becomes smaller than it really is.
 
-With the NIP 50 search implementation, Shopstr now has a relay backed search path. Instead of only filtering locally, the app can ask search capable relays for matching marketplace listings. That sounds simple when you write it in one sentence, but the actual work was more layered.
+With the NIP 50 search implementation, Shopstr now has a relay-backed search path. Instead of only filtering locally, the app can ask search-capable relays for matching marketplace listings. That sounds simple when you write it in one sentence, but the actual work was more layered.
 
-In a centralized app, search usually means sending a query to one backend and trusting that backend to return results. In a Nostr based marketplace, search has to deal with relays. Some relays are fast. Some are slow. Some return duplicate events. Some return incomplete results. Some do not support NIP 50 at all.
+In a centralized app, search usually means sending a query to one backend and trusting that backend to return results. In a Nostr-based marketplace, search has to deal with relays. Some relays are fast. Some are slow. Some return duplicate events. Some return incomplete results. Some do not support NIP 50 at all.
 
 That was one of the most important things I learned from this project. A protocol feature is not complete just because it follows the spec. It has to work with the reality of the network.
 
-One of the best pieces of feedback I received came from Calva during the NIP 50 search review. I had started from the Nostr docs and was building the search flow around the user selected relays. Calva pointed out that some relays do not actually support NIP 50, so Shopstr should have a default backup list for search if the user selected relays do not work. He also suggested search relays like relay.noswhere.com, search.nos.today, antiprimal.net, and relay.ditto.pub.
+One of the best pieces of feedback I received came from Calva during the NIP 50 search review. I had started from the Nostr docs and was building the search flow around the user-selected relays. Calva pointed out that some relays do not actually support NIP 50, so Shopstr should have a default backup list for search if the user-selected relays do not work. He also suggested search relays like relay.noswhere.com, search.nos.today, antiprimal.net, and relay.ditto.pub.
 
 That feedback changed how I thought about the feature. I stopped thinking of search as only "send a query and show results." I started thinking of it as a reliability problem. What happens when a relay does not support search? What happens when one relay is slow? What happens when the same listing comes back from more than one place? What should the user see when the network is not clean?
 
@@ -65,7 +67,7 @@ After the main search and reporting work landed, I worked on improving the test 
 
 This added GitHub Actions CI so the test suite and coverage checks can run automatically on pull requests. I am proud of this work because it helps the project beyond my own feature. It gives maintainers a stronger safety net. It means future changes can be checked more consistently before they land.
 
-I also worked on follow up tests for search and reporting.
+I also worked on follow-up tests for search and reporting.
 
 [NIP 50 search test coverage](https://github.com/shopstr-eng/shopstr/pull/538)
 
@@ -116,3 +118,5 @@ I learned that decentralization is not just a philosophy. It is a responsibility
 And I learned that even a feature like search or reporting can carry something bigger inside it. It can carry trust. It can carry safety. It can make a marketplace easier to use and easier to believe in.
 
 That is what Summer of Bitcoin has given me so far. Not just a project. Not just pull requests. But a deeper understanding of what it means to build systems that do not rely on a center, and still have to work for real people.
+
+If this work sounds interesting, try [Shopstr](https://shopstr.store/), review the linked search and reporting work, or contribute tests, relay feedback, and small fixes that make decentralized marketplaces more reliable for everyone.
