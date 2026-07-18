@@ -25,6 +25,11 @@ The first major part of my work was NIP 50 marketplace search.
 
 [Search PR](https://github.com/shopstr-eng/shopstr/pull/502)
 
+<figure>
+<img src="../assets/images/blog_content/shopstr-nip50-search-relays.png" alt="Shopstr marketplace search sending NIP 50 queries to search-capable relays"/>
+<figcaption>Shopstr sending NIP 50 search queries to relays during marketplace discovery.</figcaption>
+</figure>
+
 Before this work, Shopstr's marketplace search was mainly based on client-side filtering. That meant the app could only filter through listing data it already had locally. It worked, but it limited discovery. A marketplace needs search to feel alive. If users cannot find what they are looking for, the marketplace becomes smaller than it really is.
 
 With the NIP 50 search implementation, Shopstr now has a relay-backed search path. Instead of only filtering locally, the app can ask search-capable relays for matching marketplace listings. That sounds simple when you write it in one sentence, but the actual work was more layered.
@@ -42,6 +47,16 @@ So the search work included fallback search relays, deduped listing results, and
 The second major part of my work was NIP 56 reporting.
 
 [Reporting PR](https://github.com/shopstr-eng/shopstr/pull/273)
+
+<figure>
+<img src="../assets/images/blog_content/shopstr-report-listing.png" alt="Shopstr product page showing the Report Listing action"/>
+<figcaption>Reporting a marketplace listing from the Shopstr product page.</figcaption>
+</figure>
+
+<figure>
+<img src="../assets/images/blog_content/shopstr-report-profile.png" alt="Shopstr product page showing the Report Profile action"/>
+<figcaption>Reporting a seller profile from the Shopstr product flow.</figcaption>
+</figure>
 
 Shopstr did not have a standardized reporting flow for objectionable listings or seller profiles. In a marketplace, that matters. Discovery helps users find listings, but reporting helps the community respond when something should not be there.
 
