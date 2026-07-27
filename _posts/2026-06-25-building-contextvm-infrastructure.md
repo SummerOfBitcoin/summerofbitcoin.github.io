@@ -11,7 +11,6 @@ Hello world! I am Abhay Gupta, and for the last six weeks, I have been hacking a
 
 My biggest takeaway so far is that building a protocol is only half the battle. The real magic is building the tools and developer experience that make people want to use it!
 
-
 Here is a deep dive into what I have been building, breaking, and learning over the first half of my summer.
 
 ---
