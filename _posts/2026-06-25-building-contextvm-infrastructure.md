@@ -4,20 +4,19 @@ title: "Shrinking SDKs and Shipping Bundles: My First 6 Weeks at ContextVM"
 date: 2026-06-25
 author: Abhay Gupta
 categories: [Development, Open-Source, Stories]
-image: ../assets/images/blog_content/2025-08-12-progress.png
+image: ../assets/images/blog_content/2026-06-25-shrinking-sdks-shipping-bundles.jpg
 ---
 
 Hello world! I am Abhay Gupta, and for the last six weeks, I have been hacking away as a Summer of Bitcoin contributor (Batch of 2026). My summer is entirely dedicated to the core infrastructure of ContextVM, a fascinating ecosystem built around decentralized application deployment and the Model Context Protocol (MCP).
 
 My biggest takeaway so far is that building a protocol is only half the battle. The real magic is building the tools and developer experience that make people want to use it!
 
-As the featured image perfectly captures, I initially thought building this infrastructure would be a straightforward path. The reality? It was a lot more chaotic, but incredibly rewarding.
 
 Here is a deep dive into what I have been building, breaking, and learning over the first half of my summer.
 
 ---
 
-### The Mission: Making MCP Click
+## The Mission: Making MCP Click
 
 The Model Context Protocol (MCP) is great at connecting AI models to data sources. But deploying those servers seamlessly into a decentralized ecosystem requires a lot of heavy lifting. 
 
@@ -29,7 +28,7 @@ My project revolves around solving three tricky challenges:
 
 ---
 
-### What I Have Shipped So Far
+## What I Have Shipped So Far
 
 The first half of this summer has been an absolute sprint across multiple repositories. Here are the major technical milestones I am most proud of:
 
@@ -47,7 +46,7 @@ I helped draft the Common Tool Schemas proposal (CEP-15). This specification lev
 
 ---
 
-### The Technical Trenches: Zod, Zips, and Mistakes
+## The Technical Trenches: Zod, Zips, and Mistakes
 
 Without a doubt, the most technically demanding challenge was engineering the `.mcpb` bundling support inside the CLI. 
 
@@ -61,7 +60,7 @@ I also learned that Git staging can be unforgiving! Early on, I accidentally com
 
 ---
 
-### What Is Next?
+## What Is Next?
 
 With the base infrastructure and distribution tooling stabilized, the second half of my summer is shifting gears entirely toward monetization. 
 
@@ -69,7 +68,7 @@ My primary goal for the final evaluation is to fully implement the CEP-8 Payment
 
 ---
 
-### Let's Connect!
+## Let's Connect!
 
 I would love to connect with other developers, open-source enthusiasts, or anyone interested in Bitcoin and MCP!
 
@@ -80,4 +79,4 @@ I would love to connect with other developers, open-source enthusiasts, or anyon
 *   **Website Redesign & Refactoring:** [ContextVM/contextvm-site#30](https://github.com/ContextVM/contextvm-site/pull/30) and [#28](https://github.com/ContextVM/contextvm-site/pull/28)
 *   **SDK Dependency Optimization:** [ContextVM/mcp-sdk#3](https://github.com/ContextVM/mcp-sdk/pull/3)
 *   **CLI Bundling:** [ContextVM/cvmi#4](https://github.com/ContextVM/cvmi/pull/4)
-*   **CEP-15 (Common Tool Schemas):** [CEP-15 Draft](https://github.com/ContextVM-org)
+*   **CEP-15 (Common Tool Schemas):** [CEP-15 Proposal](https://github.com/ContextVM/contextvm-docs/issues/15)
