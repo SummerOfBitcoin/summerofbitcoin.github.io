@@ -79,6 +79,7 @@ image: ../assets/images/blog_content/your-image-filename.png
 Choose appropriate categories from:
 - `Bitcoin-Core`
 - `Lightning-Network` 
+- `Nostr`
 - `BDK`
 - `Wallets`
 - `Mining`
@@ -86,6 +87,7 @@ Choose appropriate categories from:
 - `Security`
 - `Development`
 - `Open-Source`
+- `Shopstr`
 - `Stories`
 - `Tutorials`
 - `Design`

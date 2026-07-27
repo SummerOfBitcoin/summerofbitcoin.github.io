@@ -1039,6 +1039,14 @@ authors:
     twitter: "https://x.com/akhil_dhyani"
     description: "Summer of Bitcoin Batch of 2026, worked on SeedSigner"
 
+  Ayush Srivastava:
+    name: "Ayush Srivastava"
+    display_name: "Ayush Srivastava"
+    avatar: "assets/images/male.png"
+    web: "https://www.linkedin.com/in/ayushshrivastv/"
+    twitter: "https://github.com/ayushshrivastv"
+    description: "Summer of Bitcoin Batch of 2026, worked on Shopstr"
+
 # Plugins
 plugins:
   - jekyll-paginate
