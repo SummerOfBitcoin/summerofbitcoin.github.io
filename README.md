@@ -81,6 +81,7 @@ Choose appropriate categories from:
 - `Lightning-Network` 
 - `BDK`
 - `Wallets`
+- `Jam`
 - `Mining`
 - `Privacy`
 - `Security`
