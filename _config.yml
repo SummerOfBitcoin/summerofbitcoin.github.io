@@ -1032,6 +1032,13 @@ authors:
     web: https://x.com/jstrakeljahnx
     description: "Summer of Bitcoin Batch of 2026, working on the ASmap dashboard"
 
+  Akhil Dhyani:
+    name: "Akhil Dhyani"
+    display_name: "Akhil Dhyani"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/akhil_dhyani"
+    description: "Summer of Bitcoin Batch of 2026, worked on SeedSigner"
+
 # Plugins
 plugins:
   - jekyll-paginate
