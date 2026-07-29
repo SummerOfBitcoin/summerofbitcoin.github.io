@@ -78,7 +78,7 @@ missing test can turn into a real user problem.
 
 ## Contributions So Far
 
-At the time of writing, I have 49 merged pull requests in
+I have contributed through many merged pull requests to
 [joinmarket-webui/jam](https://github.com/joinmarket-webui/jam). Some were
 small cleanup PRs. Some touched important user flows. Some were about tests
 and project infrastructure. Together, they taught me how a real open-source
