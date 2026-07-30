@@ -27,12 +27,12 @@ My project revolves around solving three tricky challenges:
 
 ---
 
-## What I Have Shipped So Far
+## What I Have Built So Far
 
 The first half of this summer has been an absolute sprint across multiple repositories. Here are the major technical milestones I am most proud of:
 
 **The Magic of `.mcpb` Server Bundling**  
-To make MCP servers easily distributable, I built out the `cvmi pack` subcommand for our CLI. This command takes a project directory and packages it into a tightly compressed `.mcpb` zip archive. I also upgraded the `cvmi serve` command so it can securely extract these bundles into a temporary directory, parse custom configuration metadata, and execute the server natively over the Nostr network. 
+To make MCP servers easily distributable, I built out the `cvmi pack` subcommand for our CLI. This command takes a project directory and packages it into a tightly compressed `.mcpb` zip archive. I also upgraded the `cvmi serve` command so it can securely extract these bundles into a temporary directory, parse custom configuration metadata, and execute the server natively over the Nostr network. This work is currently proposed in an [open PR under review](https://github.com/ContextVM/cvmi/pull/4).
 
 **Putting the SDK on a Diet**  
 I conducted a major dependency audit of the official TypeScript SDK. By safely abstracting heavy validation libraries like Zod and Ajv out of standard dependencies and shifting them into optional peer dependencies, I successfully reduced the default installation footprint by roughly 3.5 MB without breaking existing implementations.
@@ -78,4 +78,4 @@ I would love to connect with other developers, open-source enthusiasts, or anyon
 *   **Website Redesign & Refactoring:** [ContextVM/contextvm-site#30](https://github.com/ContextVM/contextvm-site/pull/30) and [#28](https://github.com/ContextVM/contextvm-site/pull/28)
 *   **SDK Dependency Optimization:** [ContextVM/mcp-sdk#3](https://github.com/ContextVM/mcp-sdk/pull/3)
 *   **CLI Bundling:** [ContextVM/cvmi#4](https://github.com/ContextVM/cvmi/pull/4)
-*   **CEP-15 (Common Tool Schemas):** [CEP-15 Proposal](https://github.com/ContextVM/contextvm-docs/issues/15)
+*   **CEP-15 (Common Tool Schemas):** [CEP-15 Specification](https://github.com/ContextVM/contextvm-docs/blob/master/src/content/docs/reference/ceps/cep-15.md)
