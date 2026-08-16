@@ -82,6 +82,7 @@ Choose appropriate categories from:
 - `Nostr`
 - `BDK`
 - `Wallets`
+- `Jam`
 - `Mining`
 - `Privacy`
 - `Security`
