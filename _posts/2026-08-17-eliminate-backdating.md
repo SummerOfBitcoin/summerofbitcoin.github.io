@@ -4,12 +4,12 @@ title: "Eliminate backdating in the replacements of Replace-by-fee in Bitcoin Co
 date: 2026-08-17
 author: Biel  # Must match the name in _config.yml
 categories: Bitcoin-Core  # See available categories below
-image: ../assets/images/blog_content/your-image-filename.png
+image: ../assets/images/blog_content/2026-08-17-bicaru20-avatar.jpg
 ---
 
 ## Who I am and what I worked on
 
-I'm Biel, a student at UAB. This is my first time with Summer of Bitcoin and I have been working on Bitcoin Core. My project aimed to eliminate the backdating in the replacements of Replace-by-fee. This behaviour harms the users privacy as it gives away that the transaction was build with the Core wallet.
+I'm Biel, a student at UAB. This is my first time with summe of Bitcoin and I have been working on Bitcoin Core. My project aimed to eliminate the backdating in the replacements of Replace-by-fee. This behaviour harms the users privacy as it gives away that the transaction was build with the Core wallet.
 
 ## Main objectives
 
