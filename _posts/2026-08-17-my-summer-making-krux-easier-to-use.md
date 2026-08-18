@@ -65,6 +65,11 @@ I shared weekly findings, decisions and contribution status on a
 gave my mentors one place to inspect the work and made changes in direction part
 of the record.
 
+<img
+  src="../assets/images/blog_content/2026-08-17-krux-audit-overview.png"
+  alt="Amigo, TZT and M5StickV Krux devices shown with the four audit areas: legibility, contrast, layout and navigation."
+/>
+
 Contrast produced the clearest fixes. Krux has five themes, each with colours
 for text, backgrounds, frames, warnings and actions. After converting the
 display colours, I checked their combinations against WCAG ratios. In the Light
@@ -75,6 +80,11 @@ In [PR #879](https://github.com/selfcustody/krux/pull/879), I darkened the
 affected Light colours, strengthened the CypherPink frame and added tests for
 the combinations that had failed. Important network labels and interface
 boundaries became easier to distinguish without changing the layouts.
+
+<img
+  src="../assets/images/blog_content/2026-08-17-krux-contrast-before-after.png"
+  alt="Before-and-after Amigo screens showing stronger Light-theme network text and a more visible CypherPink frame."
+/>
 
 One proposed colour change did not survive hardware testing. Its ratio looked
 better in the simulator, but the result looked worse on a real Amigo display, so
@@ -114,6 +124,11 @@ actions one level deeper. The summary stayed because it contains information
 people should check; the existing-mnemonic flow also stayed unchanged, where
 familiar wording mattered more than symmetry.
 
+<img
+  src="../assets/images/blog_content/2026-08-17-krux-progressive-disclosure.png"
+  alt="Two TZT screens showing Continue as the common action and Passphrase and Customize inside Wallet Options."
+/>
+
 Numeric settings had a related problem. Screensaver Time and Buttons Debounce
 opened as bare values without first showing their unit or accepted range. For
 [PR #911](https://github.com/selfcustody/krux/pull/911), I brought information
@@ -126,6 +141,11 @@ principle to recovery. `Load Mnemonic` began with `Camera`, `Manual` and
 I reorganized the menu around `QR Code`, `Words`, `From Storage` and
 `Other Formats`. Common formats come first; specialist formats and the existing
 validation remain available one level deeper.
+
+<img
+  src="../assets/images/blog_content/2026-08-17-krux-input-context-and-format.png"
+  alt="Before-and-after Krux screens showing units and accepted ranges before numeric entry and backup formats before recovery input methods."
+/>
 
 I also contributed to the separate QR-keypad collaboration in
 [PR #811](https://github.com/selfcustody/krux/pull/811). It makes QR scanning an
