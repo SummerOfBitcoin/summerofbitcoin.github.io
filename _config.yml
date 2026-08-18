@@ -1081,6 +1081,12 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Arman Thakur:
+    name: "Arman Thakur"
+    display_name: "Arman Thakur"
+    avatar: "assets/images/arman.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on Cashu and Lightning hold invoice escrow for Shopstr"
+
 # Plugins
 plugins:
   - jekyll-paginate
