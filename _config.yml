@@ -1081,6 +1081,14 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Naman Gupta:
+    name: "Naman Gupta"
+    display_name: "Naman Gupta"
+    avatar: "assets/images/male.png"
+    web: "https://www.linkedin.com/in/namang1510/"
+    twitter: "https://x.com/ProbablyNaman"
+    description: "Summer of Bitcoin Batch of 2026, worked on accessibility and readability improvements in Krux"
+
 # Plugins
 plugins:
   - jekyll-paginate
