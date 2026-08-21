@@ -1067,6 +1067,13 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Anurag Kumar Mishra:
+    name: "Anurag Kumar Mishra"
+    display_name: "Anurag Mishra"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/giuocopianosimp"
+    description: "Summer of Bitcoin Batch of 2026, working on all things strfry"
+
 # Plugins
 plugins:
   - jekyll-paginate
