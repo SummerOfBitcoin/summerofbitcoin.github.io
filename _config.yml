@@ -1081,6 +1081,13 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Naman Khandelwal:
+    name: "Naman Khandelwal"
+    display_name: "Naman Khandelwal"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Sky-walkerX"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Formstr Super App"
+
 # Plugins
 plugins:
   - jekyll-paginate
