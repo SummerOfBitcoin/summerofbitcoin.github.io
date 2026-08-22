@@ -1081,6 +1081,14 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Anshuman:
+    name: "Anshuman"
+    display_name: "Anshuman"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Anshumancanrock"
+    twitter: "https://x.com/0xAnshuman"
+    description: "Summer of Bitcoin Batch of 2026, worked on nostream"
+
 # Plugins
 plugins:
   - jekyll-paginate
