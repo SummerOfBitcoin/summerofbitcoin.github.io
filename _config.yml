@@ -1081,6 +1081,13 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Rishit Modi:
+    name: "Rishit Modi"
+    display_name: "Rishit Modi"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/EliteCoder18"
+    description: "Summer of Bitcoin Batch of 2026, worked on CI persistence, MSRV testing, and repository automation for BDK"
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -1120,4 +1127,3 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
-
