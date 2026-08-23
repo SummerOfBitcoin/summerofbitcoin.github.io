@@ -103,7 +103,7 @@ A few decisions mattered more than the rest of the output.
 
 ## What I learned
 
-Most of what I learned this summer came from working with Mo. The first real course correction was to stop treating research as a pile of questions and prototypes, and start writing from the point of view of a builder about to start a wallet. Sit in their shoes. Ask fewer, more human questions. Do not say more than the evidence can hold.
+Most of what I learned this summer came from working with Mo. The first real course correction was to stop treating research as a pile of questions and prototypes, and start writing from the point of view of a builder about to start a wallet. Sit in their shoes. Ask fewer, more human questions.
 
 I also learned how this kind of work actually moves. You take a step in the open, someone sharpens it, and the project goes forward. That's how open source leverages community!
 
