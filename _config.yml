@@ -1251,6 +1251,12 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/tnvvrrr"
     description: "Summer of Bitcoin Batch of 2026, worked on Silent Payments (BIP-352) in Krux"
+  Manas Dash:
+    name: "Manas Dash"
+    display_name: "itsmanasdash"
+    avatar: "assets/images/itsmanas.jpg"
+    twitter: "https://x.com/itsmanasdash"
+    description: "Summer of Bitcoin Batch of 2026, worked on Nostr storage infrastructure and local AI inference"
 
 # Plugins
 plugins:
