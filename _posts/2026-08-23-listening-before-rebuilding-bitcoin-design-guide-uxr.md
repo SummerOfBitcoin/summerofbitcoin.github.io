@@ -111,8 +111,6 @@ I also learned how this kind of work actually moves. You take a step in the open
 
 The next step is to keep talking to builders. Those conversations should sharpen what we already have, and sit alongside the other research we have already done.
 
-After that comes the work the summer was aimed at: take those insights and implement them, so the guide can actually adapt to an AI-first way of building.
-
 ## Links
 
 - [Bitcoin Design Guide UXR issue](https://github.com/BitcoinDesign/Guide/issues/1221)
