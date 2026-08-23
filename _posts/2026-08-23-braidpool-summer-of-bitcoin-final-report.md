@@ -59,7 +59,7 @@ I wired the DAG visualization to the node's WebSocket JSON-RPC directly. The fro
 
 The part that took the most iteration was the subscription race condition. Braidpool's RPC pushes events over the same connection you use to subscribe. Between the moment you send the subscription request and the moment the server confirms it, new beads can arrive. If you're not careful, those beads fall into a gap and your initial state is stale before you even render it. Getting that handoff right, so you never miss a bead and never double-count one, was probably three days of work that isn't visible anywhere in the PR.
 
-**[PR #519: Live DAG WebSocket RPC](https://github.com/braidpool/braidpool/pull/519)** *(Open / under review)*
+**[PR #519: Live DAG WebSocket RPC](https://github.com/braidpool/braidpool/pull/519)** *(Under review)*
 
 ---
 
@@ -71,7 +71,7 @@ I built a set of custom JSON-RPC methods covering the full transaction lifecycle
 
 I kept the API design close to Braidpool's existing RPC conventions: composable methods, consistent error shapes, useful both for the dashboard and for anyone else building tooling on top of the node.
 
-**[PR #515: Transaction lifecycle RPCs](https://github.com/braidpool/braidpool/pull/515)** *(Open / under review)*
+**[PR #515: Transaction lifecycle RPCs](https://github.com/braidpool/braidpool/pull/515)** *(Under review)*
 
 ---
 
@@ -99,7 +99,7 @@ I built the full miner management stack: CRUD APIs, SQLite persistence, a backgr
 
 ASICs don't have static IP addresses. They get new DHCP leases. You move one to a different switch and it comes up with a different address. If your miner identity is tied to an IP, your database gets a new record every time that happens , a miner you've been tracking for weeks becomes an unknown stranger. I caught this early ([Issue #485](https://github.com/braidpool/braidpool/issues/485)), documented it, and switched to MAC addresses as the stable identifier. Small decision, real consequence.
 
-**[PR #527: Miner management & monitoring](https://github.com/braidpool/braidpool/pull/527)** *(Open / under review)*
+**[PR #527: Miner management & monitoring](https://github.com/braidpool/braidpool/pull/527)** *(Under review)*
 
 ---
 
@@ -109,7 +109,7 @@ The Node Health page showed basic status. I redesigned it around what an operato
 
 The visual changes look simple. The underlying work was adding the right RPC methods on the Rust side to actually expose that data in a usable shape.
 
-**[PR #520: Node Health redesign](https://github.com/braidpool/braidpool/pull/520)** *(Open / under review)*
+**[PR #520: Node Health redesign](https://github.com/braidpool/braidpool/pull/520)** *(Under review)*
 
 ---
 
