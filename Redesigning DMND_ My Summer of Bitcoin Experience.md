@@ -8,7 +8,7 @@ Getting the chance to design for a real company like DMND was something I did no
 
 I also wanted to challenge myself. Bitcoin mining was not an area I knew deeply before the program, so I knew I would have to learn a lot along the way.
 
-| ![Existing DMND dashboard](../assets/images/existing-dmnd-dashboard.png) |
+| ![Existing DMND dashboard](../assets/images/Existing DMND dashboard.png) |
 | :---: |
 | Existing DMND home page |
 
@@ -22,7 +22,7 @@ As I became more familiar with the product, I also started noticing gaps and are
 
 Beyond the dashboard, I also designed the new DMND website, the How to Build a Block pages, and visual assets for the upcoming dashboard video.
 
-| ![New DMND dashboard](../assets/images/new-dmnd-dashboard.png) |
+| ![New DMND dashboard](../assets/images/New DMND dashboard.png) |
 | :---: |
 | New DMND home page |
 
