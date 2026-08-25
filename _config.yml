@@ -1193,6 +1193,12 @@ authors:
     avatar: "assets/images/male.png"
     web: "https://github.com/Sky-walkerX"
     description: "Summer of Bitcoin Batch of 2026, worked on the Formstr Super App"
+  Vatsal Keshav:
+    name: "Vatsal Keshav"
+    display_name: "Vatsal Keshav"
+    avatar: "assets/images/blog_content/2026-08-21-vatsal-avatar.png"
+    twitter: "https://x.com/bornvatsal"
+    description: "Summer of Bitcoin Batch of 2026, worked on VLS in Nitro-Enclave"
 
 # Plugins
 plugins:
