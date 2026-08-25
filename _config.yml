@@ -1216,6 +1216,12 @@ authors:
     linkedin: "https://www.linkedin.com/in/parthdudhe07/"
     github: "https://github.com/parthdude07"
     description: "Summer of Bitcoin Batch of 2026, worked on GenesisKB (Braidpool)"
+  Shivansh Jain:
+    name: "Shivansh Jain"
+    display_name: "Shivansh Jain"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Thunder-Blaze"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Cross Platform Support and Performance Optimization (strfry)"
 
 # Plugins
 plugins:
