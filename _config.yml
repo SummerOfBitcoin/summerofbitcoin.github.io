@@ -1132,6 +1132,11 @@ authors:
     web: "https://www.linkedin.com/in/namang1510/"
     twitter: "https://x.com/ProbablyNaman"
     description: "Summer of Bitcoin Batch of 2026, worked on accessibility and readability improvements in Krux"
+  Arman Thakur:
+    name: "Arman Thakur"
+    display_name: "Arman Thakur"
+    avatar: "assets/images/arman.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on Cashu and Lightning hold invoice escrow for Shopstr"
 
 # Plugins
 plugins:
