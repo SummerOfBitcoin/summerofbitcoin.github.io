@@ -1199,6 +1199,14 @@ authors:
     avatar: "assets/images/blog_content/2026-08-21-vatsal-avatar.png"
     twitter: "https://x.com/bornvatsal"
     description: "Summer of Bitcoin Batch of 2026, worked on VLS in Nitro-Enclave"
+  Parth Dudhe:
+    name: "Parth Dudhe"
+    display_name: "Parth Dudhe"
+    avatar: "assets/images/parth_github_avatar.jpeg"
+    twitter: "https://x.com/ParthDudhe07"
+    linkedin: "https://www.linkedin.com/in/parthdudhe07/"
+    github: "https://github.com/parthdude07"
+    description: "Summer of Bitcoin Batch of 2026, worked on GenesisKB (Braidpool)"
 
 # Plugins
 plugins:
