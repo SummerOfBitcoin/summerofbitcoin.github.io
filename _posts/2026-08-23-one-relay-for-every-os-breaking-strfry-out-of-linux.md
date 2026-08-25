@@ -4,7 +4,7 @@ title: "One Relay for Every OS: Breaking strfry Out of Linux"
 date: 2026-08-23
 author: Shivansh Jain
 categories: [strfry, Nostr, Stories]
-image: ../assets/images/8.jpg
+image: ../assets/images/blog_content/2026-08-23-strfry-linux.jpg
 ---
 
 # One Relay for Every OS: Breaking strfry Out of Linux
