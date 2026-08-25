@@ -1144,6 +1144,11 @@ authors:
     twitter: "https://x.com/anurag_t21"
     web: "https://github.com/DevAnuragT"
     description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels Android Development"
+  Subinita Ray:
+    name: "Subinita Ray"
+    display_name: "Subinita Ray"
+    avatar: "assets/images/female.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on Kern"
 
 # Plugins
 plugins:
