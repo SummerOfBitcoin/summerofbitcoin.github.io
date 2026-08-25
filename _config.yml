@@ -126,6 +126,13 @@ authors:
     web: https://bitcoin.org
     twitter: https://twitter.com/satoshi
     description: "Inventor of bitcoin"
+  Ashish Kumar Dash:
+    name: "Ashish Kumar Dash"
+    display_name: "Ashish Kumar Dash"
+    avatar: "assets/images/blog_content/2026-08-17-ashish-kumar-dash.jpeg"
+    web: "https://github.com/Ashish-Kumar-Dash"
+    twitter: "https://x.com/AKDSiuuu"
+    description: "Summer of Bitcoin Batch of 2026, worked on Smite"
   Ajay Sehwal:
     name: Ajay Sehwal
     display_name: Ajay Sehwal
