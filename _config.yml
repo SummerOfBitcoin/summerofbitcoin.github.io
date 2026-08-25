@@ -1081,6 +1081,13 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Sandip Mandal:
+    name: "Sandip Mandal"
+    display_name: "Sandip Mandal"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/SandipMandal00"
+    description: "Summer of Bitcoin Batch of 2026, worked on Cove Wallet"
+
 # Plugins
 plugins:
   - jekyll-paginate
