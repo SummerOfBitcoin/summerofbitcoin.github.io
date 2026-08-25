@@ -1187,6 +1187,12 @@ authors:
     web: "https://0xPrabal.com"
     twitter: "https://x.com/alienx5499"
     description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels"
+  Naman Khandelwal:
+    name: "Naman Khandelwal"
+    display_name: "Naman Khandelwal"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Sky-walkerX"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Formstr Super App"
 
 # Plugins
 plugins:
