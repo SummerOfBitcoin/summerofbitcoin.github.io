@@ -1149,6 +1149,13 @@ authors:
     display_name: "Subinita Ray"
     avatar: "assets/images/female.png"
     description: "Summer of Bitcoin Batch of 2026, worked on Kern"
+  Anshuman:
+    name: "Anshuman"
+    display_name: "Anshuman"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Anshumancanrock"
+    twitter: "https://x.com/0xAnshuman"
+    description: "Summer of Bitcoin Batch of 2026, worked on nostream"
 
 # Plugins
 plugins:
