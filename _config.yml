@@ -1137,6 +1137,13 @@ authors:
     display_name: "Arman Thakur"
     avatar: "assets/images/arman.png"
     description: "Summer of Bitcoin Batch of 2026, worked on Cashu and Lightning hold invoice escrow for Shopstr"
+  Anurag Thakur:
+    name: "Anurag Thakur"
+    display_name: "Anurag Thakur"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/anurag_t21"
+    web: "https://github.com/DevAnuragT"
+    description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels Android Development"
 
 # Plugins
 plugins:
