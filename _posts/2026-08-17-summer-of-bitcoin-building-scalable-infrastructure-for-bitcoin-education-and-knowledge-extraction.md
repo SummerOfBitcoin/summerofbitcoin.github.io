@@ -4,11 +4,12 @@ title: "Summer of Bitcoin: Building Scalable Infrastructure for Bitcoin Educatio
 date: 2026-08-17
 author: Rasesh Shetty
 categories: [Stories]
+image: ../assets/images/blog_content/hello-bitcoin.jpg
 ---
 
 # My Summer of Bitcoin Journey: Architecting for Scale and Education
 
-When I began my Summer of Bitcoin journey, the goal was ambitious: to build out robust, fault-tolerant infrastructure that could power not just a transcription engine, but an entire educational ecosystem for Bitcoin. Over the past few months, this project evolved into three major pillars: a highly modular **Transcription Engine**, an interactive coding platform called ***Hello Bitcoin***, and an intelligent **Data Scraper**. 
+When I began my Summer of Bitcoin journey, the goal was ambitious: to build out robust, fault-tolerant infrastructure that could power not just a transcription engine, but an entire educational ecosystem for Bitcoin. Over the past few months, this project evolved into three major pillars: a highly modular **Transcription Engine**, an interactive coding platform called ***Hello Bitcoin***, and an intelligent **Data Scraper**.
 
 Here is the story of what I set out to do, the technical hurdles I overcame, and the final systems we shipped.
 
@@ -21,7 +22,7 @@ The initial state of the transcription service needed a major overhaul. My first
 ### Architectural Modularity & Dynamic Integrations
 Instead of hardcoding models, I completely generalized the ASR (Automatic Speech Recognition) integration. By moving to a modular service provider architecture, adding new models became a breeze:
 * **Dynamic LLM Integration:** The engine now reads the type of LLM dynamically from environment variables, removing hardcoded dependencies.
-* **CLI & Drop Features:** I added CLI choices for selecting ASR providers on the fly and modified the initial setup to seamlessly "drop in" new service providers. 
+* **CLI & Drop Features:** I added CLI choices for selecting ASR providers on the fly and modified the initial setup to seamlessly "drop in" new service providers.
 * **Expanding the AI Arsenal:** By the end of the term, I successfully integrated **Ollama** and **Vibevoice**, proving the effectiveness of the modular design.
 
 ### Translation & Global Scaling
@@ -37,10 +38,18 @@ A significant portion of my time went into making the engine enterprise-ready:
 
 ## 2. Hello Bitcoin: Building an Educational Platform for Bitcoiners
 
-While the transcription engine processed knowledge, *Hello Bitcoin* was designed to teach it. I built this interactive education platform from a simple MVP into a fully featured, robust system.
+While the transcription engine processed knowledge, *Hello Bitcoin* was designed to teach it. I built this interactive education platform from a simple MVP into a fully featured, robust system. The platform lets learners "Learn Bitcoin by coding": hands-on exercises tied directly to conferences and books, with instant judge feedback.
+
+![Hello Bitcoin dashboard - linking conferences and books to coding exercises](../assets/images/blog_content/genesis-kb-hello-bitcoin-dashboard.png)
+*The Hello Bitcoin dashboard, showing conference and book-aligned coding challenges.*
 
 ### The Foundation
 I started with the core infrastructure: setting up basic authentication and seeding an initial problem list. Then I engineered the "Judge Core", a **Docker Sandbox Runner** that safely executes user-submitted code in a completely isolated environment. Building on that foundation, I integrated async workers to handle code submission processing and implemented **Server-Sent Events (SSE)** so users could watch their test results stream in live.
+
+The in-browser code editor gives learners everything they need: the problem statement, sample cases, and a full Python environment, all in one split-screen view:
+
+![Hello Bitcoin problem view - split-screen problem statement and Python code editor](../assets/images/blog_content/genesis-kb-hello-bitcoin-judge.png)
+*The judge interface: problem description on the left, live Python editor on the right. Learners submit code and get real-time verdicts.*
 
 ### Security, Admin, and Scale
 During the second half of the summer, I focused heavily on hardening the platform and preparing it for real-world traffic:
@@ -50,11 +59,16 @@ During the second half of the summer, I focused heavily on hardening the platfor
 * **Production Readiness:** Wrapped the entire architecture in a robust Docker Compose stack. I also wrote a comprehensive test suite with high Pytest coverage and conducted extensive stress testing to ensure the judge wouldn't crash under load.
 * **Curriculum Alignment:** Finally, I modified the underlying database schema and UI to directly map coding challenges to specific Bitcoin conferences and book chapters, creating a deeply contextual and relevant learning experience for users.
 
+The admin panel gave me full control over the problem bank: publishing, editing, and tracking submissions at a glance:
+
+![Hello Bitcoin admin panel - problem management with statistics](../assets/images/blog_content/genesis-kb-hello-bitcoin-admin.png)
+*The admin dashboard: 15 problems published across books and conferences, with per-problem status controls.*
+
 ---
 
 ## 3. The Knowledge Scraper Module
 
-To feed our educational platforms with the latest data, I built a dedicated web scraper. Initially starting as a basic extraction feature, I completely refactored it for the final term. 
+To feed our educational platforms with the latest data, I built a dedicated web scraper. Initially starting as a basic extraction feature, I completely refactored it for the final term.
 
 I implemented a clean, **Object-Oriented architecture** featuring a base Parent Class, with specialized child classes dedicated specifically to parsing GitHub repositories and extracting from general websites (online books, blogs, and major BTC sites). This structure ensures that as our data sources grow, adding a new scraper requires minimal boilerplate.
 
@@ -74,12 +88,12 @@ I implemented a clean, **Object-Oriented architecture** featuring a base Parent 
 Below are the key artifacts, pull requests, and commit milestones generated during this program:
 
 ### Transcription Engine
-* **Core Architecture & Fault Tolerance:** [PR #15 — Fault-tolerant and resumable transcription pipeline](https://github.com/genesis-kb/transcription_engine/pull/15)
-* **Dynamic LLM & Modular ASR Integration:** [PR #28 — Modular service integration & dynamic provider choice](https://github.com/genesis-kb/transcription_engine/pull/28)
-* **Translation Feature (Sarvam/Gemma):** [PR #34 — Translation pipeline & API endpoints](https://github.com/genesis-kb/transcription_engine/pull/34)
-* **Test Suit, Thread Safety & Global Locking Fixes:** [PR #38 — State safety & test suite](https://github.com/genesis-kb/transcription_engine/pull/38)
-* **Hierarchical Exception Handling:** [PR #35 — Structured exceptions module](https://github.com/genesis-kb/transcription_engine/pull/35)
-* **Ollama and Vibevoice Integration:** [PR #66 — Vibevoice service & Ollama Gemma LLM support](https://github.com/genesis-kb/transcription_engine/pull/66)
+* **Core Architecture & Fault Tolerance:** [PR #15 - Fault-tolerant and resumable transcription pipeline](https://github.com/genesis-kb/transcription_engine/pull/15)
+* **Dynamic LLM & Modular ASR Integration:** [PR #28 - Modular service integration & dynamic provider choice](https://github.com/genesis-kb/transcription_engine/pull/28)
+* **Translation Feature (Sarvam/Gemma):** [PR #34 - Translation pipeline & API endpoints](https://github.com/genesis-kb/transcription_engine/pull/34)
+* **Test Suit, Thread Safety & Global Locking Fixes:** [PR #38 - State safety & test suite](https://github.com/genesis-kb/transcription_engine/pull/38)
+* **Hierarchical Exception Handling:** [PR #35 - Structured exceptions module](https://github.com/genesis-kb/transcription_engine/pull/35)
+* **Ollama and Vibevoice Integration:** [PR #66 - Vibevoice service & Ollama Gemma LLM support](https://github.com/genesis-kb/transcription_engine/pull/66)
 
 ### Hello Bitcoin Platform
 * **MVP & Core Infrastructure:** [Core Infra, Auth, Problem List & Seeding](https://github.com/genesis-kb/hello-bitcoin/commit/61188413bfbca920887f6935dfdf5b9fd3b920c3)
@@ -102,6 +116,6 @@ Below are the key artifacts, pull requests, and commit milestones generated duri
 
 This summer was a masterclass in building systems that last. It's one thing to write a script that transcribes a video; it's entirely another to build a thread-safe, modular engine that can resume upon failure, run on a Raspberry Pi, and dynamically swap AI models. Building the Docker Sandbox taught me the intricacies of system security and asynchronous task management.
 
-Looking ahead, I plan to continue maintaining the Hello Bitcoin platform, expanding the problem sets, and refining the Docker Judge to support even more programming languages. 
+Looking ahead, I plan to continue maintaining the Hello Bitcoin platform, expanding the problem sets, and refining the Docker Judge to support even more programming languages.
 
-I am incredibly grateful to my mentors and the Summer of Bitcoin community for their guidance, code reviews, and support throughout this incredible journey!
+I am incredibly grateful to my mentors **Bob McElarth**, **Aru Sharma**, and **Ansh Sharma**, as well as the wider Summer of Bitcoin community, for their guidance, code reviews, and unwavering support throughout this incredible journey!
