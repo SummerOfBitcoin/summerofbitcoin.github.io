@@ -1175,6 +1175,11 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/giuocopianosimp"
     description: "Summer of Bitcoin Batch of 2026, working on all things strfry"
+  Tanishka Nibariya:
+    name: "Tanishka Nibariya"
+    display_name: "Tanishka Nibariya"
+    avatar: "assets/images/female.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Android CoinSwap Taker app at Citadel Tech"
 
 # Plugins
 plugins:
