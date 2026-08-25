@@ -22,6 +22,13 @@ authors:
     web: https://summerofbitcoin.org
     twitter: https://x.com/summerofbitcoin
     description: "Team behind Summer of Bitcoin, a global summer internship program for bitcoin open-source development and design."
+  Dmenec:
+    name: Dmenec
+    display_name: Dmenec
+    avatar: 'assets/images/male.png'
+    web: https://github.com/Dmenec
+    twitter: https://x.com/Dmenec_
+    description: "Summer of Bitcoin Batch of 2026, worked on BDK"
   Sivaram D:
     name: Sivaram D
     display_name: Sivaram Dhakshinamoorthy
