@@ -81,6 +81,7 @@ Choose appropriate categories from:
 - `Lightning-Network` 
 - `Nostr`
 - `BDK`
+- `LDK`
 - `Wallets`
 - `Jam`
 - `Mining`

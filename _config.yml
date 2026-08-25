@@ -1180,6 +1180,13 @@ authors:
     display_name: "Tanishka Nibariya"
     avatar: "assets/images/female.png"
     description: "Summer of Bitcoin Batch of 2026, worked on the Android CoinSwap Taker app at Citadel Tech"
+  alienx5499:
+    name: "Prabal Patra"
+    display_name: "Prabal Patra"
+    avatar: "assets/images/alienx5499.jpg"
+    web: "https://0xPrabal.com"
+    twitter: "https://x.com/alienx5499"
+    description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels"
 
 # Plugins
 plugins:
