@@ -1163,6 +1163,12 @@ authors:
     twitter: "https://x.com/Biresh_Biswas"
     web: "https://github.com/Billa05"
     description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels LSP"
+  Rishit Modi:
+    name: "Rishit Modi"
+    display_name: "Rishit Modi"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/EliteCoder18"
+    description: "Summer of Bitcoin Batch of 2026, worked on CI persistence, MSRV testing, and repository automation for BDK"
 
 # Plugins
 plugins:
