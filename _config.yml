@@ -1119,6 +1119,12 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/SandipMandal00"
     description: "Summer of Bitcoin Batch of 2026, worked on Cove Wallet"
+  Chaitanya Keyal:
+    name: "Chaitanya Keyal"
+    display_name: "okaybro"
+    avatar: "assets/images/okaybro.jpg"
+    twitter: "https://x.com/okaybroo11"
+    description: "Summer of Bitcoin Batch of 2025 & 2026, worked on SeedSigner."
 
 # Plugins
 plugins:
@@ -1159,4 +1165,3 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
-
