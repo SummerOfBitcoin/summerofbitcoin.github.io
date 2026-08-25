@@ -1169,6 +1169,12 @@ authors:
     avatar: "assets/images/male.png"
     web: "https://github.com/EliteCoder18"
     description: "Summer of Bitcoin Batch of 2026, worked on CI persistence, MSRV testing, and repository automation for BDK"
+  Anurag Kumar Mishra:
+    name: "Anurag Kumar Mishra"
+    display_name: "Anurag Mishra"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/giuocopianosimp"
+    description: "Summer of Bitcoin Batch of 2026, working on all things strfry"
 
 # Plugins
 plugins:
