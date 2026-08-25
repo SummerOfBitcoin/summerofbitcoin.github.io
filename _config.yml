@@ -1125,6 +1125,13 @@ authors:
     avatar: "assets/images/okaybro.jpg"
     twitter: "https://x.com/okaybroo11"
     description: "Summer of Bitcoin Batch of 2025 & 2026, worked on SeedSigner."
+  Naman Gupta:
+    name: "Naman Gupta"
+    display_name: "Naman Gupta"
+    avatar: "assets/images/male.png"
+    web: "https://www.linkedin.com/in/namang1510/"
+    twitter: "https://x.com/ProbablyNaman"
+    description: "Summer of Bitcoin Batch of 2026, worked on accessibility and readability improvements in Krux"
 
 # Plugins
 plugins:
