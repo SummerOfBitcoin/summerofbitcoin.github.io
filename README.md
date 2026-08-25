@@ -69,16 +69,18 @@ layout: post
 title: "Your Compelling Blog Post Title"
 date: YYYY-MM-DD
 author: Your Name  # Must match the name in _config.yml
-categories: [Category1, Category2]  # See available categories below
+categories: [Category1, Category2]  # See category guidance below
 image: ../assets/images/blog_content/your-image-filename.png
 ---
 ```
 
-#### Available Categories
+#### Category Guidance
 
-Choose appropriate categories from:
+Authors may use any number of categories and any categories they deem relevant. The following examples are illustrative, not exhaustive:
 - `Bitcoin-Core`
+- `Bitcoin`
 - `Lightning-Network` 
+- `Lightning`
 - `Nostr`
 - `BDK`
 - `LDK`
@@ -95,6 +97,12 @@ Choose appropriate categories from:
 - `Design`
 - `AI`
 - `Cryptography`
+- `Formstr`
+- `TEE`
+- `Infrastructure`
+- `JoinMarket-NG`
+- `Braidpool`
+- `strfry`
 
 ### ✅ Content Quality Standards
 
