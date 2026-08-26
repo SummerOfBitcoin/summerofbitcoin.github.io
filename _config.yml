@@ -1252,6 +1252,13 @@ authors:
     twitter: "https://x.com/tnvvrrr"
     description: "Summer of Bitcoin Batch of 2026, worked on Silent Payments (BIP-352) in Krux"
 
+  Kushagra Kinra:
+    name: "Kushagra Kinra"
+    display_name: "Kushagra Kinra"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/KKinra80406"
+    description: "Summer of Bitcoin Batch of 2026, worked on Braidpool functional test framework"
+
 # Plugins
 plugins:
   - jekyll-paginate
