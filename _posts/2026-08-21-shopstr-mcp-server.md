@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Building Shopstr MCP: My Summer of Bitcoin Journey"
-date: 2026-08-20
+date: 2026-08-21
 author: Aryan Ashok Jain
 categories: [Shopstr, Nostr, AI, Stories, Open-Source]
+image: ../assets/images/blog_content/2026-08-21-shopstr-mcp.png
 ---
 
 When I started my Summer of Bitcoin project, I thought I would mainly be building an MCP server around Shopstr. What I ended up working on was much broader-search, pagination, relay fetching, product parsing, reviews, follow/unfollow, caching, and a lot of debugging around edge cases that only appeared once the features were actually being used
