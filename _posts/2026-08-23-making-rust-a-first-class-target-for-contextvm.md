@@ -4,6 +4,7 @@ title: "Making Rust a First-Class Target for ContextVM"
 date: 2026-08-23
 author: Harsh Chandwani
 categories: [Nostr, Development, Open-Source, Stories]
+image: ../assets/images/blog_content/2026-08-23-cep8-payment-flow.png
 ---
 
 The first bug I fixed on `rs-sdk` was three lines long. A constant called `DEFAULT_LRU_SIZE` sat in the constants file, correctly named, correctly sized, and wired to absolutely nothing. Relays in Nostr are allowed to deliver the same event more than once. That's not a failure mode, that's the design. So without a seen-set, one gift-wrapped request could be decrypted and dispatched two or three times. The TypeScript SDK tracked outer event IDs. The Rust one meant to, and didn't.
@@ -44,7 +45,11 @@ The fix was to stop letting inbound traffic drive the handshake at all: [the wor
 
 Nostr events have a size limit. MCP responses do not care about your size limit.
 
-CEP-22 defines oversized transfer: split the payload into chunks, frame them, reassemble on the other side. I built it across [four](https://github.com/ContextVM/rs-sdk/pull/88) [PRs](https://github.com/ContextVM/rs-sdk/pull/89) [in](https://github.com/ContextVM/rs-sdk/pull/91) [sequence](https://github.com/ContextVM/rs-sdk/pull/92), deliberately starting with a transport-agnostic framing engine that was pure dead code until the wiring landed: `OversizedFrame` (Start/Accept/Chunk/End/Abort), a five-class error taxonomy, and a stateful receiver with admission control, out-of-order buffering, and triple validation at the end (byte length, then SHA-256, then JSON-RPC parse).
+CEP-22 defines oversized transfer: split the payload into chunks, frame them, reassemble on the other side.
+
+![Sequence diagram of the CEP-22 oversized payload transfer: a sender whose message exceeds the 48KB threshold sends a START frame, the receiver replies with ACCEPT, the sender streams numbered CHUNK frames followed by an END frame, and the receiver reassembles the chunks and delivers the message](../assets/images/blog_content/2026-08-23-cep22-oversized-transfer.png)
+
+I built it across [four](https://github.com/ContextVM/rs-sdk/pull/88) [PRs](https://github.com/ContextVM/rs-sdk/pull/89) [in](https://github.com/ContextVM/rs-sdk/pull/91) [sequence](https://github.com/ContextVM/rs-sdk/pull/92), deliberately starting with a transport-agnostic framing engine that was pure dead code until the wiring landed: `OversizedFrame` (Start/Accept/Chunk/End/Abort), a five-class error taxonomy, and a stateful receiver with admission control, out-of-order buffering, and triple validation at the end (byte length, then SHA-256, then JSON-RPC parse).
 
 Two details I'm glad I sweated:
 
@@ -64,6 +69,8 @@ Wiring it surfaced a bug that predated the feature. The oversized reassembly pat
 ## CEP-8: payments, and a race TypeScript gets for free
 
 The last stretch has been CEP-8: capability pricing and payment over ContextVM. This is where the port stopped being a port.
+
+![Sequence diagram of the CEP-8 payment flow: a client calls a priced tool, the server answers with payment_required and a BOLT11 invoice, the client's PaymentHandler pays it over Nostr Wallet Connect, the server's PaymentProcessor verifies settlement, and the server then returns payment_accepted followed by the real tool result](../assets/images/blog_content/2026-08-23-cep8-payment-flow.png)
 
 I built it in layers: [primitives](https://github.com/ContextVM/rs-sdk/pull/102) (tags, wire types, traits), [canonical invocation identity](https://github.com/ContextVM/rs-sdk/pull/103), an [authorization store](https://github.com/ContextVM/rs-sdk/pull/104), a [general-purpose inbound middleware seam](https://github.com/ContextVM/rs-sdk/pull/101), then negotiation on the [server](https://github.com/ContextVM/rs-sdk/pull/107) and [client](https://github.com/ContextVM/rs-sdk/pull/108) transports, and finally the two lifecycles where money actually moves: [transparent gating](https://github.com/ContextVM/rs-sdk/pull/111) and [explicit gating](https://github.com/ContextVM/rs-sdk/pull/112).
 
@@ -88,6 +95,10 @@ Not everything was a protocol feature, and the unglamorous work mattered:
 - [CEP-17 multi-stage relay resolution](https://github.com/ContextVM/rs-sdk/pull/83), finding which relays a server is actually reachable on.
 - Two releases shipped: [0.1.0](https://github.com/ContextVM/rs-sdk/pull/68) and [0.2.0](https://github.com/ContextVM/rs-sdk/pull/95), plus the [rmcp 0.16 to 1.7 upgrade](https://github.com/ContextVM/rs-sdk/pull/86).
 - A [pending-request leak](https://github.com/ContextVM/rs-sdk/pull/61) fixed with a TTL sweep, [event loop tasks that didn't stop on `close()`](https://github.com/ContextVM/rs-sdk/pull/63), and an [allowlist that returned nothing instead of `-32000 Unauthorized`](https://github.com/ContextVM/rs-sdk/pull/53).
+
+CEP-17 is worth a picture, because it's the piece that makes "the address is a pubkey" actually work. Before a client can speak to a server it has to find out where that server is listening, and the only thing it starts with is the pubkey:
+
+![Sequence diagram of the CEP-17 relay discovery flow: a client subscribes to bootstrap relays for the server's kind:10002 NIP-65 event, receives the relay list and an EOSE, runs selectOperationalRelayUrls to pick a minimal relay set from the r tags, then connects to the server's own relays for MCP communication](../assets/images/blog_content/2026-08-23-cep17-relay-discovery.png)
 
 ## On bindings
 
