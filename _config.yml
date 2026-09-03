@@ -1257,6 +1257,13 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/tnvvrrr"
     description: "Summer of Bitcoin Batch of 2026, worked on Silent Payments (BIP-352) in Krux"
+  Yogansh:
+    name: "Yogansh Sharma"
+    display_name: "Yogansh"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/yogansh1004"
+    web: "https://yoganshsharma.github.io/"
+    description: "Summer of Bitcoin Batch of 2026, worked on OpenSwap (formerly CoinSwap)"
 
 # Plugins
 plugins:
