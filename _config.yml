@@ -707,7 +707,7 @@ authors:
   Kshitij Dhamanikar:
     name: "Kshitij Dhamanikar"
     display_name: "Kshitij Dhamanikar"
-    avatar: "assets/images/male.png"
+    avatar: "assets/images/schizodio.jpg"
     twitter: "https://x.com/0xKshitij1525"
     description: "Summer of Bitcoin Batch of 2025, worked on SeedSigner"
   Nischal Shetty:
@@ -1128,6 +1128,14 @@ authors:
     twitter: "https://x.com/0xSuryanshHere"
     description: "Summer of Bitcoin Batch of 2026, worked on Infrastructure Automation & Monitoring Dashboard (Bitcoin-Fuzz)"
 
+  Kshitij:
+    name: "Kshitij Dhamanikar"
+    display_name: "Kshitij"
+    web: "https://www.linkedin.com/in/kshitij-dhamanikar/"
+    avatar: "assets/images/schizodio.jpg"
+    twitter: "https://x.com/0xKshitij1525"
+    description: "Summer of Bitcoin Batch of 2026, worked on SeedSigner."
+    
   Ved Patel:
     name: "Ved Patel"
     display_name: "Ved Patel"
