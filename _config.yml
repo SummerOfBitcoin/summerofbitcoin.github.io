@@ -22,6 +22,13 @@ authors:
     web: https://summerofbitcoin.org
     twitter: https://x.com/summerofbitcoin
     description: "Team behind Summer of Bitcoin, a global summer internship program for bitcoin open-source development and design."
+  Dmenec:
+    name: Dmenec
+    display_name: Dmenec
+    avatar: 'assets/images/male.png'
+    web: https://github.com/Dmenec
+    twitter: https://x.com/Dmenec_
+    description: "Summer of Bitcoin Batch of 2026, worked on BDK"
   Sivaram D:
     name: Sivaram D
     display_name: Sivaram Dhakshinamoorthy
@@ -88,6 +95,12 @@ authors:
     avatar: assets/images/male.png
     twitter: https://twitter.com/ab_og_gm
     description: "Summer of Bitcoin Batch of 2023, worked on Rust miniscript"
+  Aditya Chaudhary:
+    name: Aditya Chaudhary
+    display_name: Aditya Chaudhary
+    avatar: assets/images/male.png
+    twitter: https://x.com/useradityaa
+    description: "Summer of Bitcoin Batch of 2026, worked on Flotilla"
   Aditya Gupta:
     name: Aditya Gupta
     display_name: Aditya Gupta
@@ -126,6 +139,13 @@ authors:
     web: https://bitcoin.org
     twitter: https://twitter.com/satoshi
     description: "Inventor of bitcoin"
+  Ashish Kumar Dash:
+    name: "Ashish Kumar Dash"
+    display_name: "Ashish Kumar Dash"
+    avatar: "assets/images/blog_content/2026-08-17-ashish-kumar-dash.jpeg"
+    web: "https://github.com/Ashish-Kumar-Dash"
+    twitter: "https://x.com/AKDSiuuu"
+    description: "Summer of Bitcoin Batch of 2026, worked on Smite"
   Ajay Sehwal:
     name: Ajay Sehwal
     display_name: Ajay Sehwal
@@ -204,6 +224,12 @@ authors:
     avatar: 'assets/images/male.png'
     twitter: https://twitter.com/Bhaveshg_16
     description: "Summer of Bitcoin Batch of 2024, worked on Jam"
+  Saksham Jain:
+    name: Saksham Jain
+    display_name: Saksham Jain
+    avatar: 'assets/images/saksham-jain.jpg'
+    twitter: https://x.com/sakshamjainiitr
+    description: "Summer of Bitcoin Batch of 2026, worked on Flotilla"
   Bhuvan Ade:
     name: Bhuvan Ade
     display_name: Bhuvan Ade
@@ -240,6 +266,12 @@ authors:
     avatar: 'assets/images/male.png'
     twitter: https://njump.me/npub1z9n5ktfjrlpyywds9t7ljekr9cm9jjnzs27h702te5fy8p2c4dgs5zvycf
     description: "Summer of Bitcoin Batch of 2024, worked on Robosats"
+  Harsh Chandwani:
+    name: Harsh Chandwani
+    display_name: Harsh Chandwani
+    avatar: "assets/images/blog_content/harsh-chandwani.jpeg"
+    twitter: https://x.com/harsh04044
+    description: "Summer of Bitcoin Batch of 2026, worked on the Rust SDK for ContextVM."
   Harsh Pratap Singh:
     name: Harsh Pratap Singh
     display_name: Harsh Pratap Singh
@@ -510,6 +542,12 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/chandrapratap37"
     description: "Summer of Bitcoin Batch of 2025, worked on Lightning Network; Batch of 2026, worked on Smite"
+  Ashutosh Rana:
+    name: "Ashutosh Rana"
+    display_name: "Ashutosh Rana"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Ashu-2006"
+    description: "Summer of Bitcoin Batch of 2026, worked on Shopstr"
   Jyotiraditya Panda:
     name: "Jyotiraditya Panda"
     display_name: "Jyotiraditya Panda (Remo)"
@@ -651,9 +689,9 @@ authors:
   Priya Rani:
     name: "Priya Rani"
     display_name: "Priya Rani"
-    avatar: "assets/images/female.png"
-    twitter: "https://x.com/priyaashu640132"
-    description: "Summer of Bitcoin Batch of 2025, worked on braidpool"
+    avatar: "assets/images/priyaRani.png"
+    twitter: "https://x.com/priyaashuu"
+    description: "Summer of Bitcoin Batch of 2025 and 2026, worked on braidpool"
   Ayush Saksena:
     name: "Ayush Saksena"
     display_name: "Ayush Saksena"
@@ -1025,6 +1063,15 @@ authors:
     web: "https://github.com/parrth20"
     twitter: "https://x.com/Parrth18"
     description: "Summer of Bitcoin Batch of 2026, worked on Jam"
+
+  Kishore B:
+    name: "Kishore B"
+    display_name: "Kishore B"
+    avatar: "assets/images/blog_content/2026-08-23-kishore-avatar.jpeg"
+    web: "https://github.com/kishore08-07"
+    twitter: https://x.com/Kis6ore
+    description: "Summer of Bitcoin Batch of 2026, worked on Jam"
+
   
   Arpan Jain:
     name: "Arpan Jain"
@@ -1056,7 +1103,7 @@ authors:
   Akhil Dhyani:
     name: "Akhil Dhyani"
     display_name: "Akhil Dhyani"
-    avatar: "assets/images/male.png"
+    avatar: "assets/images/akhil_dhyani.jpeg"
     twitter: "https://x.com/akhil_dhyani"
     description: "Summer of Bitcoin Batch of 2026, worked on SeedSigner"
 
@@ -1089,6 +1136,136 @@ authors:
     twitter: "https://x.com/0xKshitij1525"
     description: "Summer of Bitcoin Batch of 2026, worked on SeedSigner."
     
+  Ved Patel:
+    name: "Ved Patel"
+    display_name: "Ved Patel"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/__vedpatel"
+    description: "Summer of Bitcoin Batch of 2026, worked on Floresta"
+  Biel:
+    name: "Biel"
+    display_name: "Bicaru20"
+    avatar: "assets/images/blog_content/2026-08-17-bicaru20-avatar.jpg"
+    description: "Summer of Bitcoin Batch of 2026, worked on Eliminate backdating in the replacements of Replace-by-fee in Bitcoin Core."
+  Rasesh Shetty:
+    name: "Rasesh Shetty"
+    display_name: "Rasesh Shetty"
+    avatar: "assets/images/rasesh_shetty.png"
+    twitter: "https://x.com/rasesh_shetty"
+    description: "Summer of Bitcoin Batch of 2026, worked on Genesis-KB"
+  Sandip Mandal:
+    name: "Sandip Mandal"
+    display_name: "Sandip Mandal"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/SandipMandal00"
+    description: "Summer of Bitcoin Batch of 2026, worked on Cove Wallet"
+  Chaitanya Keyal:
+    name: "Chaitanya Keyal"
+    display_name: "okaybro"
+    avatar: "assets/images/okaybro.jpg"
+    twitter: "https://x.com/okaybroo11"
+    description: "Summer of Bitcoin Batch of 2025 & 2026, worked on SeedSigner."
+  Naman Gupta:
+    name: "Naman Gupta"
+    display_name: "Naman Gupta"
+    avatar: "assets/images/male.png"
+    web: "https://www.linkedin.com/in/namang1510/"
+    twitter: "https://x.com/ProbablyNaman"
+    description: "Summer of Bitcoin Batch of 2026, worked on accessibility and readability improvements in Krux"
+  Arman Thakur:
+    name: "Arman Thakur"
+    display_name: "Arman Thakur"
+    avatar: "assets/images/arman.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on Cashu and Lightning hold invoice escrow for Shopstr"
+  Anurag Thakur:
+    name: "Anurag Thakur"
+    display_name: "Anurag Thakur"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/anurag_t21"
+    web: "https://github.com/DevAnuragT"
+    description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels Android Development"
+  Subinita Ray:
+    name: "Subinita Ray"
+    display_name: "Subinita Ray"
+    avatar: "assets/images/female.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on Kern"
+  Anshuman:
+    name: "Anshuman"
+    display_name: "Anshuman"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Anshumancanrock"
+    twitter: "https://x.com/0xAnshuman"
+    description: "Summer of Bitcoin Batch of 2026, worked on nostream"
+  Biresh Biswas:
+    name: "Biresh Biswas"
+    display_name: "Biresh Biswas"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/Biresh_Biswas"
+    web: "https://github.com/Billa05"
+    description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels LSP"
+  Rishit Modi:
+    name: "Rishit Modi"
+    display_name: "Rishit Modi"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/EliteCoder18"
+    description: "Summer of Bitcoin Batch of 2026, worked on CI persistence, MSRV testing, and repository automation for BDK"
+  Anurag Mishra:
+    name: "Anurag Mishra"
+    display_name: "Anurag Mishra"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/giuocopianosimp"
+    description: "Summer of Bitcoin Batch of 2026, working on all things strfry"
+  Tanishka Nibariya:
+    name: "Tanishka Nibariya"
+    display_name: "Tanishka Nibariya"
+    avatar: "assets/images/female.png"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Android CoinSwap Taker app at Citadel Tech"
+  alienx5499:
+    name: "Prabal Patra"
+    display_name: "Prabal Patra"
+    avatar: "assets/images/alienx5499.jpg"
+    web: "https://0xPrabal.com"
+    twitter: "https://x.com/alienx5499"
+    description: "Summer of Bitcoin Batch of 2026, worked on Stable Channels"
+  Naman Khandelwal:
+    name: "Naman Khandelwal"
+    display_name: "Naman Khandelwal"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Sky-walkerX"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Formstr Super App"
+  Vatsal Keshav:
+    name: "Vatsal Keshav"
+    display_name: "Vatsal Keshav"
+    avatar: "assets/images/blog_content/2026-08-21-vatsal-avatar.png"
+    twitter: "https://x.com/bornvatsal"
+    description: "Summer of Bitcoin Batch of 2026, worked on VLS in Nitro-Enclave"
+  Parth Dudhe:
+    name: "Parth Dudhe"
+    display_name: "Parth Dudhe"
+    avatar: "assets/images/parth_github_avatar.jpeg"
+    twitter: "https://x.com/ParthDudhe07"
+    linkedin: "https://www.linkedin.com/in/parthdudhe07/"
+    github: "https://github.com/parthdude07"
+    description: "Summer of Bitcoin Batch of 2026, worked on GenesisKB (Braidpool)"
+  Shivansh Jain:
+    name: "Shivansh Jain"
+    display_name: "Shivansh Jain"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/Thunder-Blaze"
+    description: "Summer of Bitcoin Batch of 2026, worked on the Cross Platform Support and Performance Optimization (strfry)"
+  Arnav Kirti:
+    name: "Arnav Kirti"
+    display_name: "Arnav Kirti"
+    avatar: "assets/images/male.png"
+    web: "https://github.com/arnavkirti"
+    description: "Summer of Bitcoin Batch of 2026, worked on Shopstr: Closing the CI test gap on Hot paths"
+  Tanveer A:
+    name: "Tanveer A"
+    display_name: "Tanveer A"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/tnvvrrr"
+    description: "Summer of Bitcoin Batch of 2026, worked on Silent Payments (BIP-352) in Krux"
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -1128,4 +1305,3 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
-
