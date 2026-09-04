@@ -4,6 +4,7 @@ title: "Fixing SeedSigner’s Navigation Maze with Static Analysis"
 author: "Kshitij Dhamanikar"
 date: 2026-08-23
 categories: [Development, Testing, UX]
+image: ../assets/images/blog_content/seedsigner_logo.png
 ---
 
 ## The Spark: A Manual Discovery
