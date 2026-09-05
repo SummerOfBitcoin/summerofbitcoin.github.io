@@ -1,3 +1,20 @@
+---
+layout: post
+title: "Redesigning DMND: My Summer of Bitcoin Experience"
+author: Frieda Odagboyi
+date: 2026-09-05
+categories:
+- Summer of Bitcoin
+tags:
+  - Bitcoin
+  - Product Design
+  - UX Design
+  - DMND
+  - Mining
+  - Dashboard Design
+image: ../assets/images/blog_content/Blog_Mining_illustration.jpg
+---
+
 # **Redesigning DMND: My Summer of Bitcoin Experience**
 
 ## **What I set out to do**
@@ -8,6 +25,9 @@ Getting the chance to design for a real company like DMND was something I did no
 
 I also wanted to challenge myself. Bitcoin mining was not an area I knew deeply before the program, so I knew I would have to learn a lot along the way.
 
+![Existing DMND dashboard](../assets/images/blog_content/Existing%20DMND%20dashboard.png)
+
+*Existing DMND dashboard*
 
 
 ## **What I built**
@@ -44,6 +64,10 @@ Seeing the work move from something I created in Figma into something that actua
 The product is currently on staging, so the next major step is getting it ready to go live and eventually seeing real users interact with the work.
 
 There is still some design review and refinement happening on the dashboard to make sure the implementation stays as close as possible to the final designs, but my main design work is complete.
+
+![New DMND dashboard](../assets/images/blog_content/New%20DMND%20dashboard.png)
+
+*Redesigned DMND dashboard*
 
 ## **What remains**
 
