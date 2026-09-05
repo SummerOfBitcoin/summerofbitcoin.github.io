@@ -4,8 +4,6 @@ title: "Redesigning DMND: My Summer of Bitcoin Experience"
 author: Frieda Odagboyi
 date: 2026-09-05
 categories:
-- Summer of Bitcoin
-tags:
   - Bitcoin
   - Product Design
   - UX Design
