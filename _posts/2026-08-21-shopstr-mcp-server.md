@@ -7,7 +7,7 @@ categories: [Shopstr, Nostr, AI, Stories, Open-Source]
 image: ../assets/images/blog_content/2026-08-21-shopstr-mcp.png
 ---
 
-When I started my Summer of Bitcoin project, I thought I would mainly be building an MCP server around Shopstr. What I ended up working on was much broader-search, pagination, relay fetching, product parsing, reviews, follow/unfollow, caching, and a lot of debugging around edge cases that only appeared once the features were actually being used
+When I started my Summer of Bitcoin project, I thought I would mainly be building an MCP server around Shopstr. What I ended up working on was much broader-search, pagination, relay fetching, product parsing, reviews, follow/unfollow, caching, and a lot of debugging around edge cases that only appeared once the features were actually being used.
 
 Shopstr is a Nostr-based marketplace where products, sellers, and reviews are published as public events on relays. My project was to build a **read-only MCP server** that would allow AI agents to query this data through tools such as product search, product details, seller information, reviews, and categories.
 
@@ -41,7 +41,7 @@ Working through this made me understand that pagination is not just about adding
 
 One of the more interesting debugging problems happened outside the MCP server itself. The Shopstr marketplace could take two to three minutes to start loading when one of its configured Nostr relays was slow or unreachable.
 
-I first traced the issue and realized that our code was effectively connecting to all relays first and only then starting the subscription. Logically, each relay's connection and data fetching should be independent .A slow relay should not prevent a healthy relay from returning data.
+I first traced the issue and realized that our code was effectively connecting to all relays first and only then starting the subscription. Logically, each relay's connection and data fetching should be independent. A slow relay should not prevent a healthy relay from returning data.
 
 I initially thought I would need to change how relay connections were handled. Instead, I went into the actual `nostr-tools` source and found that `SimplePool` already connects and subscribes to relays independently and in parallel. The problem was in our own `NostrManager` wrapper, which was blocking that behavior.
 
@@ -53,11 +53,11 @@ That was one of the biggest lessons for me: **before implementing something arou
 
 Follow/unfollow was different because there was no existing implementation to extend. I built it end-to-end using **NIP-02 contact-list events**.
 
-The basic operation was simple-add or remove a `["p", pubkey]` tag and publish a new kind:3 event. The difficult part was everything around it.
+The basic operation was simple: add or remove a `["p", pubkey]` tag and publish a new kind:3 event. The difficult part was everything around it.
 
-Testing repeated follow/unfollow actions exposed several subtle issues: 
+Testing repeated follow/unfollow actions exposed several subtle issues:
 - rapid actions could race and build off the same stale contact list
-- background refreshes could overwrite newer local state with stale data, and 
+- background refreshes could overwrite newer local state with stale data, and
 - an unresponsive relay could be misread as an empty contact list-risking a real follow list being silently wiped. 
 
 I fixed these with serialized mutations, monotonic timestamps, and a hard constraint that an empty contact list is never trusted unless it is actually confirmed; otherwise, the action is blocked and the user is notified. Along the way, I also traced a subtle timestamp bug back to the Postgres driver returning created_at as a string, causing a numeric increment to become string concatenation.
@@ -72,7 +72,7 @@ I discussed different ways of sharing the parser including creating a separate s
 
 I also worked on adapting product and review parsing around the GammaMarkets specification, including the way review events reference products and sellers.
 
-This taught me that it's better to proceed with simple solution and avoid unnecessary complexity that can break stuff.
+This taught me that it's better to proceed with a simple solution and avoid unnecessary complexity that can introduce bugs.
 
 ## What Shipped
 
@@ -110,7 +110,7 @@ I also hope to continue contributing to Shopstr and exploring how MCP can make N
 If you're interested in Nostr, MCP, or building AI agents that can interact with decentralized applications, check out the Shopstr repository and the work from this project. There is still plenty to explore and improve, and contributions and feedback are always welcome.
 ## Acknowledgements
 
-A big thanks to [Gautam](https://github.com/gautam-092528) and [Calvadev](https://github.com/calvadev) for making the whole experience so smooth. They were always available when I needed help, reviewed PRs quickly, and were willing to discuss even small design decisions and edge cases. More importantly, they usually gave me the space to figure things out myself rather than just telling me what to do.
+A big thanks to [Gautam](https://github.com/GautamBytes) and [Calvadev](https://github.com/calvadev) for making the whole experience so smooth. They were always available when I needed help, reviewed PRs quickly, and were willing to discuss even small design decisions and edge cases. More importantly, they usually gave me the space to figure things out myself rather than just telling me what to do.
 
 Thanks to Adi and Summer of Bitcoin for providing me with this wonderful opportunity and to the Shopstr community and other contributors for all the discussions and feedback throughout the summer.
 
